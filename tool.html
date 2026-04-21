@@ -1,0 +1,1450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tool Detail - Neuralist</title>
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/footer-components.css">
+    <style>
+        /* ============================================
+           Apple-Inspired Design System
+           ============================================ */
+        
+        :root {
+            --apple-bg: #f5f5f7;
+            --apple-dark: #1d1d1f;
+            --apple-blue: #0071e3;
+            --apple-blue-hover: #0077ed;
+            --apple-gray: #86868b;
+            --apple-light-gray: #d2d2d7;
+            --apple-card-bg: rgba(255, 255, 255, 0.8);
+            --apple-glass: rgba(255, 255, 255, 0.72);
+        }
+
+        * {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: var(--apple-bg);
+            color: var(--apple-dark);
+            overflow-x: hidden;
+        }
+
+        /* ============================================
+           Typography - Apple Style
+           ============================================ */
+        .hero-headline {
+            font-size: 56px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.1;
+            margin-bottom: 16px;
+            color: var(--apple-dark);
+        }
+
+        .hero-subhead {
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: -0.01em;
+            color: var(--apple-gray);
+            line-height: 1.5;
+        }
+
+        .section-headline {
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1.15;
+            margin-bottom: 24px;
+        }
+
+        .section-subhead {
+            font-size: 17px;
+            font-weight: 400;
+            color: var(--apple-gray);
+            line-height: 1.5;
+            max-width: 500px;
+        }
+
+        /* ============================================
+           Animations
+           ============================================ */
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeScale {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+
+        @keyframes shimmer {
+            0% { background-position: -1000px 0; }
+            100% { background-position: 1000px 0; }
+        }
+
+        @keyframes pulse-subtle {
+            0%, 100% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.02); opacity: 0.9; }
+        }
+
+        @keyframes slideShowIn {
+            0% {
+                opacity: 0;
+                transform: scale(1.05) translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        .animate-fade-up {
+            animation: fadeUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+            opacity: 0;
+        }
+
+        .animate-delay-1 { animation-delay: 0.1s; }
+        .animate-delay-2 { animation-delay: 0.2s; }
+        .animate-delay-3 { animation-delay: 0.3s; }
+        .animate-delay-4 { animation-delay: 0.4s; }
+
+        /* ============================================
+           Hero Section
+           ============================================ */
+        .hero-section {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 100px 24px 60px;
+            background: linear-gradient(180deg, #f5f5f7 0%, #ffffff 50%, #f5f5f7 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 30% 70%, rgba(0, 113, 227, 0.08) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 30%, rgba(0, 113, 227, 0.05) 0%, transparent 40%);
+            animation: float 20s ease-in-out infinite;
+            pointer-events: none;
+        }
+
+        .hero-badge {
+            display: inline-block;
+            background: rgba(0, 113, 227, 0.1);
+            color: var(--apple-blue);
+            padding: 6px 14px;
+            border-radius: 16px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 20px;
+            animation: fadeUp 0.6s ease forwards;
+        }
+
+        .hero-logo {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+            margin-bottom: 24px;
+            border-radius: 28px;
+            background: white;
+            padding: 12px;
+            box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 12px;
+            margin-top: 32px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .btn-primary {
+            background: var(--apple-blue);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 24px;
+            font-size: 15px;
+            font-weight: 500;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            box-shadow: 0 3px 12px rgba(0, 113, 227, 0.25);
+        }
+
+        .btn-primary:hover {
+            background: var(--apple-blue-hover);
+            box-shadow: 0 4px 16px rgba(0, 113, 227, 0.35);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--apple-blue);
+            padding: 12px 24px;
+            border-radius: 24px;
+            font-size: 15px;
+            font-weight: 500;
+            text-decoration: none;
+            display: inline-block;
+            border: 1.5px solid var(--apple-blue);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(0, 113, 227, 0.05);
+        }
+
+        /* ============================================
+           Bento Grid - Apple Style
+           ============================================ */
+        .bento-section {
+            padding: 48px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .bento-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+        }
+
+        .bento-grid .bento-card {
+            flex: 0 0 calc(33.333% - 11px);
+            max-width: calc(33.333% - 11px);
+        }
+
+        .bento-grid .bento-card.large {
+            flex: 0 0 calc(66.666% - 11px);
+            max-width: calc(66.666% - 11px);
+        }
+
+        .bento-card {
+            background: var(--apple-card-bg);
+            border-radius: 18px;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            backdrop-filter: blur(20px);
+        }
+
+        .bento-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.08);
+        }
+
+        .bento-card.large {
+            grid-column: span 2;
+            grid-row: span 1;
+        }
+
+        .bento-card.wide {
+            grid-column: span 2;
+        }
+
+        .bento-card.dark {
+            background: var(--apple-dark);
+            color: white;
+        }
+
+        .bento-card.dark .bento-title {
+            color: white;
+        }
+
+        .bento-card.dark .bento-text {
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .bento-title {
+            font-size: 17px;
+            font-weight: 600;
+            letter-spacing: -0.01em;
+            margin-bottom: 8px;
+            color: var(--apple-dark);
+            line-height: 1.3;
+        }
+
+        .bento-text {
+            font-size: 13px;
+            line-height: 1.5;
+            color: var(--apple-gray);
+        }
+
+        /* ============================================
+           Gallery Section - Apple Style
+           ============================================ */
+        .gallery-section {
+            padding: 48px 0;
+            background: linear-gradient(180deg, #f5f5f7 0%, #ffffff 50%, #f5f5f7 100%);
+            overflow: hidden;
+        }
+
+        .gallery-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .gallery-header {
+            text-align: center;
+            margin-bottom: 32px;
+        }
+
+        .gallery-showcase {
+            position: relative;
+            height: 500px;
+            border-radius: 24px;
+            overflow: hidden;
+            background: linear-gradient(135deg, #1d1d1f 0%, #2d2d2f 100%);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery-slide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gallery-slide.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .gallery-slide img {
+            width: 80%;
+            height: 80%;
+            object-fit: contain;
+            border-radius: 8px;
+            filter: drop-shadow(0 20px 50px rgba(0, 0, 0, 0.4));
+            transition: transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .gallery-slide.active img {
+            animation: slideShowIn 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+
+        .gallery-caption {
+            position: absolute;
+            bottom: 60px;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+            color: white;
+            opacity: 0;
+            transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+            padding: 20px 40px;
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-radius: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            pointer-events: none;
+            max-width: 80%;
+        }
+
+        .gallery-slide.active:hover .gallery-caption {
+            opacity: 1;
+            transform: translateX(-50%) translateY(-10px);
+        }
+
+        .gallery-caption p {
+            font-size: 17px;
+            font-weight: 500;
+            opacity: 0.9;
+            margin: 0;
+            line-height: 1.5;
+        }
+
+        .gallery-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            border-radius: 50%;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            z-index: 10;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gallery-nav:hover {
+            background: rgba(255, 255, 255, 0.25);
+        }
+
+        .gallery-nav.prev { left: 16px; }
+        .gallery-nav.next { right: 16px; }
+
+        .gallery-dots {
+            position: absolute;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 8px;
+            z-index: 10;
+        }
+
+        .gallery-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+            border: none;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .gallery-dot.active {
+            background: white;
+            width: 24px;
+            border-radius: 4px;
+        }
+
+        .gallery-progress {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 3px;
+            background: var(--apple-blue);
+            width: 0%;
+            transition: width 0.1s linear;
+        }
+
+        /* ============================================
+           Info Cards Section
+           ============================================ */
+        .info-section {
+            padding: 48px 20px;
+            background: white;
+        }
+
+        .info-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .info-grid .info-card {
+            flex: 0 0 calc(25% - 9px);
+            max-width: calc(25% - 9px);
+            min-width: 140px;
+        }
+
+        .info-card {
+            background: var(--apple-bg);
+            border-radius: 14px;
+            padding: 16px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .info-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+        }
+
+        .info-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--apple-dark);
+            margin-bottom: 4px;
+            letter-spacing: -0.01em;
+        }
+
+        .info-label {
+            font-size: 11px;
+            color: var(--apple-gray);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        /* ============================================
+           Pricing Section - Apple Style
+           ============================================ */
+        .pricing-section {
+            padding: 48px 20px;
+            background: linear-gradient(180deg, #f5f5f7 0%, #ffffff 100%);
+        }
+
+        .pricing-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .pricing-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            margin-top: 32px;
+        }
+
+        .pricing-grid .pricing-card {
+            flex: 0 0 calc(33.333% - 8px);
+            max-width: calc(33.333% - 8px);
+            min-width: 200px;
+        }
+
+        .pricing-card {
+            background: white;
+            border-radius: 16px;
+            padding: 24px 20px;
+            text-align: center;
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .pricing-card.featured {
+            background: var(--apple-dark);
+            color: white;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .pricing-card.featured .pricing-name,
+        .pricing-card.featured .pricing-price,
+        .pricing-card.featured .pricing-cycle {
+            color: white;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 16px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        .pricing-badge {
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            background: var(--apple-blue);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 10px;
+            font-size: 10px;
+            font-weight: 600;
+        }
+
+        .pricing-name {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--apple-gray);
+            margin-bottom: 12px;
+        }
+
+        .pricing-price {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--apple-dark);
+            letter-spacing: -0.01em;
+            margin-bottom: 4px;
+        }
+
+        .pricing-cycle {
+            font-size: 13px;
+            color: var(--apple-gray);
+            margin-bottom: 16px;
+        }
+
+        /* ============================================
+           CTA Section
+           ============================================ */
+        .cta-section {
+            padding: 64px 20px;
+            background: var(--apple-dark);
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-section::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 50% 50%, rgba(0, 113, 227, 0.15) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .cta-headline {
+            font-size: 40px;
+            font-weight: 700;
+            color: white;
+            letter-spacing: -0.01em;
+            margin-bottom: 12px;
+            position: relative;
+        }
+
+        .cta-subhead {
+            font-size: 17px;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 28px;
+            position: relative;
+        }
+
+        .btn-cta {
+            background: white;
+            color: var(--apple-dark);
+            padding: 14px 28px;
+            border-radius: 24px;
+            font-size: 15px;
+            font-weight: 500;
+            text-decoration: none;
+            display: inline-block;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+        }
+
+        .btn-cta:hover {
+            box-shadow: 0 8px 24px rgba(255, 255, 255, 0.25);
+        }
+
+        /* ============================================
+           Pros Section - What Users Love
+           ============================================ */
+        .pros-section {
+            padding: 64px 20px;
+            background: linear-gradient(180deg, #fafafa 0%, #f5f5f7 100%);
+        }
+
+        .pros-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .pros-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 16px;
+        }
+
+        .pro-card {
+            flex: 0 0 calc(33.333% - 11px);
+            max-width: calc(33.333% - 11px);
+            min-width: 200px;
+            background: white;
+            border-radius: 20px;
+            padding: 28px 24px;
+            text-align: center;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        }
+
+        .pro-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 16px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .pro-number {
+            font-size: 32px;
+            font-weight: 700;
+            color: #e5e5e7;
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+            line-height: 1;
+        }
+
+        .pro-text {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--apple-dark);
+            line-height: 1.5;
+        }
+
+        @media (max-width: 768px) {
+            .pro-card {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+
+        /* ============================================
+           Similar Tools Section - Light Blue Theme
+           ============================================ */
+        .similar-section {
+            padding: 64px 20px;
+            background: linear-gradient(180deg, #f0f9ff 0%, #e0f2fe 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .similar-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(14, 165, 233, 0.3), transparent);
+        }
+
+        .similar-container {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .similar-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .similar-card {
+            flex: 0 0 calc(33.333% - 14px);
+            max-width: calc(33.333% - 14px);
+            min-width: 220px;
+            background: white;
+            border-radius: 20px;
+            padding: 24px;
+            text-decoration: none;
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            border: 1px solid rgba(14, 165, 233, 0.15);
+            box-shadow: 0 4px 20px rgba(14, 165, 233, 0.08);
+        }
+
+        .similar-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 20px 40px rgba(14, 165, 233, 0.15);
+            border-color: rgba(14, 165, 233, 0.3);
+        }
+
+        .similar-logo {
+            width: 56px;
+            height: 56px;
+            object-fit: contain;
+            border-radius: 14px;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            padding: 8px;
+        }
+
+        .similar-name {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--apple-dark);
+            margin-bottom: 6px;
+            line-height: 1.3;
+        }
+
+        .similar-category {
+            font-size: 12px;
+            color: #0ea5e9;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 10px;
+        }
+
+        .similar-description {
+            font-size: 14px;
+            color: var(--apple-gray);
+            line-height: 1.5;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        @media (max-width: 900px) {
+            .similar-card {
+                flex: 0 0 calc(50% - 10px);
+                max-width: calc(50% - 10px);
+            }
+        }
+
+        @media (max-width: 640px) {
+            .similar-card {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+
+        /* ============================================
+           Footer - Apple Style
+           ============================================ */
+        .footer-minimal {
+            background: var(--apple-bg);
+            padding: 24px 20px;
+            border-top: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 16px;
+        }
+
+        .footer-links a {
+            font-size: 12px;
+            color: var(--apple-gray);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: var(--apple-dark);
+        }
+
+        .footer-copyright {
+            font-size: 12px;
+            color: var(--apple-gray);
+        }
+
+        /* ============================================
+           Loading State
+           ============================================ */
+        .loading-container {
+            min-height: 60vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: var(--apple-bg);
+        }
+
+        .loading-spinner {
+            width: 32px;
+            height: 32px;
+            border: 2px solid rgba(0, 113, 227, 0.1);
+            border-top-color: var(--apple-blue);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            margin-top: 12px;
+            font-size: 13px;
+            color: var(--apple-gray);
+        }
+
+        /* ============================================
+           Responsive Design
+           ============================================ */
+        @media (max-width: 1024px) {
+            .hero-headline {
+                font-size: 56px;
+            }
+
+            .bento-grid .bento-card {
+                flex: 0 0 calc(50% - 8px);
+                max-width: calc(50% - 8px);
+            }
+
+            .bento-grid .bento-card.large {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            .info-grid .info-card {
+                flex: 0 0 calc(50% - 6px);
+                max-width: calc(50% - 6px);
+            }
+
+            .pricing-grid .pricing-card {
+                flex: 0 0 calc(50% - 6px);
+                max-width: calc(50% - 6px);
+            }
+
+            .pricing-card.featured {
+                transform: none;
+            }
+
+            .pricing-card.featured:hover {
+                transform: translateY(-6px);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .hero-headline {
+                font-size: 40px;
+            }
+
+            .hero-subhead {
+                font-size: 21px;
+            }
+
+            .section-headline {
+                font-size: 32px;
+            }
+
+            .bento-grid .bento-card,
+            .bento-grid .bento-card.large {
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+
+            .gallery-showcase {
+                height: 400px;
+            }
+
+            .info-grid .info-card {
+                flex: 0 0 calc(50% - 6px);
+                max-width: calc(50% - 6px);
+            }
+
+            .cta-headline {
+                font-size: 36px;
+            }
+
+            .footer-content {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        /* Scroll Reveal Animation */
+        .reveal {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation - Site Toolbar -->
+    <header class="toolbar">
+        <a href="index.html" class="logo">
+            <span style="color: #1a1a1a;">Neuralist</span><span style="color: #0ea5e9;">.</span>
+        </a>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div class="nav-actions">
+            <button class="btn-signup" onclick="window.location.href='index.html'">Explore Tools</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Loading State -->
+        <div class="loading-container" id="loading">
+            <div class="loading-spinner"></div>
+            <p class="loading-text">Loading...</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span style="color: #ffffff;">Neuralist</span><span style="color: #0ea5e9;">.</span>
+                    </a>
+                    <p class="footer-tagline">Discover the best AI tools, all in one place.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-of-use.html">Terms of Use</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-of-use.html">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2026 Neuralist. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Helper functions
+        function formatDate(dateString) {
+            if (!dateString) return 'N/A';
+            const date = new Date(dateString);
+            return date.toLocaleDateString('en-US', { year: 'numeric', month: 'short' });
+        }
+
+        function formatNumber(num) {
+            if (!num) return '0';
+            if (num >= 1000000) return (num / 1000000).toFixed(1) + 'M';
+            if (num >= 1000) return (num / 1000).toFixed(1) + 'K';
+            return num.toString();
+        }
+
+
+        // Scroll reveal animations
+        function initScrollReveal() {
+            const reveals = document.querySelectorAll('.reveal');
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+            reveals.forEach(el => observer.observe(el));
+        }
+
+        // Gallery slideshow
+        let currentSlide = 0;
+        let slideshowInterval;
+        const SLIDE_DURATION = 6000;
+
+        function initSlideshow() {
+            const slides = document.querySelectorAll('.gallery-slide');
+            const dots = document.querySelectorAll('.gallery-dot');
+            
+            if (slides.length === 0) return;
+
+            function showSlide(index) {
+                slides[currentSlide].classList.remove('active');
+                dots[currentSlide].classList.remove('active');
+                
+                currentSlide = index;
+                if (currentSlide >= slides.length) currentSlide = 0;
+                if (currentSlide < 0) currentSlide = slides.length - 1;
+                
+                slides[currentSlide].classList.add('active');
+                dots[currentSlide].classList.add('active');
+            }
+
+            window.changeSlide = (dir) => {
+                stopSlideshow();
+                showSlide(currentSlide + dir);
+                startSlideshow();
+            };
+
+            window.goToSlide = (index) => {
+                stopSlideshow();
+                showSlide(index);
+                startSlideshow();
+            };
+
+            startSlideshow();
+        }
+
+        function startSlideshow() {
+            stopSlideshow();
+            slideshowInterval = setInterval(() => {
+                window.changeSlide(1);
+            }, SLIDE_DURATION);
+        }
+
+        function stopSlideshow() {
+            if (slideshowInterval) clearInterval(slideshowInterval);
+        }
+
+        // Render tool page
+        function renderTool(tool, similarTools = []) {
+            const websiteUrl = tool.websiteUrl || '#';
+            const hasImages = tool.imageDescriptions && tool.imageDescriptions.length > 0;
+            
+            const html = `
+                <!-- Hero Section -->
+                <section class="hero-section">
+                    <div class="hero-badge animate-fade-up">
+                        ${tool.rating || '4.5'} Rating · ${tool.category}
+                    </div>
+                    
+                    <img src="${tool.logo}" alt="${tool.name}" class="hero-logo" 
+                         onerror="this.src='assets/images/logo.png'">
+                    
+                    <h1 class="hero-headline animate-fade-up animate-delay-1">${tool.name}</h1>
+                    <p class="hero-subhead animate-fade-up animate-delay-2">
+                        ${tool.shortDescription || tool.fullDescription || 'AI-powered tool for modern workflows'}
+                    </p>
+                    
+                    <div class="hero-actions animate-fade-up animate-delay-3">
+                        <a href="${websiteUrl}" target="_blank" class="btn-primary">Visit Website</a>
+                        <a href="index.html" class="btn-secondary">Back to Directory</a>
+                    </div>
+                </section>
+
+                <!-- Info Cards -->
+                <section class="info-section">
+                    <div class="info-grid reveal">
+                        <div class="info-card">
+                            <div class="info-value">${tool.rating || '4.5'}</div>
+                            <div class="info-label">Rating</div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-value">${formatNumber(tool.totalReviews || 0)}</div>
+                            <div class="info-label">Reviews</div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-value">${tool.pricing || 'Free'}</div>
+                            <div class="info-label">Pricing</div>
+                        </div>
+                        <div class="info-card">
+                            <div class="info-value">${formatDate(tool.releaseDate) || '2024'}</div>
+                            <div class="info-label">Launched</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Bento Grid Features -->
+                <section class="bento-section">
+                    <div class="reveal" style="text-align: center; margin-bottom: 60px;">
+                        <h2 class="section-headline">Everything you need.</h2>
+                        <p class="section-subhead" style="margin: 0 auto;">
+                            Powerful features designed for modern workflows.
+                        </p>
+                    </div>
+                    
+                    <div class="bento-grid">
+                        ${tool.features && tool.features.length > 0 ? tool.features.slice(0, 6).map((feature, i) => `
+                            <div class="bento-card ${i === 0 ? 'large dark' : ''} reveal">
+                                <h3 class="bento-title">${feature}</h3>
+                            </div>
+                        `).join('') : `
+                            <div class="bento-card large dark reveal">
+                                <h3 class="bento-title">Lightning Fast</h3>
+                                <p class="bento-text">Optimized performance for instant results.</p>
+                            </div>
+                            <div class="bento-card reveal">
+                                <h3 class="bento-title">AI Powered</h3>
+                                <p class="bento-text">Smart algorithms that learn and adapt.</p>
+                            </div>
+                            <div class="bento-card reveal">
+                                <h3 class="bento-title">Secure</h3>
+                                <p class="bento-text">Enterprise-grade security built-in.</p>
+                            </div>
+                        `}
+                    </div>
+                </section>
+
+                ${tool.useCases && tool.useCases.length > 0 ? `
+                <!-- Use Cases Section -->
+                <section class="bento-section">
+                    <div class="reveal" style="text-align: center; margin-bottom: 60px;">
+                        <h2 class="section-headline">What you can do.</h2>
+                        <p class="section-subhead" style="margin: 0 auto;">
+                            Popular ways people use ${tool.name}.
+                        </p>
+                    </div>
+                    <div class="bento-grid">
+                        ${tool.useCases.slice(0, 6).map((useCase) => `
+                            <div class="bento-card reveal">
+                                <h3 class="bento-title">${useCase}</h3>
+                            </div>
+                        `).join('')}
+                    </div>
+                </section>
+                ` : ''}
+
+                ${tool.pros && tool.pros.length > 0 ? `
+                <!-- Pros Section -->
+                <section class="pros-section">
+                    <div class="pros-container">
+                        <div class="reveal" style="text-align: center; margin-bottom: 40px;">
+                            <h2 class="section-headline" style="color: #1d1d1f;">What users love.</h2>
+                            <p class="section-subhead" style="margin: 0 auto;">
+                                Why people choose ${tool.name}.
+                            </p>
+                        </div>
+                        <div class="pros-grid">
+                            ${tool.pros.map((pro, i) => `
+                                <div class="pro-card reveal">
+                                    <div class="pro-number">${String(i + 1).padStart(2, '0')}</div>
+                                    <div class="pro-text">${pro}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </section>
+                ` : ''}
+
+                ${tool.platform && tool.platform.length > 0 ? `
+                <!-- Platforms Section -->
+                <section class="info-section">
+                    <div class="reveal" style="text-align: center; margin-bottom: 40px;">
+                        <h2 class="section-headline">Available on.</h2>
+                    </div>
+                    <div class="info-grid" style="max-width: 600px;">
+                        ${tool.platform.map(plat => `
+                            <div class="info-card reveal">
+                                <div style="font-size: 14px; color: #1d1d1f; font-weight: 600;">${plat}</div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </section>
+                ` : ''}
+
+                ${tool.integrations && tool.integrations.length > 0 ? `
+                <!-- Integrations Section -->
+                <section class="bento-section" style="background: linear-gradient(180deg, #ffffff 0%, #f5f5f7 100%);">
+                    <div class="reveal" style="text-align: center; margin-bottom: 60px;">
+                        <h2 class="section-headline">Integrations.</h2>
+                        <p class="section-subhead" style="margin: 0 auto;">
+                            Works seamlessly with your favorite tools.
+                        </p>
+                    </div>
+                    <div class="bento-grid">
+                        ${tool.integrations.slice(0, 6).map((integration) => `
+                            <div class="bento-card reveal" style="text-align: center; padding: 20px;">
+                                <h3 class="bento-title" style="font-size: 15px;">${integration}</h3>
+                            </div>
+                        `).join('')}
+                    </div>
+                </section>
+                ` : ''}
+
+                ${hasImages ? `
+                <!-- Gallery Section -->
+                <section class="gallery-section">
+                    <div class="gallery-container">
+                        <div class="gallery-header reveal">
+                            <h2 class="section-headline">See it in action.</h2>
+                            <p class="section-subhead" style="margin: 0 auto;">
+                                Experience the intuitive interface and powerful capabilities.
+                            </p>
+                        </div>
+                        
+                        <div class="gallery-showcase reveal">
+                            ${tool.imageDescriptions.map((img, index) => `
+                                <div class="gallery-slide ${index === 0 ? 'active' : ''}">
+                                    <img src="${img.imageUrl}" alt="${tool.name} screenshot ${index + 1}" 
+                                         onerror="this.style.display='none'">
+                                </div>
+                            `).join('')}
+                            
+                            <button class="gallery-nav prev" onclick="changeSlide(-1)">&#8249;</button>
+                            <button class="gallery-nav next" onclick="changeSlide(1)">&#8250;</button>
+                            
+                            <div class="gallery-dots">
+                                ${tool.imageDescriptions.map((_, index) => `
+                                    <button class="gallery-dot ${index === 0 ? 'active' : ''}" 
+                                            onclick="goToSlide(${index})"></button>
+                                `).join('')}
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+                ` : ''}
+
+                ${tool.pricingDetails && tool.pricingDetails.length > 0 ? `
+                <!-- Pricing Section -->
+                <section class="pricing-section">
+                    <div class="pricing-container">
+                        <div class="reveal" style="text-align: center; margin-bottom: 60px;">
+                            <h2 class="section-headline">Simple pricing.</h2>
+                            <p class="section-subhead" style="margin: 0 auto;">
+                                Choose the plan that works for you.
+                            </p>
+                        </div>
+                        
+                        <div class="pricing-grid">
+                            ${tool.pricingDetails.map((plan, index) => `
+                                <div class="pricing-card ${index === 1 ? 'featured' : ''} reveal">
+                                    ${index === 1 ? '<span class="pricing-badge">Popular</span>' : ''}
+                                    <div class="pricing-name">${plan.plan}</div>
+                                    <div class="pricing-price">${plan.price}</div>
+                                    <div class="pricing-cycle">${plan.billingCycle || ''}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </section>
+                ` : ''}
+
+                <!-- CTA Section -->
+                <section class="cta-section">
+                    <h2 class="cta-headline reveal">Ready to get started?</h2>
+                    <p class="cta-subhead reveal">Experience the future of AI-powered workflows.</p>
+                    <a href="${websiteUrl}" target="_blank" class="btn-cta reveal">Visit ${tool.name}</a>
+                </section>
+
+                ${similarTools && similarTools.length > 0 ? `
+                <!-- Similar Tools Section -->
+                <section class="similar-section">
+                    <div class="similar-container">
+                        <div class="reveal" style="text-align: center;">
+                            <h2 class="section-headline">Similar tools.</h2>
+                            <p class="section-subhead" style="margin: 0 auto;">
+                                More ${tool.category || 'AI'} tools you might like.
+                            </p>
+                        </div>
+                        <div class="similar-grid">
+                            ${similarTools.slice(0, 3).map(similarTool => `
+                                <a href="tool.html?id=${similarTool.id || similarTool.slug}" class="similar-card reveal">
+                                    <img src="${similarTool.logo}" alt="${similarTool.name}" class="similar-logo"
+                                         onerror="this.src='assets/images/logo.png'">
+                                    <div class="similar-name">${similarTool.name}</div>
+                                    <div class="similar-category">${similarTool.category}</div>
+                                    <div class="similar-description">${similarTool.shortDescription || ''}</div>
+                                </a>
+                            `).join('')}
+                        </div>
+                    </div>
+                </section>
+                ` : ''}
+            `;
+
+            document.getElementById('main-content').innerHTML = html;
+            document.title = `${tool.name} - Neuralist`;
+            
+            // Initialize interactions
+            initScrollReveal();
+            if (hasImages) initSlideshow();
+        }
+
+        // Load tool data
+        async function loadTool() {
+            const params = new URLSearchParams(window.location.search);
+            const toolId = params.get('id') || params.get('slug');
+
+            if (!toolId) {
+                document.getElementById('main-content').innerHTML = `
+                    <div class="loading-container">
+                        <h2 style="margin-bottom: 20px;">Tool Not Found</h2>
+                        <a href="index.html" class="btn-primary">Back to Directory</a>
+                    </div>
+                `;
+                return;
+            }
+
+            try {
+                const [tools1, tools2, tools3] = await Promise.all([
+                    fetch('assets/data/tools1.json').then(r => r.json()).catch(() => []),
+                    fetch('assets/data/tools2.json').then(r => r.json()).catch(() => []),
+                    fetch('assets/data/tools3.json').then(r => r.json()).catch(() => [])
+                ]);
+
+                const allTools = [...tools1, ...tools2, ...tools3];
+                const tool = allTools.find(t => t.id === toolId || t.slug === toolId);
+
+                if (!tool) {
+                    document.getElementById('main-content').innerHTML = `
+                        <div class="loading-container">
+                            <h2 style="margin-bottom: 20px;">Tool Not Found</h2>
+                            <p style="margin-bottom: 20px; color: var(--apple-gray);">"${toolId}" not found.</p>
+                            <a href="index.html" class="btn-primary">Back to Directory</a>
+                        </div>
+                    `;
+                    return;
+                }
+
+                // Find similar tools (same category, excluding current tool)
+                const similarTools = allTools.filter(t => 
+                    t.id !== tool.id && 
+                    t.category && 
+                    tool.category && 
+                    (t.category === tool.category || t.category.includes(tool.category))
+                ).slice(0, 3);
+
+                renderTool(tool, similarTools);
+            } catch (error) {
+                console.error('Error loading tool:', error);
+                document.getElementById('main-content').innerHTML = `
+                    <div class="loading-container">
+                        <h2 style="margin-bottom: 20px;">Error Loading Tool</h2>
+                        <a href="index.html" class="btn-primary">Back to Directory</a>
+                    </div>
+                `;
+            }
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            loadTool();
+        });
+    </script>
+</body>
+</html>

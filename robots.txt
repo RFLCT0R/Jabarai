@@ -1,0 +1,14 @@
+# robots.txt for Neuralist
+# AI Tools Directory
+# Last updated: 2026-01-20
+
+User-agent: *
+Allow: /
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://Neuralist.com/sitemap.xml

@@ -1,0 +1,2859 @@
+[
+  {
+    "id": "google-gemini",
+    "slug": "google-gemini",
+    "name": "Google Gemini",
+    "company": "Google",
+    "logo": "https://cdn.brandfetch.io/google.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://gemini.google.com/",
+    "shortDescription": "Google's most capable AI model with multimodal understanding and real-time information.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Gemini 2.0 Flash",
+          "Basic multimodal",
+          "Google Search integration",
+          "1M token context"
+        ]
+      },
+      {
+        "plan": "Advanced",
+        "price": "$19.99/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Gemini 2.5 Pro",
+          "Deep Research",
+          "Canvas collaboration",
+          "1TB storage"
+        ]
+      }
+    ],
+    "category": "Chatbot",
+    "subCategory": "Conversational AI",
+    "language": [
+      "English",
+      "Arabic",
+      "French",
+      "Spanish",
+      "German",
+      "Multilingual"
+    ],
+    "tags": [
+      "chatbot",
+      "multimodal",
+      "research",
+      "coding",
+      "google"
+    ],
+    "useCases": [
+      "Research with real-time information",
+      "Image and document analysis",
+      "Code generation and debugging",
+      "Creative writing assistance"
+    ],
+    "integrations": [
+      "Google Docs",
+      "Gmail",
+      "Google Drive",
+      "YouTube",
+      "BigQuery"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2023-12-06",
+    "lastUpdated": "2025-03-25",
+    "rating": 4.7,
+    "totalReviews": 85000,
+    "pros": [
+      "Excellent Google ecosystem integration",
+      "Real-time web search",
+      "Strong multimodal capabilities"
+    ],
+    "cons": [
+      "Advanced features require subscription",
+      "Occasional factual inaccuracies"
+    ],
+    "features": [
+      "Multimodal understanding (text, image, audio, video)",
+      "Real-time information via Google Search",
+      "1 million token context window",
+      "Deep Research for comprehensive analysis"
+    ],
+    "fullDescription": "Google Gemini represents Google's flagship AI assistant, built on cutting-edge Gemini 2.0 and 2.5 models. It excels at multimodal tasks, processing text, images, audio, and video simultaneously. The free tier offers Gemini 2.0 Flash with real-time Google Search integration. Gemini Advanced unlocks the more powerful 2.5 Pro model, Deep Research capabilities, and Canvas for interactive collaboration. With support for over 40 languages and deep Google Workspace integration, Gemini is a versatile AI companion for professionals, students, and creators.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/30839678/pexels-photo-30839678.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of Scrabble tiles forming the words 'API' and 'GEMINI' on a wooden surface."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069517/pexels-photo-18069517.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vibrant 3D render of geometric shapes scattered over a circuit-like background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract representation of large language models and AI technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17483868/pexels-photo-17483868.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "3D rendered abstract design featuring a digital brain visual with vibrant colors."
+      }
+    ],
+    "affiliateLink": "https://gemini.google.com/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "ChatGPT",
+        "slug": "chatgpt"
+      },
+      {
+        "name": "Claude",
+        "slug": "claude"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/Google",
+      "linkedin": "https://www.linkedin.com/company/google"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US, EU",
+    "faq": [
+      {
+        "question": "Is Google Gemini free?",
+        "answer": "Yes, Gemini offers a robust free tier with access to Gemini 2.0 Flash, Google Search integration, and multimodal capabilities."
+      }
+    ],
+    "seoTitle": "Google Gemini: AI Assistant with Real-Time Search & Multimodal Intelligence",
+    "seoDescription": "Experience Google's most capable AI. Multimodal understanding, real-time search, and 1M token context. Free tier available with Gemini 2.0 Flash.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "ideogram",
+    "slug": "ideogram",
+    "name": "Ideogram",
+    "company": "Ideogram AI",
+    "logo": "https://cdn.brandfetch.io/ideogram.ai/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://ideogram.ai/",
+    "shortDescription": "AI image generator with exceptional text rendering and typography capabilities.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "daily",
+        "features": [
+          "25 prompts/day",
+          "Standard quality",
+          "Basic text rendering",
+          "Community access"
+        ]
+      },
+      {
+        "plan": "Plus",
+        "price": "$8/month",
+        "billingCycle": "monthly",
+        "features": [
+          "400 prompts/day",
+          "Priority generation",
+          "Better text accuracy",
+          "Private generations"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$20/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited prompts",
+          "Highest quality",
+          "Advanced text controls",
+          "API access"
+        ]
+      }
+    ],
+    "category": "Image Generation",
+    "subCategory": "AI Art",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "image generation",
+      "typography",
+      "text in images",
+      "logos",
+      "marketing"
+    ],
+    "useCases": [
+      "Marketing materials with text",
+      "Logo and brand design",
+      "Social media graphics with captions",
+      "Poster and flyer creation"
+    ],
+    "integrations": [
+      "Web interface",
+      "API (Pro)"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2023-08-29",
+    "lastUpdated": "2025-03-20",
+    "rating": 4.7,
+    "totalReviews": 4500,
+    "pros": [
+      "Best-in-class text rendering",
+      "Generous free tier",
+      "Excellent for marketing materials"
+    ],
+    "cons": [
+      "Web interface only",
+      "API limited to Pro tier"
+    ],
+    "features": [
+      "Superior text and typography generation",
+      "Multiple aspect ratios",
+      "Style presets (Realistic, Design, 3D, Anime)",
+      "Magic Prompt for prompt enhancement"
+    ],
+    "fullDescription": "Ideogram has revolutionized AI image generation by solving the industry's biggest challenge: rendering readable text within images. While other generators produce garbled letters, Ideogram excels at creating posters, logos, memes, and marketing materials with clear typography. With 25 free generations daily, it's accessible for casual users, while paid plans unlock higher limits and commercial usage rights. For designers and marketers who need text-perfect visuals, Ideogram is the undisputed leader.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069693/pexels-photo-18069693.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Futuristic abstract artwork showcasing AI concepts with digital text overlays."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/8438880/pexels-photo-8438880.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "An articulated robotic arm competes in chess on a board against a dark background, highlighting AI a"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17483870/pexels-photo-17483870.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract illustration depicting complex digital neural networks and data flow."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17485744/pexels-photo-17485744.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract arrangement of 3D technology icons on a grid showcasing AI and digital concepts."
+      }
+    ],
+    "affiliateLink": "https://ideogram.ai/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "DALL-E 3",
+        "slug": "dalle"
+      },
+      {
+        "name": "Midjourney",
+        "slug": "midjourney"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/ideogram_ai"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Ideogram free?",
+        "answer": "Yes, Ideogram offers 25 free prompts daily with standard quality and basic features."
+      }
+    ],
+    "seoTitle": "Ideogram: AI Image Generator with Perfect Text & Typography",
+    "seoDescription": "Create stunning images with readable text. The best AI for logos, posters, and marketing materials. 25 free generations daily.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "codeium",
+    "slug": "codeium",
+    "name": "Codeium",
+    "company": "Codeium",
+    "logo": "https://cdn.brandfetch.io/codeium.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://codeium.com/",
+    "shortDescription": "Free AI coding assistant with autocomplete, chat, and powerful IDE integration.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free Individual",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited autocomplete",
+          "Natural language search",
+          "70+ IDE extensions"
+        ]
+      },
+      {
+        "plan": "Teams",
+        "price": "$20/user/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Admin dashboard",
+          "Usage analytics",
+          "SSO"
+        ]
+      }
+    ],
+    "category": "Developer Tools",
+    "subCategory": "Code Assistant",
+    "language": [
+      "English"
+    ],
+    "tags": [
+      "coding",
+      "developer tools",
+      "autocomplete",
+      "free",
+      "ide"
+    ],
+    "useCases": [
+      "Rapid code development",
+      "Learning new programming languages",
+      "Code review and refactoring"
+    ],
+    "integrations": [
+      "VS Code",
+      "JetBrains",
+      "Vim",
+      "Neovim",
+      "Xcode",
+      "Android Studio"
+    ],
+    "platform": [
+      "Windows",
+      "Mac",
+      "Linux",
+      "Web"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2022-06-01",
+    "lastUpdated": "2025-03-22",
+    "rating": 4.7,
+    "totalReviews": 3200,
+    "pros": [
+      "Completely free for individuals",
+      "Extensive IDE support",
+      "Natural language code search"
+    ],
+    "cons": [
+      "Chat features require paid plans",
+      "Limited context window compared to Cursor"
+    ],
+    "features": [
+      "Unlimited code autocomplete",
+      "Natural language code search",
+      "AI-powered code explanations",
+      "70+ IDE and editor integrations"
+    ],
+    "fullDescription": "Codeium is a free AI-powered coding assistant that provides unlimited code autocomplete across 70+ programming languages and 70+ IDEs. Unlike competitors that limit free usage, Codeium offers truly unlimited autocomplete for individual developers. The standout feature is natural language search—describe what you're looking for in plain English and Codeium finds relevant code in your codebase. For developers seeking a free, privacy-respecting alternative to Copilot, Codeium is the clear choice.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/19867470/pexels-photo-19867470.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden letter tiles scattered on a textured surface, spelling 'AI'."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/34804018/pexels-photo-34804018.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of AI-assisted coding with menu options for debugging and problem-solving."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract representation of large language models and AI technology."
+      }
+    ],
+    "affiliateLink": "https://codeium.com/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "GitHub Copilot",
+        "slug": "copilot"
+      },
+      {
+        "name": "Cursor",
+        "slug": "cursor"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/codeiumdev"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US, EU",
+    "faq": [
+      {
+        "question": "Is Codeium really free?",
+        "answer": "Yes, Codeium offers unlimited code autocomplete completely free for individual developers."
+      }
+    ],
+    "seoTitle": "Codeium: Free AI Coding Assistant with Unlimited Autocomplete",
+    "seoDescription": "Free AI code completion for 70+ languages and IDEs. Natural language code search. Unlimited autocomplete for individual developers.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "gamma",
+    "slug": "gamma",
+    "name": "Gamma",
+    "company": "Gamma",
+    "logo": "https://cdn.brandfetch.io/gamma.app/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://gamma.app/",
+    "shortDescription": "AI-powered presentation tool that creates stunning, interactive decks from text prompts.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "400 AI credits",
+          "Unlimited users",
+          "Basic themes",
+          "PDF export"
+        ]
+      },
+      {
+        "plan": "Plus",
+        "price": "$10/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited AI",
+          "Custom themes",
+          "Remove branding",
+          "Analytics"
+        ]
+      }
+    ],
+    "category": "Productivity",
+    "subCategory": "Presentations",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "presentations",
+      "slides",
+      "ai design",
+      "storytelling",
+      "pitch decks"
+    ],
+    "useCases": [
+      "Startup pitch decks",
+      "Sales presentations",
+      "Educational content",
+      "Product demos"
+    ],
+    "integrations": [
+      "Figma",
+      "Airtable",
+      "YouTube",
+      "Notion",
+      "Slack"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": false,
+    "releaseDate": "2020-01-01",
+    "lastUpdated": "2025-03-15",
+    "rating": 4.8,
+    "totalReviews": 5500,
+    "pros": [
+      "Beautiful modern templates",
+      "Interactive elements",
+      "Generous free tier"
+    ],
+    "cons": [
+      "Web-based only",
+      "Limited offline functionality"
+    ],
+    "features": [
+      "AI-generated presentations from prompts",
+      "Interactive cards and embeds",
+      "Live collaboration",
+      "Built-in analytics"
+    ],
+    "fullDescription": "Gamma reimagines presentations for the AI era—instead of building slides manually, type a prompt and Gamma generates a complete, beautifully designed narrative. The AI creates slide structure, writes copy, and generates custom images. Gamma is perfect for sales decks, pitch decks, and creative portfolios. The free tier offers 400 AI credits monthly, while paid plans unlock unlimited use and custom branding.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a computer screen displaying ChatGPT interface in a dark setting."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract representation of large language models and AI technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17483868/pexels-photo-17483868.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "3D rendered abstract design featuring a digital brain visual with vibrant colors."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18475682/pexels-photo-18475682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of vintage typewriter with 'AI ETHICS' typed on paper, emphasizing technology and responsib"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/8438880/pexels-photo-8438880.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "An articulated robotic arm competes in chess on a board against a dark background, highlighting AI a"
+      }
+    ],
+    "affiliateLink": "https://gamma.app/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Tome",
+        "slug": "tome"
+      },
+      {
+        "name": "Beautiful.ai",
+        "slug": "beautiful-ai"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/gamma_app"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Gamma free?",
+        "answer": "Yes, Gamma has a free tier with 400 AI credits and unlimited users."
+      }
+    ],
+    "seoTitle": "Gamma: AI-Powered Presentation Tool for Stunning Interactive Decks",
+    "seoDescription": "Create beautiful presentations from text prompts with Gamma. Interactive elements, modern templates, and AI-generated content. Free tier available.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "opus-clip",
+    "slug": "opus-clip",
+    "name": "OpusClip",
+    "company": "OpusClip",
+    "logo": "https://cdn.brandfetch.io/opus.pro/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://www.opus.pro/",
+    "shortDescription": "AI video repurposing tool that turns long videos into viral short clips automatically.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "60 min processing/month",
+          "Watermarked clips",
+          "720p exports",
+          "Basic AI features"
+        ]
+      },
+      {
+        "plan": "Starter",
+        "price": "$15/month",
+        "billingCycle": "monthly",
+        "features": [
+          "200 min processing",
+          "No watermark",
+          "1080p exports",
+          "AI B-roll"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$29/month",
+        "billingCycle": "monthly",
+        "features": [
+          "600 min processing",
+          "4K exports",
+          "AI Co-Pilot editing",
+          "Brand templates"
+        ]
+      }
+    ],
+    "category": "Video",
+    "subCategory": "Video Editing",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "video editing",
+      "shorts",
+      "tiktok",
+      "youtube shorts",
+      "content repurposing",
+      "viral"
+    ],
+    "useCases": [
+      "Turn podcasts into viral clips",
+      "Create YouTube Shorts from long videos",
+      "Make Instagram Reels from webinars",
+      "Extract highlights from interviews"
+    ],
+    "integrations": [
+      "YouTube",
+      "TikTok",
+      "Instagram",
+      "LinkedIn",
+      "Twitter",
+      "Zoom"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2022-01-01",
+    "lastUpdated": "2025-03-18",
+    "rating": 4.7,
+    "totalReviews": 6800,
+    "pros": [
+      "Automatic viral moment detection",
+      "AI-generated captions with emojis",
+      "Saves hours of editing time"
+    ],
+    "cons": [
+      "Free clips are watermarked",
+      "Processing time can vary"
+    ],
+    "features": [
+      "AI identifies viral-worthy moments",
+      "Auto-reframe to 9:16 vertical",
+      "AI-generated captions with emoji and keyword highlighting",
+      "AI B-roll insertion",
+      "Multiple clips from single video"
+    ],
+    "fullDescription": "OpusClip is the leading AI video repurposing platform that automatically transforms long-form content like podcasts, webinars, and interviews into engaging short-form clips optimized for TikTok, YouTube Shorts, and Instagram Reels. The AI analyzes your video to find the most compelling moments, adds animated captions with emoji highlights, and reframes content for vertical viewing. Content creators report 5x engagement on AI-clipped videos versus manual edits. The free tier processes 60 minutes monthly with watermarks, while paid plans remove watermarks and add AI B-roll and 4K exports.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/16053029/pexels-photo-16053029.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A contemporary screen displaying the ChatGPT plugins interface by OpenAI, highlighting AI technology"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530406/pexels-photo-30530406.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of DeepSeek AI chat interface on a laptop screen in low light."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18475682/pexels-photo-18475682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of vintage typewriter with 'AI ETHICS' typed on paper, emphasizing technology and responsib"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30855416/pexels-photo-30855416.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Scrabble-like tiles arranged to spell 'Qwen AI' on a wooden surface, depicting technology concepts."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18510427/pexels-photo-18510427.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Retro typewriter with 'AI Ethics' on paper, conveying technology themes."
+      }
+    ],
+    "affiliateLink": "https://www.opus.pro/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "25% recurring",
+      "cookieDuration": "60 days"
+    },
+    "alternatives": [
+      {
+        "name": "Pictory",
+        "slug": "pictory"
+      },
+      {
+        "name": "Vidyo.ai",
+        "slug": "vidyo-ai"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/opusclip",
+      "youtube": "https://www.youtube.com/@opusclip"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is OpusClip free?",
+        "answer": "Yes, OpusClip offers 60 minutes of free processing monthly with watermarked clips."
+      }
+    ],
+    "seoTitle": "OpusClip: AI Video Repurposing – Turn Long Videos into Viral Shorts",
+    "seoDescription": "Automatically create viral short clips from long videos. AI captions, auto-reframe, and viral moment detection. Free tier with 60 min/month.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "phind",
+    "slug": "phind",
+    "name": "Phind",
+    "company": "Phind",
+    "logo": "https://cdn.brandfetch.io/phind.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://www.phind.com/",
+    "shortDescription": "AI search engine and coding assistant specifically designed for developers.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Phind-70B model",
+          "Unlimited searches",
+          "Basic code suggestions",
+          "Web search"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$20/month",
+        "billingCycle": "monthly",
+        "features": [
+          "GPT-4 access",
+          "32K context",
+          "Private mode",
+          "Higher rate limits"
+        ]
+      }
+    ],
+    "category": "Developer Tools",
+    "subCategory": "AI Search",
+    "language": [
+      "English",
+      "Code"
+    ],
+    "tags": [
+      "coding",
+      "developer tools",
+      "search",
+      "programming",
+      "free"
+    ],
+    "useCases": [
+      "Debugging code errors",
+      "Researching technical documentation",
+      "Learning new frameworks",
+      "Code review and optimization"
+    ],
+    "integrations": [
+      "VS Code extension",
+      "JetBrains",
+      "Chrome extension"
+    ],
+    "platform": [
+      "Web",
+      "VS Code",
+      "JetBrains"
+    ],
+    "apiAvailable": false,
+    "releaseDate": "2022-01-01",
+    "lastUpdated": "2025-03-20",
+    "rating": 4.6,
+    "totalReviews": 2800,
+    "pros": [
+      "Completely free with no limits",
+      "Specifically built for developers",
+      "Fast, accurate technical answers"
+    ],
+    "cons": [
+      "Limited to technical queries",
+      "No API access"
+    ],
+    "features": [
+      "Developer-focused AI search",
+      "Code generation and debugging",
+      "Integration with VS Code",
+      "Real-time web search for technical topics"
+    ],
+    "fullDescription": "Phind is an AI search engine built specifically for developers, offering free, unlimited access to powerful AI models including Phind-70B. Unlike general chatbots, Phind is optimized for technical queries—debugging code, researching libraries, and understanding complex documentation. It combines AI reasoning with real-time web search to provide accurate, up-to-date answers with source citations.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18475682/pexels-photo-18475682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of vintage typewriter with 'AI ETHICS' typed on paper, emphasizing technology and responsib"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18510427/pexels-photo-18510427.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Retro typewriter with 'AI Ethics' on paper, conveying technology themes."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530414/pexels-photo-30530414.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a digital assistant interface on a dark screen, showcasing AI technology communication."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17483868/pexels-photo-17483868.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "3D rendered abstract design featuring a digital brain visual with vibrant colors."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530406/pexels-photo-30530406.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of DeepSeek AI chat interface on a laptop screen in low light."
+      }
+    ],
+    "affiliateLink": "https://www.phind.com/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Perplexity",
+        "slug": "perplexity"
+      },
+      {
+        "name": "ChatGPT",
+        "slug": "chatgpt"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/phindhq"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Phind really free?",
+        "answer": "Yes, Phind offers unlimited free searches with their Phind-70B model."
+      }
+    ],
+    "seoTitle": "Phind: Free AI Search Engine for Developers – Coding Assistant",
+    "seoDescription": "Free AI search engine built for developers. Unlimited queries, code debugging, and technical research. VS Code integration.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "fathom",
+    "slug": "fathom",
+    "name": "Fathom",
+    "company": "Fathom",
+    "logo": "https://cdn.brandfetch.io/fathom.video/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://fathom.video/",
+    "shortDescription": "Free AI meeting recorder that transcribes, highlights, and summarizes Zoom calls automatically.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited recording",
+          "Transcription",
+          "Highlight reels",
+          "Basic summaries",
+          "Zoom integration"
+        ]
+      },
+      {
+        "plan": "Team",
+        "price": "$19/user/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Team collaboration",
+          "CRM sync",
+          "Advanced summaries",
+          "SSO",
+          "Priority support"
+        ]
+      }
+    ],
+    "category": "Audio",
+    "subCategory": "Meeting Assistant",
+    "language": [
+      "English",
+      "25 languages"
+    ],
+    "tags": [
+      "meetings",
+      "transcription",
+      "zoom",
+      "free",
+      "productivity"
+    ],
+    "useCases": [
+      "Recording Zoom meetings",
+      "Creating highlight clips",
+      "Meeting summarization",
+      "Sales call analysis",
+      "Interview recording"
+    ],
+    "integrations": [
+      "Zoom",
+      "Slack",
+      "Salesforce",
+      "HubSpot",
+      "Notion"
+    ],
+    "platform": [
+      "Web",
+      "Mac",
+      "Windows"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2021-01-01",
+    "lastUpdated": "2025-03-20",
+    "rating": 4.8,
+    "totalReviews": 5200,
+    "pros": [
+      "Completely free for core features",
+      "Unlimited recording on free tier",
+      "Easy highlight clip creation"
+    ],
+    "cons": [
+      "Primarily Zoom focused",
+      "Advanced features require paid plan"
+    ],
+    "features": [
+      "Automatic Zoom recording",
+      "Real-time transcription",
+      "AI-generated highlights",
+      "Meeting summaries",
+      "Searchable transcripts",
+      "Shareable clips"
+    ],
+    "fullDescription": "Fathom is a free AI meeting recorder that automatically joins, records, and transcribes your Zoom meetings. Unlike competitors that limit free usage, Fathom offers unlimited recording and transcription on their free tier. After each meeting, Fathom generates instant summaries and creates AI highlights of key moments you can share with your team.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a computer screen displaying ChatGPT interface in a dark setting."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18068768/pexels-photo-18068768.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract 3D render showcasing AI concepts with vibrant colors and textures."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17483867/pexels-photo-17483867.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A 3D rendering of a neural network with abstract neuron connections in soft colors."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17483868/pexels-photo-17483868.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "3D rendered abstract design featuring a digital brain visual with vibrant colors."
+      }
+    ],
+    "affiliateLink": "https://fathom.video/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "$25 per signup",
+      "cookieDuration": "60 days"
+    },
+    "alternatives": [
+      {
+        "name": "Otter.ai",
+        "slug": "otter-ai"
+      },
+      {
+        "name": "Fireflies.ai",
+        "slug": "fireflies-ai"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/fathomvideo"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Fathom really free?",
+        "answer": "Yes, Fathom offers unlimited free recording, transcription, and basic summaries for Zoom meetings."
+      }
+    ],
+    "seoTitle": "Fathom: Free AI Meeting Recorder for Zoom – Transcription & Highlights",
+    "seoDescription": "Free AI meeting recorder with unlimited transcription. Automatic Zoom recording, highlights, and summaries. No credit card required.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "suno",
+    "slug": "suno",
+    "name": "Suno",
+    "company": "Suno AI",
+    "logo": "https://cdn.brandfetch.io/suno.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://suno.com/",
+    "shortDescription": "AI music generator that creates songs with vocals, instruments, and lyrics from text prompts.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "daily",
+        "features": [
+          "50 credits/day",
+          "Standard quality",
+          "Non-commercial use",
+          "Community sharing"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$10/month",
+        "billingCycle": "monthly",
+        "features": [
+          "2500 credits/month",
+          "Higher quality",
+          "Commercial use",
+          "Download rights",
+          "Private mode"
+        ]
+      }
+    ],
+    "category": "Audio",
+    "subCategory": "Music Generation",
+    "language": [
+      "English",
+      "50 languages"
+    ],
+    "tags": [
+      "music",
+      "ai music",
+      "song generation",
+      "vocals",
+      "creativity"
+    ],
+    "useCases": [
+      "Creating original songs",
+      "Background music for content",
+      "Jingles and intros",
+      "Music for videos and podcasts",
+      "Exploring AI creativity"
+    ],
+    "integrations": [
+      "Web interface"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2023-12-20",
+    "lastUpdated": "2025-03-25",
+    "rating": 4.7,
+    "totalReviews": 15000,
+    "pros": [
+      "Creates complete songs with vocals",
+      "Incredibly realistic music quality",
+      "Generous free daily credits"
+    ],
+    "cons": [
+      "Free tier for non-commercial use only",
+      "Limited control over specific instruments"
+    ],
+    "features": [
+      "Full song generation with vocals",
+      "Custom lyrics or AI-generated",
+      "Multiple genres and styles",
+      "Instrumental mode",
+      "Song extension and variation",
+      "50+ languages supported"
+    ],
+    "fullDescription": "Suno has revolutionized AI music generation by creating complete, radio-quality songs with realistic vocals, instrumentation, and coherent lyrics from simple text prompts. The free tier provides 50 daily credits (about 5 songs), making it accessible for experimentation. Content creators, musicians, and hobbyists use Suno for everything from podcast intros to full album creation.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract representation of large language models and AI technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069517/pexels-photo-18069517.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vibrant 3D render of geometric shapes scattered over a circuit-like background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a computer screen displaying ChatGPT interface in a dark setting."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/35076289/pexels-photo-35076289.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A white autonomous vehicle navigating a city street, reflecting urban architecture in daylight."
+      }
+    ],
+    "affiliateLink": "https://suno.com/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Udio",
+        "slug": "udio"
+      },
+      {
+        "name": "AIVA",
+        "slug": "aiva"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/suno_ai_",
+      "discord": "https://discord.gg/suno"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Suno free?",
+        "answer": "Yes, Suno offers 50 free credits daily (about 5 songs) for non-commercial personal use."
+      }
+    ],
+    "seoTitle": "Suno: AI Music Generator – Create Songs with Vocals from Text",
+    "seoDescription": "Generate complete songs with realistic vocals and instruments using AI. 50 free credits daily. Multiple genres and languages.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "beautiful-ai",
+    "slug": "beautiful-ai",
+    "name": "Beautiful.ai",
+    "company": "Beautiful.ai",
+    "logo": "https://cdn.brandfetch.io/beautiful.ai/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://www.beautiful.ai/",
+    "shortDescription": "AI-powered presentation software that automatically designs slides as you add content.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": true,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "100 slides",
+          "Basic templates",
+          "Share via link",
+          "Beautiful branded"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$12/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited slides",
+          "Premium templates",
+          "Custom branding",
+          "PowerPoint export",
+          "Analytics"
+        ]
+      }
+    ],
+    "category": "Productivity",
+    "subCategory": "Presentations",
+    "language": [
+      "English"
+    ],
+    "tags": [
+      "presentations",
+      "slides",
+      "design",
+      "automation",
+      "powerpoint alternative"
+    ],
+    "useCases": [
+      "Sales presentations",
+      "Startup pitch decks",
+      "Marketing proposals",
+      "Training materials",
+      "Company reports"
+    ],
+    "integrations": [
+      "Slack",
+      "PowerPoint",
+      "Dropbox",
+      "Google Drive",
+      "Salesforce"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": false,
+    "releaseDate": "2016-01-01",
+    "lastUpdated": "2025-03-15",
+    "rating": 4.6,
+    "totalReviews": 3400,
+    "pros": [
+      "Automatic slide design",
+      "Saves hours of formatting",
+      "Smart templates adapt content"
+    ],
+    "cons": [
+      "Limited customization vs traditional tools",
+      "Web-only platform"
+    ],
+    "features": [
+      "AI-powered slide design",
+      "Smart templates that adapt",
+      "Automatic alignment and spacing",
+      "Built-in icon and image library",
+      "Real-time collaboration",
+      "PowerPoint export"
+    ],
+    "fullDescription": "Beautiful.ai is presentation software that uses AI to automatically design slides as you add content. Smart templates intelligently adapt to your content—add a new bullet point and the layout automatically adjusts. The free tier includes 100 slides, making it great for small projects. For professionals tired of fighting with PowerPoint's formatting, Beautiful.ai is a game-changer.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069517/pexels-photo-18069517.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vibrant 3D render of geometric shapes scattered over a circuit-like background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17485743/pexels-photo-17485743.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Artistic arrangement of ribbons and containers in various colors and shapes."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069493/pexels-photo-18069493.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A colorful and vibrant abstract 3D render featuring intricate geometric shapes and structures."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069496/pexels-photo-18069496.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Collection of abstract 3D rendered organic shapes in soft pastel colors."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      }
+    ],
+    "affiliateLink": "https://www.beautiful.ai/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "20% recurring",
+      "cookieDuration": "90 days"
+    },
+    "alternatives": [
+      {
+        "name": "Gamma",
+        "slug": "gamma"
+      },
+      {
+        "name": "Tome",
+        "slug": "tome"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/beautifulai"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Beautiful.ai free?",
+        "answer": "Yes, Beautiful.ai offers a free tier with 100 slides and basic templates."
+      }
+    ],
+    "seoTitle": "Beautiful.ai: AI-Powered Presentation Software – Automatic Design",
+    "seoDescription": "Create beautiful presentations automatically. AI designs slides as you type. Smart templates, real-time collaboration. Free tier available.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "quillbot",
+    "slug": "quillbot",
+    "name": "QuillBot",
+    "company": "QuillBot",
+    "logo": "https://cdn.brandfetch.io/quillbot.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://quillbot.com/",
+    "shortDescription": "AI paraphrasing and writing tool that helps improve clarity, tone, and style.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "125 words in Paraphraser",
+          "Standard and Fluency modes",
+          "Limited Summarizer",
+          "Basic grammar"
+        ]
+      },
+      {
+        "plan": "Premium",
+        "price": "$9.95/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited paraphrasing",
+          "All modes",
+          "Plagiarism checker",
+          "Tone detection",
+          "Co-writer"
+        ]
+      }
+    ],
+    "category": "Writing",
+    "subCategory": "Paraphrasing Tool",
+    "language": [
+      "English"
+    ],
+    "tags": [
+      "writing",
+      "paraphrasing",
+      "grammar",
+      "academic writing",
+      "productivity"
+    ],
+    "useCases": [
+      "Academic paper writing",
+      "Essay improvement",
+      "Content rewriting",
+      "Avoiding plagiarism",
+      "Improving writing clarity"
+    ],
+    "integrations": [
+      "Chrome extension",
+      "Word extension",
+      "Google Docs",
+      "macOS"
+    ],
+    "platform": [
+      "Web",
+      "Chrome",
+      "Word",
+      "Mac"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2017-01-01",
+    "lastUpdated": "2025-03-18",
+    "rating": 4.6,
+    "totalReviews": 18000,
+    "pros": [
+      "Excellent paraphrasing quality",
+      "Multiple writing modes",
+      "Useful free tier"
+    ],
+    "cons": [
+      "English only",
+      "Free tier limited to 125 words"
+    ],
+    "features": [
+      "Multiple paraphrasing modes (Standard, Fluency, Formal, etc.)",
+      "Grammar checker",
+      "Summarizer tool",
+      "Citation generator",
+      "Plagiarism checker (Premium)",
+      "Co-writer for long-form content"
+    ],
+    "fullDescription": "QuillBot is an AI-powered writing assistant specializing in paraphrasing and improving text clarity. It offers multiple modes including Standard, Fluency, Formal, Simple, and Creative. The free tier allows paraphrasing up to 125 words at a time. Premium unlocks unlimited words, all modes, a plagiarism checker, and the Co-writer for long-form content. Students and academics particularly value QuillBot for avoiding plagiarism while maintaining original meaning.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/19867470/pexels-photo-19867470.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden letter tiles scattered on a textured surface, spelling 'AI'."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18475682/pexels-photo-18475682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of vintage typewriter with 'AI ETHICS' typed on paper, emphasizing technology and responsib"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18510427/pexels-photo-18510427.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Retro typewriter with 'AI Ethics' on paper, conveying technology themes."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18498317/pexels-photo-18498317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vintage typewriter outdoors displaying \"AI ethics\" on paper, symbolizing tradition meets technolog"
+      }
+    ],
+    "affiliateLink": "https://quillbot.com/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "30% recurring",
+      "cookieDuration": "30 days"
+    },
+    "alternatives": [
+      {
+        "name": "Grammarly",
+        "slug": "grammarly"
+      },
+      {
+        "name": "Wordtune",
+        "slug": "wordtune"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/QuillBot"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is QuillBot free?",
+        "answer": "Yes, QuillBot offers a free tier with 125 words per paraphrase and basic modes."
+      }
+    ],
+    "seoTitle": "QuillBot: AI Paraphrasing Tool & Writing Assistant – Improve Your Text",
+    "seoDescription": "Paraphrase and improve your writing with QuillBot. Multiple modes, grammar checker, and plagiarism detection. Free tier available.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "hugging-face-chat",
+    "slug": "hugging-face-chat",
+    "name": "Hugging Face Chat",
+    "company": "Hugging Face",
+    "logo": "https://cdn.brandfetch.io/huggingface.co/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://huggingface.co/chat/",
+    "shortDescription": "Free AI chatbot powered by open-source models from the Hugging Face community. No signup required.",
+    "pricing": "Free",
+    "pricingModel": "Free",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited access",
+          "Multiple open-source models",
+          "Llama, Mistral, Mixtral",
+          "Web search",
+          "Code generation",
+          "No registration required"
+        ]
+      }
+    ],
+    "category": "Chatbot",
+    "subCategory": "Open Source AI",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "chatbot",
+      "open source",
+      "free",
+      "community",
+      "privacy",
+      "no signup"
+    ],
+    "useCases": [
+      "General AI assistance",
+      "Code generation",
+      "Research without registration",
+      "Testing different AI models",
+      "Privacy-conscious chatting"
+    ],
+    "integrations": [
+      "Hugging Face Hub",
+      "Transformers"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2023-01-01",
+    "lastUpdated": "2025-03-25",
+    "rating": 4.5,
+    "totalReviews": 12000,
+    "pros": [
+      "Completely free forever",
+      "No account required",
+      "Multiple model options",
+      "Privacy-focused",
+      "Open source models"
+    ],
+    "cons": [
+      "Can be slower than commercial alternatives",
+      "Limited advanced features"
+    ],
+    "features": [
+      "Access to latest open-source models",
+      "Llama, Mistral, and community models",
+      "Web search capability",
+      "Code generation and debugging",
+      "No registration needed"
+    ],
+    "fullDescription": "Hugging Face Chat provides free access to state-of-the-art open-source AI models without requiring an account or subscription. Users can chat with popular models like Llama, Mistral, and various community-trained models. It's ideal for those who value privacy, want to try different AI models, or need quick AI assistance without signing up. As part of the Hugging Face ecosystem, it represents the open-source alternative to proprietary AI chatbots, keeping AI accessible to everyone.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/16380906/pexels-photo-16380906.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Smartphone displaying AI app with book on AI technology in background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/7681013/pexels-photo-7681013.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a smartphone held during a video call, capturing a friendly interaction."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/4031707/pexels-photo-4031707.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A person having a video call on a laptop, indoors, showcasing digital communication."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/6532802/pexels-photo-6532802.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Joyful young Hispanic male and female millennials in stylish jackets smiling and embracing while wat"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/4008457/pexels-photo-4008457.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A man lying on a sofa using a smartphone for a video call while wearing a face mask indoors."
+      }
+    ],
+    "affiliateLink": "https://huggingface.co/chat/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "ChatGPT",
+        "slug": "chatgpt"
+      },
+      {
+        "name": "DeepSeek",
+        "slug": "deepseek"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/huggingface"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US, EU",
+    "faq": [
+      {
+        "question": "Is Hugging Face Chat really free?",
+        "answer": "Yes, completely free with no account required. Access to multiple open-source AI models."
+      }
+    ],
+    "seoTitle": "Hugging Face Chat: Free AI Chatbot with Open-Source Models – No Signup",
+    "seoDescription": "Free access to open-source AI models. No account required. Chat with Llama, Mistral, and more. Privacy-focused AI assistant.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "playground-ai",
+    "slug": "playground-ai",
+    "name": "Playground AI",
+    "company": "Playground AI",
+    "logo": "https://cdn.brandfetch.io/playgroundai.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://playgroundai.com/",
+    "shortDescription": "Free AI image creator with canvas-based editing and mixed image generation. 500 images/day free.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "daily",
+        "features": [
+          "500 images/day",
+          "Mixed image editing",
+          "Standard quality",
+          "Public generations",
+          "Canvas editor"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$15/month",
+        "billingCycle": "monthly",
+        "features": [
+          "2000 images/day",
+          "No watermark",
+          "Higher quality",
+          "Private mode",
+          "DALL-E 3 access"
+        ]
+      }
+    ],
+    "category": "Image Generation",
+    "subCategory": "AI Art",
+    "language": [
+      "English"
+    ],
+    "tags": [
+      "image generation",
+      "canvas editing",
+      "mixed images",
+      "free",
+      "design",
+      "500 per day"
+    ],
+    "useCases": [
+      "Creating artwork from sketches",
+      "Mixed image generation",
+      "Social media content",
+      "Concept art",
+      "Design mockups"
+    ],
+    "integrations": [
+      "Web interface"
+    ],
+    "platform": [
+      "Web",
+      "iOS"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2022-01-01",
+    "lastUpdated": "2025-03-15",
+    "rating": 4.6,
+    "totalReviews": 3800,
+    "pros": [
+      "Very generous free tier (500/day)",
+      "Canvas-based mixed editing",
+      "No credit card required"
+    ],
+    "cons": [
+      "Free generations are public",
+      "Lower quality on free tier"
+    ],
+    "features": [
+      "Canvas-based image editing",
+      "Mixed image generation",
+      "Background removal",
+      "Image expansion (outpainting)",
+      "Multiple style presets"
+    ],
+    "fullDescription": "Playground AI is a free AI image generator offering an exceptionally generous free tier of 500 images daily. Its standout feature is the canvas-based editor that allows mixed image generation—combining AI-generated elements with uploaded images on an infinite canvas. Users can erase parts of images, expand beyond original boundaries, and blend multiple concepts seamlessly. The free tier makes it accessible for casual creators and professionals alike, while paid plans unlock private mode and higher quality. For designers and artists who need a flexible, free AI image tool, Playground AI is an excellent choice.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/32936506/pexels-photo-32936506.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A modern playground set against a sleek building in Kyoto, Japan. Bright and inviting."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/37125621/pexels-photo-37125621.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "An empty urban playground with colorful equipment under clear skies in spring."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/133458/pexels-photo-133458.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Vibrant playground equipment in an open park surrounded by grass and trees."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/34889832/pexels-photo-34889832.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Kids enjoying colorful slides and play structures in an outdoor park playground."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/31044166/pexels-photo-31044166.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A serene winter scene of a quiet playground covered in snow, featuring a vibrant blue swing set."
+      }
+    ],
+    "affiliateLink": "https://playgroundai.com/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Midjourney",
+        "slug": "midjourney"
+      },
+      {
+        "name": "Leonardo.ai",
+        "slug": "leonardo"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/playgroundai"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Playground AI free?",
+        "answer": "Yes, Playground AI offers 500 free images per day with their free tier."
+      }
+    ],
+    "seoTitle": "Playground AI: Free AI Image Creator with Canvas Editing – 500 Images/Day",
+    "seoDescription": "Create AI images with mixed editing on an infinite canvas. 500 free generations daily. No credit card required.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "scalenut",
+    "slug": "scalenut",
+    "name": "Scalenut",
+    "company": "Scalenut",
+    "logo": "https://cdn.brandfetch.io/scalenut.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://www.scalenut.com/",
+    "shortDescription": "AI SEO and content marketing platform for research, writing, and optimization.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": true,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Limited features",
+          "Basic research",
+          "Community support"
+        ]
+      },
+      {
+        "plan": "Essential",
+        "price": "$39/month",
+        "billingCycle": "monthly",
+        "features": [
+          "100,000 AI words",
+          "40+ AI templates",
+          "SEO documents",
+          "Cruise Mode"
+        ]
+      },
+      {
+        "plan": "Growth",
+        "price": "$79/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited AI words",
+          "Keyword clusters",
+          "Content optimization",
+          "Team collaboration"
+        ]
+      }
+    ],
+    "category": "SEO",
+    "subCategory": "Content Optimization",
+    "language": [
+      "English"
+    ],
+    "tags": [
+      "seo",
+      "content marketing",
+      "writing",
+      "keyword research",
+      "ai writing"
+    ],
+    "useCases": [
+      "SEO blog writing",
+      "Content strategy planning",
+      "Keyword research",
+      "Competitor analysis",
+      "Content optimization"
+    ],
+    "integrations": [
+      "WordPress",
+      "Copyscape",
+      "Semrush",
+      "Google Search Console"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": false,
+    "releaseDate": "2021-01-01",
+    "lastUpdated": "2025-03-15",
+    "rating": 4.5,
+    "totalReviews": 2100,
+    "pros": [
+      "All-in-one SEO platform",
+      "Cruise Mode for fast article creation",
+      "Strong keyword clustering"
+    ],
+    "cons": [
+      "Learning curve for beginners",
+      "Limited languages"
+    ],
+    "features": [
+      "AI-powered content research",
+      "Cruise Mode for 1500+ word articles",
+      "SEO score and optimization",
+      "Keyword clustering",
+      "Competitor content analysis",
+      "Content brief generation"
+    ],
+    "fullDescription": "Scalenut is an AI-powered SEO and content marketing platform that streamlines the entire content creation process from research to optimization. Its standout feature, Cruise Mode, generates comprehensive 1500+ word articles in minutes. The platform offers keyword clustering, competitor analysis, and real-time SEO scoring to ensure content ranks well. The free tier allows exploration of basic features, while paid plans unlock unlimited AI words and advanced SEO tools. For marketers and content teams focused on SEO performance, Scalenut offers a complete solution.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/34804018/pexels-photo-34804018.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of AI-assisted coding with menu options for debugging and problem-solving."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract representation of large language models and AI technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17483870/pexels-photo-17483870.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract illustration depicting complex digital neural networks and data flow."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069814/pexels-photo-18069814.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Modern abstract 3D render showcasing a complex geometric structure in cool hues."
+      }
+    ],
+    "affiliateLink": "https://www.scalenut.com/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "20% recurring",
+      "cookieDuration": "60 days"
+    },
+    "alternatives": [
+      {
+        "name": "SurferSEO",
+        "slug": "surferseo"
+      },
+      {
+        "name": "Clearscope",
+        "slug": "clearscope"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/scalenut"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Scalenut free?",
+        "answer": "Yes, Scalenut offers a free tier with basic features and limited usage for exploration."
+      }
+    ],
+    "seoTitle": "Scalenut: AI SEO & Content Marketing Platform – Research to Publish",
+    "seoDescription": "All-in-one SEO platform with AI content writing. Cruise Mode for fast articles, keyword clustering, and optimization. Free trial available.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "udio",
+    "slug": "udio",
+    "name": "Udio",
+    "company": "Udio",
+    "logo": "https://cdn.brandfetch.io/udio.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://www.udio.com/",
+    "shortDescription": "AI music generation platform that creates studio-quality songs with vocals in any style.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "600 credits/month",
+          "Standard quality",
+          "Non-commercial use",
+          "Community sharing"
+        ]
+      },
+      {
+        "plan": "Standard",
+        "price": "$10/month",
+        "billingCycle": "monthly",
+        "features": [
+          "2400 credits/month",
+          "Higher quality",
+          "Commercial use",
+          "Private mode"
+        ]
+      }
+    ],
+    "category": "Audio",
+    "subCategory": "Music Generation",
+    "language": [
+      "English",
+      "Multiple languages"
+    ],
+    "tags": [
+      "music",
+      "ai music",
+      "song generation",
+      "vocals",
+      "audio"
+    ],
+    "useCases": [
+      "Creating original music",
+      "Soundtrack for videos",
+      "Podcast intros",
+      "Musical experimentation",
+      "Content creation"
+    ],
+    "integrations": [
+      "Web interface"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": false,
+    "releaseDate": "2024-04-01",
+    "lastUpdated": "2025-03-20",
+    "rating": 4.6,
+    "totalReviews": 3200,
+    "pros": [
+      "Exceptional audio quality",
+      "Expressive vocals",
+      "Easy to use interface"
+    ],
+    "cons": [
+      "Shorter song limits on free tier",
+      "Newer platform than competitors"
+    ],
+    "features": [
+      "Full song generation with vocals",
+      "Multiple genres and moods",
+      "Custom lyrics support",
+      "Audio inpainting and editing",
+      "Stem separation",
+      "High-fidelity output"
+    ],
+    "fullDescription": "Udio is an AI music generation platform that creates stunning, emotionally expressive songs complete with vocals. Developed by former Google DeepMind researchers, Udio excels at capturing the nuances and expressiveness of human singing. Users can generate music in virtually any style—from classical to hip-hop, jazz to electronic. The free tier provides 600 monthly credits for experimentation, while paid plans unlock commercial usage and extended song lengths. For musicians, content creators, and anyone exploring AI-generated music, Udio offers a powerful creative tool.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/37005337/pexels-photo-37005337.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Bearded man shouting through a red megaphone with 'No to A.I' message."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract illustration of AI with silhouette head full of eyes, symbolizing observation and technolog"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/35280311/pexels-photo-35280311.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A white robotic arm operating indoors with a modern design and advanced technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069693/pexels-photo-18069693.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Futuristic abstract artwork showcasing AI concepts with digital text overlays."
+      }
+    ],
+    "affiliateLink": "https://www.udio.com/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Suno",
+        "slug": "suno"
+      },
+      {
+        "name": "AIVA",
+        "slug": "aiva"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/udio"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Udio free?",
+        "answer": "Yes, Udio offers 600 free credits monthly for non-commercial personal use."
+      }
+    ],
+    "seoTitle": "Udio: AI Music Generation – Studio-Quality Songs with Vocals",
+    "seoDescription": "Generate studio-quality songs with expressive vocals using AI. Multiple genres, custom lyrics, 600 free credits monthly.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "cody",
+    "slug": "cody",
+    "name": "Cody",
+    "company": "Sourcegraph",
+    "logo": "https://cdn.brandfetch.io/sourcegraph.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://sourcegraph.com/cody",
+    "shortDescription": "AI coding assistant that understands your entire codebase for intelligent code completion and answers.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited autocomplete",
+          "20 chat messages/month",
+          "VS Code & JetBrains",
+          "Community support"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$9/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited autocomplete",
+          "Unlimited chat",
+          "Code insights",
+          "Code intelligence"
+        ]
+      }
+    ],
+    "category": "Developer Tools",
+    "subCategory": "Code Assistant",
+    "language": [
+      "English",
+      "Code"
+    ],
+    "tags": [
+      "coding",
+      "developer tools",
+      "codebase understanding",
+      "ai assistant"
+    ],
+    "useCases": [
+      "Understanding large codebases",
+      "Code review and refactoring",
+      "Documentation generation",
+      "Answering questions about code",
+      "Code completion"
+    ],
+    "integrations": [
+      "VS Code",
+      "JetBrains",
+      "Neovim",
+      "Sourcegraph",
+      "GitHub",
+      "GitLab"
+    ],
+    "platform": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "apiAvailable": false,
+    "releaseDate": "2023-03-01",
+    "lastUpdated": "2025-03-22",
+    "rating": 4.6,
+    "totalReviews": 2100,
+    "pros": [
+      "Deep codebase understanding",
+      "Free tier available",
+      "Built on Sourcegraph technology"
+    ],
+    "cons": [
+      "Chat limits on free plan",
+      "Best for larger codebases"
+    ],
+    "features": [
+      "Codebase-wide search and understanding",
+      "Intelligent code completion",
+      "Natural language code queries",
+      "Code explanations and documentation",
+      "Integration with Sourcegraph"
+    ],
+    "fullDescription": "Cody by Sourcegraph is an AI coding assistant that leverages Sourcegraph's powerful code intelligence to understand your entire codebase. Unlike simpler autocomplete tools, Cody can answer complex questions about code architecture, find relevant files across large projects, and provide context-aware suggestions. The free tier includes unlimited autocomplete and 20 chat messages monthly. For enterprise teams, Cody offers SSO, audit logs, and private instance deployment. It's particularly powerful for organizations with large, complex codebases.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069490/pexels-photo-18069490.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract digital visualization of AI, featuring colorful 3D elements and modern design."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/8566449/pexels-photo-8566449.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A small modern robot placed on a wooden desk surrounded by office supplies, showcases innovative tec"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract representation of large language models and AI technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/8438880/pexels-photo-8438880.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "An articulated robotic arm competes in chess on a board against a dark background, highlighting AI a"
+      }
+    ],
+    "affiliateLink": "https://sourcegraph.com/cody",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "GitHub Copilot",
+        "slug": "copilot"
+      },
+      {
+        "name": "Cursor",
+        "slug": "cursor"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/sourcegraph"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US, EU",
+    "faq": [
+      {
+        "question": "Is Cody free?",
+        "answer": "Yes, Cody offers a free tier with unlimited autocomplete and 20 chat messages per month."
+      }
+    ],
+    "seoTitle": "Cody by Sourcegraph: AI Coding Assistant with Codebase Intelligence",
+    "seoDescription": "AI coding assistant that understands your entire codebase. Free tier with unlimited autocomplete. Built for professional developers.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "replicate",
+    "slug": "replicate",
+    "name": "Replicate",
+    "company": "Replicate",
+    "logo": "https://cdn.brandfetch.io/replicate.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://replicate.com/",
+    "shortDescription": "Run AI models in the cloud with one line of code. Access 25,000+ open-source models.",
+    "pricing": "Pay-as-you-go",
+    "pricingModel": "Usage",
+    "hasFreeTier": true,
+    "hasFreeTrial": true,
+    "pricingDetails": [
+      {
+        "plan": "Free Trial",
+        "price": "$5 credit",
+        "billingCycle": "one-time",
+        "features": [
+          "$5 free credit to start",
+          "Access to all models",
+          "API access",
+          "GPU infrastructure"
+        ]
+      },
+      {
+        "plan": "Pay-as-you-go",
+        "price": "Per second",
+        "billingCycle": "usage",
+        "features": [
+          "25,000+ models",
+          "Automatic scaling",
+          "No minimums",
+          "Pay only for compute time"
+        ]
+      }
+    ],
+    "category": "Developer Tools",
+    "subCategory": "AI Infrastructure",
+    "language": [
+      "Python",
+      "JavaScript",
+      "cURL",
+      "API"
+    ],
+    "tags": [
+      "api",
+      "machine learning",
+      "models",
+      "developer tools",
+      "infrastructure",
+      "open source"
+    ],
+    "useCases": [
+      "Running AI models at scale",
+      "Image generation APIs",
+      "Video processing",
+      "Audio synthesis",
+      "ML model deployment"
+    ],
+    "integrations": [
+      "API",
+      "Python SDK",
+      "JavaScript SDK",
+      "GitHub"
+    ],
+    "platform": [
+      "Cloud",
+      "API"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2019-01-01",
+    "lastUpdated": "2025-03-25",
+    "rating": 4.7,
+    "totalReviews": 3500,
+    "pros": [
+      "25,000+ open-source models",
+      "Simple API integration",
+      "No infrastructure management",
+      "$5 free credit"
+    ],
+    "cons": [
+      "Pay-per-use only",
+      "Can be expensive for high volume"
+    ],
+    "features": [
+      "One-line code deployment",
+      "25,000+ community models",
+      "Automatic GPU scaling",
+      "Model fine-tuning",
+      "Custom model hosting",
+      "Comprehensive API"
+    ],
+    "fullDescription": "Replicate is a cloud platform that makes it incredibly easy to run machine learning models with a single line of code. With access to over 25,000 open-source models covering image generation, video creation, audio synthesis, and more, developers can integrate AI capabilities without managing infrastructure. New users get $5 free credit to experiment. The pay-as-you-go pricing means you only pay for what you use. Popular use cases include building image generation apps, video processing pipelines, and custom AI features.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract representation of large language models and AI technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069695/pexels-photo-18069695.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A digital representation of how large language models function in AI technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069490/pexels-photo-18069490.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract digital visualization of AI, featuring colorful 3D elements and modern design."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069493/pexels-photo-18069493.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A colorful and vibrant abstract 3D render featuring intricate geometric shapes and structures."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069517/pexels-photo-18069517.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vibrant 3D render of geometric shapes scattered over a circuit-like background."
+      }
+    ],
+    "affiliateLink": "https://replicate.com/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Hugging Face",
+        "slug": "hugging-face"
+      },
+      {
+        "name": "Banana.dev",
+        "slug": "banana-dev"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/replicate",
+      "github": "https://github.com/replicate"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Replicate free?",
+        "answer": "Replicate offers $5 free credit for new users. After that, it's pay-as-you-go based on compute time."
+      }
+    ],
+    "seoTitle": "Replicate: Run AI Models in the Cloud with One Line of Code",
+    "seoDescription": "Access 25,000+ AI models via simple API. Image, video, audio generation without infrastructure. $5 free credit for new users.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "pi",
+    "slug": "pi",
+    "name": "Pi",
+    "company": "Inflection AI",
+    "logo": "https://cdn.brandfetch.io/inflection.ai/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://pi.ai/",
+    "shortDescription": "Personal AI assistant designed for supportive, friendly conversations and emotional intelligence. Completely free.",
+    "pricing": "Free",
+    "pricingModel": "Free",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited conversations",
+          "Voice calls",
+          "Memory across chats",
+          "Web search",
+          "Multilingual support",
+          "All platforms"
+        ]
+      }
+    ],
+    "category": "Chatbot",
+    "subCategory": "Personal AI",
+    "language": [
+      "English",
+      "Spanish",
+      "French",
+      "German",
+      "Portuguese",
+      "Italian"
+    ],
+    "tags": [
+      "chatbot",
+      "personal assistant",
+      "emotional intelligence",
+      "free",
+      "voice",
+      "companion"
+    ],
+    "useCases": [
+      "Daily conversations",
+      "Emotional support",
+      "Brainstorming ideas",
+      "Practicing languages",
+      "General advice",
+      "Friendly chatting"
+    ],
+    "integrations": [
+      "iOS app",
+      "Android app",
+      "WhatsApp",
+      "Facebook Messenger",
+      "Instagram",
+      "Web"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android",
+      "Desktop"
+    ],
+    "apiAvailable": false,
+    "releaseDate": "2023-05-01",
+    "lastUpdated": "2025-03-20",
+    "rating": 4.5,
+    "totalReviews": 8500,
+    "pros": [
+      "Completely free forever",
+      "Warm, supportive personality",
+      "Voice conversation capability",
+      "Cross-platform availability"
+    ],
+    "cons": [
+      "Not designed for complex tasks",
+      "No API access"
+    ],
+    "features": [
+      "Supportive, empathetic conversations",
+      "Voice call mode",
+      "Memory across conversations",
+      "Web search integration",
+      "Multilingual support",
+      "Available on multiple messaging platforms"
+    ],
+    "fullDescription": "Pi (Personal Intelligence) by Inflection AI is a conversational AI designed to be kind, supportive, and emotionally intelligent. Unlike task-focused assistants, Pi excels at friendly conversation, offering a judgment-free space to discuss ideas, practice languages, or simply chat. The voice mode enables natural spoken conversations. Available on web, mobile apps, and messaging platforms like WhatsApp and Messenger, Pi is always accessible. Completely free with no usage limits, Pi represents a new category of AI companions focused on emotional connection rather than productivity.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/19867470/pexels-photo-19867470.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden letter tiles scattered on a textured surface, spelling 'AI'."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18475682/pexels-photo-18475682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of vintage typewriter with 'AI ETHICS' typed on paper, emphasizing technology and responsib"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18510427/pexels-photo-18510427.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Retro typewriter with 'AI Ethics' on paper, conveying technology themes."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18498317/pexels-photo-18498317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vintage typewriter outdoors displaying \"AI ethics\" on paper, symbolizing tradition meets technolog"
+      }
+    ],
+    "affiliateLink": "https://pi.ai/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Character.ai",
+        "slug": "character-ai"
+      },
+      {
+        "name": "Replika",
+        "slug": "replika"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/InflectionAI"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Pi free?",
+        "answer": "Yes, Pi is completely free with unlimited conversations and voice calls. No subscription ever required."
+      }
+    ],
+    "seoTitle": "Pi: Personal AI Assistant – Supportive Conversations & Emotional Intelligence",
+    "seoDescription": "Your personal AI companion for supportive conversations. Voice mode, multilingual, completely free. Available on web and mobile.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "seaart",
+    "slug": "seaart",
+    "name": "SeaArt",
+    "company": "SeaArt",
+    "logo": "https://cdn.brandfetch.io/seaart.ai/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://www.seaart.ai/",
+    "shortDescription": "Free AI art generator with anime, realistic, and custom model support. 200 free generations daily.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "daily",
+        "features": [
+          "200 coins/day (~20 images)",
+          "3000+ custom models",
+          "Standard quality",
+          "Basic editing",
+          "Community gallery"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$9.99/month",
+        "billingCycle": "monthly",
+        "features": [
+          "6000 coins/month",
+          "All premium models",
+          "Advanced editing",
+          "Private mode",
+          "No watermark",
+          "ControlNet"
+        ]
+      }
+    ],
+    "category": "Image Generation",
+    "subCategory": "AI Art",
+    "language": [
+      "English",
+      "Chinese",
+      "Japanese",
+      "Korean"
+    ],
+    "tags": [
+      "image generation",
+      "anime",
+      "art",
+      "free",
+      "community",
+      "models",
+      "200 per day"
+    ],
+    "useCases": [
+      "Anime character creation",
+      "Concept art",
+      "Social media avatars",
+      "Wallpaper generation",
+      "Art exploration",
+      "Character design"
+    ],
+    "integrations": [
+      "Web interface",
+      "Discord",
+      "API"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2022-01-01",
+    "lastUpdated": "2025-03-15",
+    "rating": 4.6,
+    "totalReviews": 12000,
+    "pros": [
+      "Excellent anime generation",
+      "3000+ custom models",
+      "Generous free daily generations",
+      "ControlNet support"
+    ],
+    "cons": [
+      "Primarily focused on anime/art styles",
+      "Interface can be overwhelming"
+    ],
+    "features": [
+      "3000+ custom AI models",
+      "Anime and realistic styles",
+      "ControlNet support",
+      "Image-to-image editing",
+      "Batch generation",
+      "Community model sharing"
+    ],
+    "fullDescription": "SeaArt is a free AI art generation platform specializing in anime, realistic portraits, and custom character creation. With over 3,000 community-trained models, users can generate highly specific styles from photorealistic portraits to anime characters. The free tier provides 200 daily coins (approximately 20 images), making it accessible for casual creators. Advanced features include ControlNet for pose control, image-to-image editing, and batch generation. Popular among anime artists, game designers, and content creators looking for character art and illustrations.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18068768/pexels-photo-18068768.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract 3D render showcasing AI concepts with vibrant colors and textures."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18068747/pexels-photo-18068747.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vibrant and artistic representation of neural networks in an abstract 3D render, showcasing techno"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17484899/pexels-photo-17484899.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Vibrant abstract 3D render featuring colorful coral-like structures against a grid background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17485741/pexels-photo-17485741.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Intricate wireframe with dynamic ribbons in an abstract 3D composition."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17484970/pexels-photo-17484970.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Colorful abstract representation of digital biology using CGI techniques, showcasing dynamic neural "
+      }
+    ],
+    "affiliateLink": "https://www.seaart.ai/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Midjourney",
+        "slug": "midjourney"
+      },
+      {
+        "name": "Leonardo.ai",
+        "slug": "leonardo"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/SeaArtAI",
+      "discord": "https://discord.gg/seaart"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is SeaArt free?",
+        "answer": "Yes, SeaArt offers 200 free coins daily, allowing approximately 20 free image generations per day."
+      }
+    ],
+    "seoTitle": "SeaArt: Free AI Art Generator – Anime, Realistic & Custom Models",
+    "seoDescription": "Create stunning AI art with 3000+ custom models. Anime characters, realistic portraits, 200 free daily generations. No credit card required.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "you-com",
+    "slug": "you-com",
+    "name": "You.com",
+    "company": "You.com",
+    "logo": "https://cdn.brandfetch.io/you.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://you.com/",
+    "shortDescription": "AI search engine with privacy focus, smart agents, and personalized results. Free tier available.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "AI search",
+          "Smart agents",
+          "Basic personalization",
+          "Private mode",
+          "Unlimited searches"
+        ]
+      },
+      {
+        "plan": "YouPro",
+        "price": "$20/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited AI chats",
+          "GPT-4 access",
+          "Image generation",
+          "File uploads",
+          "Code interpreter"
+        ]
+      }
+    ],
+    "category": "Search",
+    "subCategory": "AI Search",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "search",
+      "privacy",
+      "ai assistant",
+      "research",
+      "chatbot",
+      "free search"
+    ],
+    "useCases": [
+      "Private web search",
+      "AI-powered research",
+      "Code generation and debugging",
+      "Creative writing assistance",
+      "Image generation"
+    ],
+    "integrations": [
+      "Chrome extension",
+      "iOS",
+      "Android",
+      "API"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2020-01-01",
+    "lastUpdated": "2025-03-18",
+    "rating": 4.5,
+    "totalReviews": 4200,
+    "pros": [
+      "Privacy-focused by default",
+      "Multiple AI models in one place",
+      "Generous free tier",
+      "No tracking"
+    ],
+    "cons": [
+      "Less known than competitors",
+      "UI can be overwhelming"
+    ],
+    "features": [
+      "AI-powered search with source citations",
+      "Smart agents for specific tasks",
+      "Image generation (Pro)",
+      "Code generation and debugging",
+      "Privacy mode with no tracking"
+    ],
+    "fullDescription": "You.com is a privacy-first AI search engine that gives users control over their search experience without tracking or selling data. It combines traditional search with AI assistants, allowing users to choose from multiple AI models including GPT-4. The platform offers Smart Agents for specialized tasks like coding, writing, and research. Unlike competitors, You.com prioritizes user privacy while delivering comprehensive, AI-enhanced answers. The free tier provides robust search and basic AI features, while YouPro unlocks unlimited AI chats and advanced capabilities.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Private AI search engine"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Privacy focused search"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Anonymous web search"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Multi-model AI answers"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "caption": "You.com search platform"
+      }
+    ],
+    "affiliateLink": "https://you.com/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Perplexity",
+        "slug": "perplexity"
+      },
+      {
+        "name": "Google Gemini",
+        "slug": "google-gemini"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/YouSearchEngine"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is You.com free?",
+        "answer": "Yes, You.com offers a free tier with AI search, smart agents, and unlimited searches. YouPro adds premium AI features."
+      }
+    ],
+    "seoTitle": "You.com: Privacy-First AI Search Engine with Smart Agents",
+    "seoDescription": "AI search engine that respects your privacy. Multiple AI models, smart agents, and personalized results. Free tier with unlimited searches.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "firefly-video",
+    "slug": "firefly-video",
+    "name": "Adobe Firefly Video",
+    "company": "Adobe",
+    "logo": "assets/images/logos/adobe-firefly.png",
+    "websiteUrl": "https://www.adobe.com/products/firefly.html",
+    "shortDescription": "AI-powered video generation and editing from text prompts and images by Adobe. Commercially safe.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "25 monthly generative credits",
+          "720p video generation",
+          "Basic features",
+          "Non-commercial use"
+        ]
+      },
+      {
+        "plan": "Premium",
+        "price": "$9.99/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Generative credits included",
+          "1080p video",
+          "Commercial use",
+          "Adobe Express integration"
+        ]
+      }
+    ],
+    "category": "Video",
+    "subCategory": "AI Video Generation",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "video generation",
+      "ai video",
+      "text-to-video",
+      "adobe",
+      "creative",
+      "commercially safe"
+    ],
+    "useCases": [
+      "Creating B-roll footage",
+      "Generating video backgrounds",
+      "Storyboarding",
+      "Social media video content",
+      "Creative video experiments"
+    ],
+    "integrations": [
+      "Adobe Premiere Pro",
+      "Adobe Express",
+      "Photoshop",
+      "After Effects"
+    ],
+    "platform": [
+      "Web",
+      "Adobe Creative Cloud"
+    ],
+    "apiAvailable": false,
+    "releaseDate": "2024-02-01",
+    "lastUpdated": "2025-03-20",
+    "rating": 4.5,
+    "totalReviews": 1500,
+    "pros": [
+      "Commercially safe content",
+      "Integration with Adobe suite",
+      "High-quality outputs",
+      "Trained on licensed content"
+    ],
+    "cons": [
+      "Limited free credits",
+      "Requires Creative Cloud for full features"
+    ],
+    "features": [
+      "Text-to-video generation",
+      "Image-to-video conversion",
+      "Video editing with AI",
+      "Generative extend",
+      "Adobe Express integration",
+      "Commercial usage rights"
+    ],
+    "fullDescription": "Adobe Firefly Video extends Adobe's generative AI capabilities to video creation, allowing users to generate video clips from text prompts and images. Built on Adobe's commercially safe AI model trained on licensed content, Firefly Video ensures creators can use outputs without copyright concerns. The free tier offers 25 monthly generative credits for experimentation, while Premium plans unlock higher resolutions and commercial usage rights. Seamless integration with Premiere Pro, After Effects, and Adobe Express makes it a natural choice for creative professionals already in the Adobe ecosystem.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/6135955/pexels-photo-6135955.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a MacBook Pro with Adobe Illustrator open on a desk, showcasing creative workspace essen"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/34804017/pexels-photo-34804017.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Detailed view of a computer screen displaying code with a menu of AI actions, illustrating modern so"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/29505140/pexels-photo-29505140.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a video editing software interface showing timeline and controls."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069517/pexels-photo-18069517.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vibrant 3D render of geometric shapes scattered over a circuit-like background."
+      }
+    ],
+    "affiliateLink": "https://www.adobe.com/products/firefly.html",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "85% first month",
+      "cookieDuration": "30 days"
+    },
+    "alternatives": [
+      {
+        "name": "Runway",
+        "slug": "runway"
+      },
+      {
+        "name": "Pika Labs",
+        "slug": "pika-labs"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/Adobe",
+      "instagram": "https://www.instagram.com/adobe"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US, EU",
+    "faq": [
+      {
+        "question": "Is Adobe Firefly Video free?",
+        "answer": "Yes, Firefly Video offers 25 free generative credits monthly for non-commercial use."
+      }
+    ],
+    "seoTitle": "Adobe Firefly Video: AI Video Generation from Text & Images",
+    "seoDescription": "Generate video clips from text and images with Adobe's AI. Commercially safe, high-quality outputs. Free tier with 25 credits monthly.",
+    "schemaType": "SoftwareApplication"
+  }
+]

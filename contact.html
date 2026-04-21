@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Neuralist | Get in Touch</title>
+    <meta name="description" content="Contact Neuralist for suggestions, broken link reports, or to list your AI tool. We'd love to hear from you.">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/footer-components.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="toolbar">
+        <a href="index.html" class="logo">
+            <span style="color: #1a1a1a;">Neuralist</span><span style="color: #0ea5e9;">.</span>
+        </a>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+        <div class="nav-actions">
+            <button class="btn-signup">Get Started</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="contact-hero">
+        <div class="contact-container">
+            <!-- Left Side - Text Content -->
+            <div class="contact-left">
+                <h1 class="contact-title">Contact</h1>
+                <p class="contact-subtitle">Contact us to report a problem, clarify any doubts about Our site, or just find out more.</p>
+            </div>
+
+            <!-- Right Side - Contact Form -->
+            <div class="contact-right">
+                <form id="contact-form" class="contact-form-box">
+                    <div class="form-row">
+                        <div class="form-field">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject" required>
+                            <option value="" disabled selected>Choose a subject...</option>
+                            <option value="general">General Inquiry</option>
+                            <option value="support">Support</option>
+                            <option value="listing">List My Tool</option>
+                            <option value="report">Report a Problem</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write a message" rows="5" required></textarea>
+                    </div>
+                    <div class="form-checkbox">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        <label for="terms">I accept <a href="terms-of-use.html">Terms & Conditions</a> and <a href="privacy-policy.html">Legal & Privacy</a></label>
+                    </div>
+                    <button type="submit" class="btn-send">Send message</button>
+                </form>
+
+                <div id="form-success" class="success-message">
+                    <i class="fas fa-check-circle"></i>
+                    <span>Thank you! Your message has been sent successfully. We'll be in touch soon.</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo">
+                        <span style="color: #ffffff;">Neuralist</span><span style="color: #0ea5e9;">.</span>
+                    </a>
+                    <p class="footer-tagline">Discover the best AI tools, all in one place.</p>
+                </div>
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html#tools">All Tools</a></li>
+                        <li><a href="index.html#categories">Categories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-of-use.html">Terms of Use</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2026 Neuralist. All rights reserved.</p>
+                <div class="footer-bottom-social">
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/shared-components.js"></script>
+</body>
+</html>

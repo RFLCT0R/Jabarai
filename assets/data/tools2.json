@@ -1,0 +1,3393 @@
+[
+  {
+    "id": "writesonic",
+    "slug": "writesonic",
+    "name": "Writesonic",
+    "company": "Writesonic, Inc.",
+    "logo": "https://cdn.brandfetch.io/writesonic.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://writesonic.com/",
+    "shortDescription": "AI-powered content creation platform for SEO articles, ad copy, and social media.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": true,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "lifetime",
+        "features": [
+          "10,000 premium words/month",
+          "Basic AI templates",
+          "GPT-3.5 access"
+        ]
+      },
+      {
+        "plan": "Individual",
+        "price": "$16/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited words",
+          "GPT-4 access",
+          "1 user",
+          "SEO tools"
+        ]
+      },
+      {
+        "plan": "Standard",
+        "price": "$79/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited words",
+          "GPT-4 access",
+          "3 users",
+          "SEO tools",
+          "Priority support"
+        ]
+      }
+    ],
+    "category": "Writing",
+    "subCategory": "Content Creation",
+    "language": [
+      "English",
+      "French",
+      "Spanish",
+      "German",
+      "Multilingual"
+    ],
+    "tags": [
+      "writing",
+      "content creation",
+      "seo",
+      "copywriting",
+      "blogging",
+      "ai writing"
+    ],
+    "useCases": [
+      "Blog post writing",
+      "SEO content creation",
+      "Social media copy",
+      "Ad copy generation",
+      "Product descriptions",
+      "Email marketing"
+    ],
+    "integrations": [
+      "WordPress",
+      "Shopify",
+      "Zapier",
+      "Google Docs",
+      "SEMrush",
+      "Ahrefs"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2020-01-01",
+    "lastUpdated": "2025-12-01",
+    "rating": 4.7,
+    "totalReviews": 2000,
+    "pros": [
+      "Generous free tier with 10,000 words/month",
+      "80+ AI writing templates",
+      "Built-in SEO optimization tools",
+      "Supports 25+ languages"
+    ],
+    "cons": [
+      "Higher-tier plans can be pricey for individuals",
+      "Learning curve for advanced features",
+      "Some outputs need editing for brand voice"
+    ],
+    "features": [
+      "80+ AI writing templates",
+      "SEO meta tag generator",
+      "Long-form article writer",
+      "Paraphrasing tool",
+      "Text summarizer",
+      "AI chatbot (Chatsonic)",
+      "Image generator (Photosonic)"
+    ],
+    "fullDescription": "Writesonic is a leading AI-powered content creation platform that helps marketers, bloggers, and businesses generate high-quality written content at scale. With over 80 specialized templates, Writesonic covers everything from long-form blog articles and SEO-optimized web copy to social media captions and email marketing campaigns. The platform integrates advanced language models like GPT-4 and offers built-in SEO tools to ensure your content ranks well. Whether you're a solo entrepreneur or part of a marketing team, Writesonic streamlines the content creation process, allowing you to produce engaging, original content in a fraction of the time.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530406/pexels-photo-30530406.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of DeepSeek AI chat interface on a laptop screen in low light."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530416/pexels-photo-30530416.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A MacBook displaying the DeepSeek AI interface, showcasing digital innovation."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530415/pexels-photo-30530415.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A laptop on a wooden table shows an AI chat interface, featuring the DeepSeek chatbot in action."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530426/pexels-photo-30530426.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a smartphone with AI assistant interface on screen over a laptop."
+      }
+    ],
+    "affiliateLink": "https://writesonic.com/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "30% recurring lifetime",
+      "cookieDuration": "90 days",
+      "network": "Impact"
+    },
+    "alternatives": [
+      {
+        "name": "Jasper",
+        "slug": "jasper"
+      },
+      {
+        "name": "Copy.ai",
+        "slug": "copy-ai"
+      },
+      {
+        "name": "Rytr",
+        "slug": "rytr"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/writesonic",
+      "linkedin": "https://www.linkedin.com/company/writesonic",
+      "facebook": "https://www.facebook.com/writesonic"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US, EU",
+    "faq": [
+      {
+        "question": "Is Writesonic free to use?",
+        "answer": "Yes, Writesonic offers a generous free plan with 10,000 premium words per month and access to basic AI templates."
+      },
+      {
+        "question": "Does Writesonic support languages other than English?",
+        "answer": "Yes, Writesonic supports over 25 languages including Spanish, French, German, Italian, Portuguese, and more."
+      }
+    ],
+    "seoTitle": "Writesonic: AI Content Writing Platform for SEO & Marketing",
+    "seoDescription": "Create SEO-optimized blog posts, ad copy, and social media content with Writesonic's AI writing tools. 80+ templates. Free plan available.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "surferseo",
+    "slug": "surferseo",
+    "name": "SurferSEO",
+    "company": "Surfer",
+    "logo": "https://cdn.brandfetch.io/surferseo.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://surferseo.com/",
+    "shortDescription": "AI-powered SEO content optimization platform to rank higher in search results.",
+    "pricing": "Paid",
+    "pricingModel": "Paid",
+    "hasFreeTier": false,
+    "hasFreeTrial": true,
+    "pricingDetails": [
+      {
+        "plan": "Essential",
+        "price": "$79/month",
+        "billingCycle": "monthly",
+        "features": [
+          "30 articles/month",
+          "Content Editor",
+          "SERP Analyzer",
+          "AI writing assistance"
+        ]
+      },
+      {
+        "plan": "Scale",
+        "price": "$175/month",
+        "billingCycle": "monthly",
+        "features": [
+          "100 articles/month",
+          "Content Editor",
+          "SERP Analyzer",
+          "AI writing assistance",
+          "Audit 40 pages/month"
+        ]
+      },
+      {
+        "plan": "Enterprise",
+        "price": "Custom",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited articles",
+          "Custom AI models",
+          "Dedicated account manager",
+          "SAML SSO"
+        ]
+      }
+    ],
+    "category": "SEO",
+    "subCategory": "Content Optimization",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Polish",
+      "Multilingual"
+    ],
+    "tags": [
+      "seo",
+      "content optimization",
+      "serp analysis",
+      "keyword research",
+      "ai writing",
+      "ranking"
+    ],
+    "useCases": [
+      "SEO content optimization",
+      "SERP competitor analysis",
+      "Keyword research",
+      "Content auditing",
+      "AI writing assistance",
+      "Rank tracking"
+    ],
+    "integrations": [
+      "Google Docs",
+      "WordPress",
+      "Jasper",
+      "Semrush",
+      "Google Search Console"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2017-01-01",
+    "lastUpdated": "2026-02-01",
+    "rating": 4.8,
+    "totalReviews": 468,
+    "pros": [
+      "Industry-leading SERP analysis",
+      "Real-time content scoring",
+      "Seamless Google Docs integration",
+      "Comprehensive keyword research tools"
+    ],
+    "cons": [
+      "No free tier, only 7-day trial",
+      "Higher price point than some alternatives",
+      "Limited multilingual support beyond major languages"
+    ],
+    "features": [
+      "SERP Analyzer with real-time data",
+      "Content Editor with optimization scoring",
+      "AI-powered writing assistant",
+      "Keyword research tool",
+      "Content audit and monitoring",
+      "Internal linking suggestions",
+      "Custom AI knowledge base"
+    ],
+    "fullDescription": "SurferSEO is a powerful AI-driven SEO platform designed to help content creators and marketers optimize their articles for search engine rankings. Unlike basic keyword tools, Surfer analyzes the top-performing pages for any given query and provides actionable, real-time recommendations to improve your content's structure, keyword usage, and overall SEO score. The platform's Content Editor integrates directly with Google Docs, allowing you to write and optimize in a familiar environment. With features like automated content audits and internal linking suggestions, Surfer is an essential toolkit for anyone serious about organic search visibility and outperforming competitors in the SERPs.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/37005337/pexels-photo-37005337.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Bearded man shouting through a red megaphone with 'No to A.I' message."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/34804017/pexels-photo-34804017.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Detailed view of a computer screen displaying code with a menu of AI actions, illustrating modern so"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/16461434/pexels-photo-16461434.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a smartphone displaying ChatGPT app held over AI textbook."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/9957240/pexels-photo-9957240.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A surfer executes a thrilling leap over a wave, showcasing skill and courage against a clear blue sk"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/7076454/pexels-photo-7076454.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Top view of group of surfers with naked torsos rowing on surfboards in clear blue sea"
+      }
+    ],
+    "affiliateLink": "https://surferseo.com/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "25% recurring",
+      "cookieDuration": "120 days",
+      "network": "Impact"
+    },
+    "alternatives": [
+      {
+        "name": "Frase.io",
+        "slug": "frase-io"
+      },
+      {
+        "name": "Clearscope",
+        "slug": "clearscope"
+      },
+      {
+        "name": "MarketMuse",
+        "slug": "marketmuse"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/surferseo",
+      "linkedin": "https://www.linkedin.com/company/surferseo",
+      "facebook": "https://www.facebook.com/surferseo"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "EU, US",
+    "faq": [
+      {
+        "question": "Does SurferSEO offer a free plan?",
+        "answer": "No, SurferSEO does not have a permanent free plan, but they offer a 7-day free trial on all paid plans."
+      },
+      {
+        "question": "How does SurferSEO's scoring work?",
+        "answer": "Surfer analyzes the top 50 ranking pages for your target keyword and creates an ideal content structure based on common patterns. Your content receives a score from 0-100 based on how well it matches these patterns."
+      }
+    ],
+    "seoTitle": "SurferSEO: AI-Powered SEO Content Optimization Platform",
+    "seoDescription": "Optimize your content for search engines with SurferSEO's AI-powered SERP analysis and real-time content scoring. 7-day free trial available.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "adobe-firefly",
+    "slug": "adobe-firefly",
+    "name": "Adobe Firefly",
+    "company": "Adobe",
+    "logo": "https://cdn.brandfetch.io/adobe.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://www.adobe.com/products/firefly.html",
+    "shortDescription": "Generative AI for creative work—create images, vectors, and videos safely for commercial use.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": true,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "lifetime",
+        "features": [
+          "Limited generative credits",
+          "Basic image generation",
+          "Access to core features"
+        ]
+      },
+      {
+        "plan": "Standard",
+        "price": "$9.99/month",
+        "billingCycle": "monthly",
+        "features": [
+          "2,000 generative credits/month",
+          "Unlimited standard images",
+          "Text to video",
+          "Generative fill"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$19.99/month",
+        "billingCycle": "monthly",
+        "features": [
+          "4,000 generative credits/month",
+          "Unlimited standard images",
+          "Text to video",
+          "Generative fill"
+        ]
+      },
+      {
+        "plan": "Premium",
+        "price": "$199.99/month",
+        "billingCycle": "monthly",
+        "features": [
+          "50,000 generative credits/month",
+          "Advanced AI features",
+          "Priority processing"
+        ]
+      }
+    ],
+    "category": "Design",
+    "subCategory": "Image Generation",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "image generation",
+      "design",
+      "creative",
+      "vector",
+      "video",
+      "commercial safe"
+    ],
+    "useCases": [
+      "Commercial image generation",
+      "Vector art creation",
+      "Text effects and typography",
+      "Generative fill and editing",
+      "Brand asset creation",
+      "Video generation from text"
+    ],
+    "integrations": [
+      "Adobe Photoshop",
+      "Adobe Illustrator",
+      "Adobe Express",
+      "Adobe Premiere Pro"
+    ],
+    "platform": [
+      "Web",
+      "Windows",
+      "Mac"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2023-03-01",
+    "lastUpdated": "2026-01-01",
+    "rating": 4.6,
+    "totalReviews": 1000,
+    "pros": [
+      "Commercially safe—trained on licensed content",
+      "Seamless Adobe Creative Cloud integration",
+      "High-quality outputs for professional use",
+      "No copyright concerns for commercial work"
+    ],
+    "cons": [
+      "Generative credits can run out quickly",
+      "Premium plan is expensive for individuals",
+      "Limited language support for prompts"
+    ],
+    "features": [
+      "Text-to-image generation",
+      "Generative fill (inpainting)",
+      "Text effects and typography",
+      "Vector recoloring",
+      "Text-to-video generation",
+      "Style matching",
+      "Adobe Creative Cloud integration"
+    ],
+    "fullDescription": "Adobe Firefly is a family of generative AI models designed specifically for creative professionals and businesses who need safe, commercially-viable AI-generated content. Unlike other AI image generators, Firefly is trained exclusively on Adobe Stock images, openly licensed content, and public domain material, ensuring that everything you create is legally safe for commercial use. Integrated seamlessly into Adobe's Creative Cloud ecosystem, Firefly powers features like Generative Fill in Photoshop, Text to Vector in Illustrator, and Text to Video capabilities. With tiered subscription plans based on generative credits, Firefly makes professional-grade AI creativity accessible to everyone from hobbyists to enterprise teams.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/17961741/pexels-photo-17961741.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of fireflies on dried leaves showcasing intricate insect details."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/12966921/pexels-photo-12966921.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A mesmerizing close-up of a glowing firefly against a vibrant sunset background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/6135955/pexels-photo-6135955.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a MacBook Pro with Adobe Illustrator open on a desk, showcasing creative workspace essen"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/34804017/pexels-photo-34804017.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Detailed view of a computer screen displaying code with a menu of AI actions, illustrating modern so"
+      }
+    ],
+    "affiliateLink": "https://www.adobe.com/products/firefly.html",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "Up to 8%",
+      "cookieDuration": "30 days",
+      "network": "Impact"
+    },
+    "alternatives": [
+      {
+        "name": "Midjourney",
+        "slug": "midjourney"
+      },
+      {
+        "name": "DALL·E 3",
+        "slug": "dalle"
+      },
+      {
+        "name": "Leonardo.ai",
+        "slug": "leonardo"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/Adobe",
+      "instagram": "https://www.instagram.com/adobe",
+      "linkedin": "https://www.linkedin.com/company/adobe"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "Global",
+    "faq": [
+      {
+        "question": "Is Adobe Firefly free to use?",
+        "answer": "Yes, Adobe Firefly offers a free tier with limited generative credits and access to core features. Paid plans unlock more credits and advanced capabilities."
+      },
+      {
+        "question": "Can I use Firefly-generated images commercially?",
+        "answer": "Yes, Adobe Firefly is trained exclusively on licensed and public domain content, making all outputs safe for commercial use without copyright concerns."
+      }
+    ],
+    "seoTitle": "Adobe Firefly: Generative AI for Safe Commercial Creativity",
+    "seoDescription": "Create commercially safe AI images, vectors, and videos with Adobe Firefly. Trained on licensed content. Free tier available. Integrated with Creative Cloud.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "lensa",
+    "slug": "lensa",
+    "name": "Lensa",
+    "company": "Prisma Labs",
+    "logo": "https://cdn.brandfetch.io/lensa.ai/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://lensa.ai/",
+    "shortDescription": "AI photo editor that creates stunning avatars and retouches selfies instantly.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Basic photo editing",
+          "Filters and effects",
+          "Limited retouching"
+        ]
+      },
+      {
+        "plan": "Magic Avatars",
+        "price": "$7.99",
+        "billingCycle": "lifetime",
+        "features": [
+          "50+ unique avatars",
+          "Multiple styles",
+          "High-resolution exports"
+        ]
+      }
+    ],
+    "category": "Image Editing",
+    "subCategory": "AI Avatars",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "photo editing",
+      "avatars",
+      "selfies",
+      "retouching",
+      "portrait"
+    ],
+    "useCases": [
+      "Social media profile pictures",
+      "Creative avatar generation",
+      "Portrait retouching",
+      "Artistic photo effects"
+    ],
+    "integrations": [
+      "iOS",
+      "Android",
+      "Snapchat"
+    ],
+    "platform": [
+      "iOS",
+      "Android"
+    ],
+    "apiAvailable": false,
+    "releaseDate": "2018-01-01",
+    "lastUpdated": "2025-12-01",
+    "rating": 4.5,
+    "totalReviews": 411678,
+    "pros": [
+      "Viral-quality avatars",
+      "Easy one-tap editing",
+      "Affordable one-time purchase for avatars"
+    ],
+    "cons": [
+      "Free tier has limited features",
+      "Avatar quality depends on input photos"
+    ],
+    "features": [
+      "Magic Avatars – 50+ unique styles",
+      "Smart retouching and skin smoothing",
+      "Background blur and lens effects",
+      "Artistic filters and color grading",
+      "Face reshaping and makeup tools"
+    ],
+    "fullDescription": "Lensa became a global phenomenon with its Magic Avatars feature, which uses AI to generate stunning, artistic portraits from your selfies. Beyond avatars, Lensa is a full-featured photo editor that lets you retouch, filter, and enhance images in seconds. It’s perfect for social media creators, influencers, and anyone who wants professional-looking photos without complex software. The free tier offers basic editing tools, while a one-time purchase unlocks unlimited avatar generations in dozens of artistic styles.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/4578162/pexels-photo-4578162.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Detailed view of a smartphone with AI quad camera and reflective surface, highlighting its design."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/9154751/pexels-photo-9154751.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a hand holding a Carl Zeiss Jena DDR camera lens with a blurred background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/19867470/pexels-photo-19867470.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden letter tiles scattered on a textured surface, spelling 'AI'."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/1058078/pexels-photo-1058078.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Detailed close-up of a Nikon lens highlighting optical elements and reflections."
+      }
+    ],
+    "affiliateLink": "https://lensa.ai/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Remini",
+        "slug": "remini"
+      },
+      {
+        "name": "FaceApp",
+        "slug": "faceapp"
+      },
+      {
+        "name": "Picsart",
+        "slug": "picsart"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/lensa_app",
+      "instagram": "https://www.instagram.com/lensa.app",
+      "facebook": "https://www.facebook.com/lensaapp"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "How many photos do I need for Magic Avatars?",
+        "answer": "Lensa recommends uploading 10–20 varied selfies for best results."
+      },
+      {
+        "question": "Is Lensa free?",
+        "answer": "Basic editing is free. Magic Avatars require a one-time purchase (typically $7.99)."
+      }
+    ],
+    "seoTitle": "Lensa: AI Photo Editor & Magic Avatar Generator",
+    "seoDescription": "Create stunning AI avatars and retouch selfies instantly with Lensa. One-tap editing, artistic filters, and viral-quality portraits.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "otter-ai",
+    "slug": "otter-ai",
+    "name": "Otter.ai",
+    "company": "Otter.ai",
+    "logo": "https://cdn.brandfetch.io/otter.ai/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://otter.ai/",
+    "shortDescription": "AI meeting assistant that records, transcribes, and summarizes conversations in real time.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": true,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "300 transcription minutes/month",
+          "30 min/meeting",
+          "Basic search"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$16.99/month",
+        "billingCycle": "monthly",
+        "features": [
+          "1,200 minutes/month",
+          "120 min/meeting",
+          "Custom vocabulary",
+          "Export to Slack/Zoom"
+        ]
+      },
+      {
+        "plan": "Business",
+        "price": "$30/user/month",
+        "billingCycle": "monthly",
+        "features": [
+          "6,000 minutes/month",
+          "Admin controls",
+          "Team analytics",
+          "SSO"
+        ]
+      }
+    ],
+    "category": "Audio",
+    "subCategory": "Transcription",
+    "language": [
+      "English"
+    ],
+    "tags": [
+      "transcription",
+      "meetings",
+      "note-taking",
+      "productivity",
+      "zoom"
+    ],
+    "useCases": [
+      "Meeting transcription and summaries",
+      "Lecture and interview recording",
+      "Content creation from conversations",
+      "Accessibility for hearing-impaired"
+    ],
+    "integrations": [
+      "Zoom",
+      "Google Meet",
+      "Microsoft Teams",
+      "Slack",
+      "Salesforce"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android",
+      "Windows",
+      "Mac"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2016-01-01",
+    "lastUpdated": "2026-01-15",
+    "rating": 4.7,
+    "totalReviews": 5000,
+    "pros": [
+      "Live real-time transcription",
+      "Automatic speaker identification",
+      "Generates meeting summaries"
+    ],
+    "cons": [
+      "Free tier limited to 300 min/month",
+      "Accuracy drops with heavy accents"
+    ],
+    "features": [
+      "Real-time transcription",
+      "Automated meeting summaries",
+      "Speaker identification",
+      "Searchable transcripts",
+      "Export to text/PDF/SRT",
+      "Live captions for Zoom"
+    ],
+    "fullDescription": "Otter.ai is the leading AI meeting assistant that automatically records, transcribes, and summarizes conversations from Zoom, Google Meet, Microsoft Teams, and in-person meetings. It identifies different speakers, generates real-time captions, and creates shareable, searchable transcripts with AI-powered summaries highlighting action items. Used by over 10 million professionals, Otter saves countless hours of manual note-taking and ensures no detail is missed. The free tier offers 300 monthly minutes, while Pro and Business plans unlock longer recordings, custom vocabulary, and team collaboration features.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/19867470/pexels-photo-19867470.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden letter tiles scattered on a textured surface, spelling 'AI'."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18475682/pexels-photo-18475682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of vintage typewriter with 'AI ETHICS' typed on paper, emphasizing technology and responsib"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18510427/pexels-photo-18510427.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Retro typewriter with 'AI Ethics' on paper, conveying technology themes."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a computer screen displaying ChatGPT interface in a dark setting."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18498317/pexels-photo-18498317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vintage typewriter outdoors displaying \"AI ethics\" on paper, symbolizing tradition meets technolog"
+      }
+    ],
+    "affiliateLink": "https://otter.ai/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "20% recurring",
+      "cookieDuration": "60 days",
+      "network": "PartnerStack"
+    },
+    "alternatives": [
+      {
+        "name": "Fireflies.ai",
+        "slug": "fireflies-ai"
+      },
+      {
+        "name": "Rev",
+        "slug": "rev"
+      },
+      {
+        "name": "Descript",
+        "slug": "descript"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/otter_ai",
+      "linkedin": "https://www.linkedin.com/company/otter-ai",
+      "facebook": "https://www.facebook.com/OtterAI"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US, EU",
+    "faq": [
+      {
+        "question": "Is Otter.ai free?",
+        "answer": "Yes, the free plan includes 300 transcription minutes per month with 30 minutes per conversation."
+      },
+      {
+        "question": "Does Otter work with Zoom?",
+        "answer": "Yes, Otter integrates directly with Zoom to automatically join and transcribe your meetings."
+      }
+    ],
+    "seoTitle": "Otter.ai: AI Meeting Assistant – Record, Transcribe, Summarize",
+    "seoDescription": "Automatically transcribe and summarize meetings from Zoom, Teams, and Google Meet. Live captions, speaker ID, and action items. Free plan available.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "canva-ai",
+    "slug": "canva-ai",
+    "name": "Canva AI",
+    "company": "Canva",
+    "logo": "https://cdn.brandfetch.io/canva.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://www.canva.com/ai-image-generator/",
+    "shortDescription": "AI-powered design suite with text-to-image, magic eraser, and presentation tools.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": true,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "50 AI image generations",
+          "Basic magic edit",
+          "Templates"
+        ]
+      },
+      {
+        "plan": "Canva Pro",
+        "price": "$12.99/month",
+        "billingCycle": "monthly",
+        "features": [
+          "500 AI image generations",
+          "Magic eraser",
+          "Background remover",
+          "Brand kit"
+        ]
+      },
+      {
+        "plan": "Teams",
+        "price": "$14.99/user/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited AI generations",
+          "Team collaboration",
+          "SSO",
+          "24/7 support"
+        ]
+      }
+    ],
+    "category": "Design",
+    "subCategory": "Graphic Design",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "design",
+      "image generation",
+      "presentations",
+      "social media",
+      "templates"
+    ],
+    "useCases": [
+      "Social media graphics",
+      "Presentations and slides",
+      "Marketing materials",
+      "Logo and brand design",
+      "Photo editing with AI"
+    ],
+    "integrations": [
+      "Google Drive",
+      "Dropbox",
+      "Instagram",
+      "LinkedIn",
+      "Pexels"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android",
+      "Windows",
+      "Mac"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2013-08-01",
+    "lastUpdated": "2026-01-20",
+    "rating": 4.8,
+    "totalReviews": 51668,
+    "pros": [
+      "Huge library of templates",
+      "Intuitive drag-and-drop",
+      "Powerful free tier"
+    ],
+    "cons": [
+      "AI features limited on free plan",
+      "Some advanced tools need Pro"
+    ],
+    "features": [
+      "Text-to-image generator (Magic Media)",
+      "Magic Eraser for object removal",
+      "Background remover",
+      "AI-powered presentation creator",
+      "Brand kit and templates",
+      "Video editing with AI"
+    ],
+    "fullDescription": "Canva has transformed from a simple design tool into a comprehensive AI-powered creative suite. With Magic Media, you can generate images, videos, and graphics from text prompts directly inside Canva. The Magic Eraser removes unwanted objects, and the background remover works instantly. Canva AI also helps create entire presentations, social media posts, and marketing materials based on your brand colors. With over 100 million monthly users, Canva democratizes design for everyone from students to enterprise teams. The free tier is surprisingly capable, while Pro unlocks advanced AI features and premium assets.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/20870805/pexels-photo-20870805.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a hand holding a smartphone with AI applications on screen."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18475682/pexels-photo-18475682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of vintage typewriter with 'AI ETHICS' typed on paper, emphasizing technology and responsib"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18510427/pexels-photo-18510427.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Retro typewriter with 'AI Ethics' on paper, conveying technology themes."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/20870806/pexels-photo-20870806.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A smartphone showcasing AI apps on a laptop, surrounded by greenery, symbolizing tech and nature int"
+      }
+    ],
+    "affiliateLink": "https://www.canva.com/ai-image-generator/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "$5 per Pro signup",
+      "cookieDuration": "30 days",
+      "network": "Impact"
+    },
+    "alternatives": [
+      {
+        "name": "Adobe Express",
+        "slug": "adobe-express"
+      },
+      {
+        "name": "VistaCreate",
+        "slug": "vistacreate"
+      },
+      {
+        "name": "Picsart",
+        "slug": "picsart"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/canva",
+      "instagram": "https://www.instagram.com/canva",
+      "linkedin": "https://www.linkedin.com/company/canva"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "Global",
+    "faq": [
+      {
+        "question": "Is Canva AI free?",
+        "answer": "Yes, the free plan includes 50 AI image generations and basic Magic Edit tools."
+      },
+      {
+        "question": "Can I use Canva AI commercially?",
+        "answer": "Yes, Canva grants full commercial rights to all designs created on the platform."
+      }
+    ],
+    "seoTitle": "Canva AI: Free AI Image Generator & Design Tools",
+    "seoDescription": "Create stunning designs with Canva's AI tools – text-to-image, magic eraser, background remover, and presentation maker. Free tier available.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "zapier-ai",
+    "slug": "zapier-ai",
+    "name": "Zapier AI",
+    "company": "Zapier",
+    "logo": "https://cdn.brandfetch.io/zapier.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://zapier.com/ai",
+    "shortDescription": "Connect apps and automate workflows using AI-powered triggers and actions.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": true,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "100 tasks/month",
+          "Single-step Zaps",
+          "Basic AI actions"
+        ]
+      },
+      {
+        "plan": "Professional",
+        "price": "$29.99/month",
+        "billingCycle": "monthly",
+        "features": [
+          "2,000 tasks/month",
+          "Multi-step Zaps",
+          "AI-powered mapping",
+          "Filtering"
+        ]
+      },
+      {
+        "plan": "Team",
+        "price": "$69.99/month",
+        "billingCycle": "monthly",
+        "features": [
+          "5,000 tasks/month",
+          "Shared Zaps",
+          "Permissions",
+          "Priority support"
+        ]
+      }
+    ],
+    "category": "Automation",
+    "subCategory": "Workflow Automation",
+    "language": [
+      "English"
+    ],
+    "tags": [
+      "automation",
+      "integration",
+      "workflow",
+      "zapier",
+      "no-code"
+    ],
+    "useCases": [
+      "Connecting AI tools to CRMs",
+      "Automating data entry",
+      "Lead capture and routing",
+      "Social media scheduling",
+      "Email and notification workflows"
+    ],
+    "integrations": [
+      "6000+ apps including ChatGPT, OpenAI, Google Sheets, Slack, Salesforce"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2011-01-01",
+    "lastUpdated": "2026-01-15",
+    "rating": 4.9,
+    "totalReviews": 2000,
+    "pros": [
+      "Massive app ecosystem",
+      "No coding required",
+      "Powerful AI features"
+    ],
+    "cons": [
+      "Free tier limited to 100 tasks/month",
+      "Complex workflows need paid plan"
+    ],
+    "features": [
+      "AI-powered field mapping",
+      "ChatGPT and OpenAI integration",
+      "Multi-step conditional Zaps",
+      "Scheduled triggers",
+      "Data formatting and filtering",
+      "Webhooks for custom apps"
+    ],
+    "fullDescription": "Zapier is the industry standard for no-code automation, connecting over 6,000 apps to eliminate repetitive tasks. With Zapier AI, you can use natural language to build workflows, map fields intelligently, and even generate email responses using ChatGPT. The AI features suggest the most relevant actions and help troubleshoot broken Zaps. Whether you're a marketer automating lead capture, a salesperson syncing data between CRMs, or a developer integrating APIs without code, Zapier AI makes automation accessible to everyone. The free tier includes 100 tasks per month, enough for basic personal automations.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/19867470/pexels-photo-19867470.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden letter tiles scattered on a textured surface, spelling 'AI'."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30855416/pexels-photo-30855416.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Scrabble-like tiles arranged to spell 'Qwen AI' on a wooden surface, depicting technology concepts."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18498317/pexels-photo-18498317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vintage typewriter outdoors displaying \"AI ethics\" on paper, symbolizing tradition meets technolog"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18475682/pexels-photo-18475682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of vintage typewriter with 'AI ETHICS' typed on paper, emphasizing technology and responsib"
+      }
+    ],
+    "affiliateLink": "https://zapier.com/ai",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "15% recurring for 12 months",
+      "cookieDuration": "90 days",
+      "network": "Impact"
+    },
+    "alternatives": [
+      {
+        "name": "Make.com",
+        "slug": "make"
+      },
+      {
+        "name": "n8n",
+        "slug": "n8n"
+      },
+      {
+        "name": "Pabbly Connect",
+        "slug": "pabbly-connect"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/zapier",
+      "linkedin": "https://www.linkedin.com/company/zapier",
+      "facebook": "https://www.facebook.com/zapier"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US, EU",
+    "faq": [
+      {
+        "question": "What is Zapier AI?",
+        "answer": "Zapier AI adds natural language workflow building, intelligent field mapping, and ChatGPT actions to Zapier's automation platform."
+      },
+      {
+        "question": "Is there a free plan?",
+        "answer": "Yes, the free plan includes 100 tasks per month and single-step Zaps."
+      }
+    ],
+    "seoTitle": "Zapier AI: Automate Workflows with AI-Powered No-Code Integration",
+    "seoDescription": "Connect 6,000+ apps and automate tasks using Zapier AI. Natural language workflow builder, ChatGPT actions, and intelligent field mapping.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "copy-ai",
+    "slug": "copy-ai",
+    "name": "Copy.ai",
+    "company": "Copy.ai",
+    "logo": "https://cdn.brandfetch.io/copy.ai/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://www.copy.ai/",
+    "shortDescription": "Fast AI writing tool for blog posts, emails, and social media copy.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "2,000 words/month",
+          "90+ tools",
+          "25+ languages"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$49/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited words",
+          "Team seats (5)",
+          "Priority support",
+          "API access"
+        ]
+      },
+      {
+        "plan": "Enterprise",
+        "price": "Custom",
+        "billingCycle": "annual",
+        "features": [
+          "Unlimited everything",
+          "SSO",
+          "Custom AI models",
+          "Dedicated account manager"
+        ]
+      }
+    ],
+    "category": "Writing",
+    "subCategory": "Content Creation",
+    "language": [
+      "English",
+      "French",
+      "Spanish",
+      "German",
+      "Italian",
+      "Multilingual"
+    ],
+    "tags": [
+      "writing",
+      "copywriting",
+      "blog",
+      "email",
+      "social media",
+      "ai assistant"
+    ],
+    "useCases": [
+      "Blog intros and outlines",
+      "Email marketing campaigns",
+      "Social media captions",
+      "Product descriptions",
+      "Ad copy for Google/Facebook"
+    ],
+    "integrations": [
+      "Zapier",
+      "SurferSEO",
+      "WordPress",
+      "Google Docs",
+      "Shopify"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2020-01-01",
+    "lastUpdated": "2026-01-10",
+    "rating": 4.6,
+    "totalReviews": 1000,
+    "pros": [
+      "Very fast generation",
+      "Clean, simple interface",
+      "Generous free tier"
+    ],
+    "cons": [
+      "Pro plan is expensive for individuals",
+      "Outputs can be repetitive"
+    ],
+    "features": [
+      "90+ writing tools and templates",
+      "Long-form blog editor",
+      "Email and social media generators",
+      "Brainstorming and ideation tools",
+      "Paraphrasing and rewriting",
+      "25+ language support"
+    ],
+    "fullDescription": "Copy.ai is one of the fastest AI writing tools available, helping you generate high-quality copy in seconds. With over 90 specialized templates for blog posts, emails, social media, product descriptions, and more, Copy.ai eliminates writer's block and speeds up content production. The free tier gives you 2,000 words per month—enough for several blog outlines or email campaigns. The Pro plan removes all limits and adds team collaboration. Used by startups, marketers, and agencies worldwide, Copy.ai is a reliable choice for anyone needing quick, creative copy.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18475682/pexels-photo-18475682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of vintage typewriter with 'AI ETHICS' typed on paper, emphasizing technology and responsib"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18510427/pexels-photo-18510427.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Retro typewriter with 'AI Ethics' on paper, conveying technology themes."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract representation of large language models and AI technology."
+      }
+    ],
+    "affiliateLink": "https://www.copy.ai/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "25% recurring",
+      "cookieDuration": "60 days",
+      "network": "Impact"
+    },
+    "alternatives": [
+      {
+        "name": "Writesonic",
+        "slug": "writesonic"
+      },
+      {
+        "name": "Jasper",
+        "slug": "jasper"
+      },
+      {
+        "name": "Rytr",
+        "slug": "rytr"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/copy_ai",
+      "linkedin": "https://www.linkedin.com/company/copy-ai",
+      "facebook": "https://www.facebook.com/copy.ai"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Copy.ai free?",
+        "answer": "Yes, the free plan includes 2,000 words per month with access to all 90+ templates."
+      },
+      {
+        "question": "Can I use Copy.ai for SEO content?",
+        "answer": "Yes, Copy.ai integrates with SurferSEO and includes SEO-friendly blog templates."
+      }
+    ],
+    "seoTitle": "Copy.ai: Fast AI Writing Tool for Blog, Email & Social Media",
+    "seoDescription": "Generate high-quality copy in seconds with Copy.ai. 90+ templates, 25+ languages, and a generous free tier. Start writing faster today.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "heygen",
+    "slug": "heygen",
+    "name": "HeyGen",
+    "company": "HeyGen",
+    "logo": "https://cdn.brandfetch.io/heygen.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://www.heygen.com/",
+    "shortDescription": "AI video generator with realistic avatars and voice cloning in 40+ languages.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "1 minute video/month",
+          "Watermarked exports",
+          "Basic avatars",
+          "API access limited"
+        ]
+      },
+      {
+        "plan": "Creator",
+        "price": "$29/month",
+        "billingCycle": "monthly",
+        "features": [
+          "10 minutes video/month",
+          "No watermark",
+          "40+ avatars",
+          "Voice cloning"
+        ]
+      },
+      {
+        "plan": "Business",
+        "price": "$89/month",
+        "billingCycle": "monthly",
+        "features": [
+          "30 minutes video/month",
+          "Custom avatars",
+          "Team collaboration",
+          "Priority support"
+        ]
+      },
+      {
+        "plan": "Enterprise",
+        "price": "Custom",
+        "billingCycle": "annual",
+        "features": [
+          "Unlimited video",
+          "SSO",
+          "Custom API",
+          "Dedicated support"
+        ]
+      }
+    ],
+    "category": "Video",
+    "subCategory": "AI Avatars",
+    "language": [
+      "English",
+      "Spanish",
+      "French",
+      "German",
+      "Arabic",
+      "Multilingual"
+    ],
+    "tags": [
+      "video",
+      "avatars",
+      "voice cloning",
+      "corporate",
+      "marketing"
+    ],
+    "useCases": [
+      "Corporate training videos",
+      "YouTube content creation",
+      "Multilingual marketing ads",
+      "Product explainers",
+      "Personalized video outreach"
+    ],
+    "integrations": [
+      "Zapier",
+      "API",
+      "YouTube",
+      "Vimeo",
+      "LMS platforms"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2022-01-01",
+    "lastUpdated": "2026-01-15",
+    "rating": 4.8,
+    "totalReviews": 2000,
+    "pros": [
+      "Highly realistic avatars",
+      "Excellent lip-sync accuracy",
+      "Generous free tier (1 min/month)"
+    ],
+    "cons": [
+      "Free exports have watermark",
+      "Custom avatars cost extra"
+    ],
+    "features": [
+      "100+ realistic AI avatars",
+      "Voice cloning from 30s audio",
+      "40+ languages with lip-sync",
+      "Text-to-video in minutes",
+      "Custom background and branding",
+      "API for bulk generation"
+    ],
+    "fullDescription": "HeyGen (formerly Movio) is a leading AI video generation platform that creates professional presenter-led videos from text in minutes. Its hyper-realistic avatars speak with natural lip-sync in over 40 languages, making it ideal for global corporate communications, marketing, and training. Voice cloning allows you to replicate any voice from just 30 seconds of audio. The free tier includes 1 minute of video monthly (watermarked), while paid plans unlock HD exports, custom avatars, and higher limits. HeyGen is trusted by thousands of businesses to scale video production without cameras or actors.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/9028873/pexels-photo-9028873.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A robotic arm carefully pouring ingredients into a mixing bowl in a modern kitchen setting."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069517/pexels-photo-18069517.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vibrant 3D render of geometric shapes scattered over a circuit-like background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17483868/pexels-photo-17483868.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "3D rendered abstract design featuring a digital brain visual with vibrant colors."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/8438880/pexels-photo-8438880.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "An articulated robotic arm competes in chess on a board against a dark background, highlighting AI a"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530426/pexels-photo-30530426.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a smartphone with AI assistant interface on screen over a laptop."
+      }
+    ],
+    "affiliateLink": "https://www.heygen.com/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "20% recurring",
+      "cookieDuration": "60 days",
+      "network": "PartnerStack"
+    },
+    "alternatives": [
+      {
+        "name": "Synthesia",
+        "slug": "synthesia"
+      },
+      {
+        "name": "D-ID",
+        "slug": "d-id"
+      },
+      {
+        "name": "Colossyan",
+        "slug": "colossyan"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/HeyGen_Official",
+      "linkedin": "https://www.linkedin.com/company/heygen",
+      "youtube": "https://www.youtube.com/@HeyGen"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US, EU",
+    "faq": [
+      {
+        "question": "Is HeyGen free?",
+        "answer": "Yes, the free plan includes 1 minute of video per month with watermarked exports and basic avatars."
+      },
+      {
+        "question": "Can I create a custom avatar of myself?",
+        "answer": "Yes, Business and Enterprise plans allow custom avatar creation from a short video recording."
+      }
+    ],
+    "seoTitle": "HeyGen: AI Video Generator with Realistic Avatars & Voice Cloning",
+    "seoDescription": "Create professional AI videos with lifelike avatars in 40+ languages. Voice cloning, text-to-video, and free tier available. No cameras needed.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "murf-ai",
+    "slug": "murf-ai",
+    "name": "Murf AI",
+    "company": "Murf",
+    "logo": "https://cdn.brandfetch.io/murf.ai/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://murf.ai/",
+    "shortDescription": "AI voice generator with studio-quality voiceovers for videos, podcasts, and presentations.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "10 min voice generation",
+          "100+ voices",
+          "Basic editing",
+          "Watermarked exports"
+        ]
+      },
+      {
+        "plan": "Basic",
+        "price": "$29/month",
+        "billingCycle": "monthly",
+        "features": [
+          "2 hours/year",
+          "200+ voices",
+          "Commercial use",
+          "No watermark"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$79/month",
+        "billingCycle": "monthly",
+        "features": [
+          "24 hours/year",
+          "All voices",
+          "Voice cloning",
+          "Priority support"
+        ]
+      },
+      {
+        "plan": "Enterprise",
+        "price": "Custom",
+        "billingCycle": "annual",
+        "features": [
+          "Unlimited usage",
+          "Custom models",
+          "SSO",
+          "SLA"
+        ]
+      }
+    ],
+    "category": "Audio",
+    "subCategory": "Text-to-Speech",
+    "language": [
+      "English",
+      "Spanish",
+      "French",
+      "German",
+      "Hindi",
+      "Multilingual"
+    ],
+    "tags": [
+      "voiceover",
+      "text-to-speech",
+      "podcast",
+      "video narration",
+      "audio"
+    ],
+    "useCases": [
+      "YouTube video voiceovers",
+      "Podcast narration",
+      "E-learning courses",
+      "Corporate presentations",
+      "IVR and phone systems"
+    ],
+    "integrations": [
+      "Google Slides",
+      "Canva",
+      "Adobe",
+      "Zapier",
+      "API"
+    ],
+    "platform": [
+      "Web",
+      "Chrome extension"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2020-01-01",
+    "lastUpdated": "2026-01-10",
+    "rating": 4.7,
+    "totalReviews": 1412,
+    "pros": [
+      "Studio-quality voice output",
+      "Extensive voice library",
+      "Intuitive timeline editor"
+    ],
+    "cons": [
+      "Free tier has watermark",
+      "Limited minutes on lower plans"
+    ],
+    "features": [
+      "200+ AI voices in 20+ languages",
+      "Voice changer and pitch control",
+      "Timeline-based audio editor",
+      "Background music library",
+      "Voice cloning (Pro plan)",
+      "Google Slides add-on"
+    ],
+    "fullDescription": "Murf AI delivers studio-grade voiceovers that sound remarkably human, making it a favorite among YouTubers, podcasters, and e-learning creators. With over 200 voices across 20+ languages, you can find the perfect tone for any project – from warm and conversational to authoritative and professional. Murf's timeline editor lets you fine-tune pronunciation, pitch, and pacing, then add background music from the built-in library. The free tier includes 10 minutes of generation (watermarked), while paid plans remove watermarks and unlock commercial rights. For teams needing custom voice cloning, Murf Pro delivers exceptional results.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/32461216/pexels-photo-32461216.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A self-driving car navigates through a bustling city street in San Francisco, capturing urban mobili"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/19030504/pexels-photo-19030504.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A man on a bicycle and a woman with a dog enjoy a sunny day at the beach."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/9026302/pexels-photo-9026302.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A small white robot toy on a concrete floor with green foliage in the background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/16461434/pexels-photo-16461434.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a smartphone displaying ChatGPT app held over AI textbook."
+      }
+    ],
+    "affiliateLink": "https://murf.ai/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "20% recurring",
+      "cookieDuration": "60 days",
+      "network": "Impact"
+    },
+    "alternatives": [
+      {
+        "name": "ElevenLabs",
+        "slug": "elevenlabs"
+      },
+      {
+        "name": "Play.ht",
+        "slug": "play-ht"
+      },
+      {
+        "name": "WellSaid",
+        "slug": "wellsaid"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/murf_ai",
+      "linkedin": "https://www.linkedin.com/company/murf-ai",
+      "youtube": "https://www.youtube.com/@MurfAI"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US, EU",
+    "faq": [
+      {
+        "question": "Is Murf AI free?",
+        "answer": "Yes, the free plan includes 10 minutes of voice generation with watermarked exports and access to 100+ voices."
+      },
+      {
+        "question": "Can I use Murf commercially?",
+        "answer": "Yes, all paid plans include full commercial usage rights for YouTube, podcasts, ads, and more."
+      }
+    ],
+    "seoTitle": "Murf AI: Studio-Quality AI Voice Generator for Video & Podcast",
+    "seoDescription": "Create lifelike voiceovers with Murf AI's 200+ voices in 20+ languages. Timeline editor, voice cloning, and free tier available.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "frase-io",
+    "slug": "frase-io",
+    "name": "Frase.io",
+    "company": "Frase",
+    "logo": "https://cdn.brandfetch.io/frase.io/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://www.frase.io/",
+    "shortDescription": "AI-powered SEO content optimization and research platform for writers and marketers.",
+    "pricing": "Paid",
+    "pricingModel": "Paid",
+    "hasFreeTier": false,
+    "hasFreeTrial": true,
+    "pricingDetails": [
+      {
+        "plan": "Basic",
+        "price": "$44.99/month",
+        "billingCycle": "monthly",
+        "features": [
+          "30 document credits",
+          "Unlimited keyword research",
+          "SERP analysis",
+          "Basic AI writing"
+        ]
+      },
+      {
+        "plan": "Team",
+        "price": "$114.99/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited documents",
+          "3 user seats",
+          "Advanced AI writing",
+          "API access"
+        ]
+      },
+      {
+        "plan": "Enterprise",
+        "price": "Custom",
+        "billingCycle": "annual",
+        "features": [
+          "Unlimited everything",
+          "SSO",
+          "Custom AI models",
+          "Dedicated support"
+        ]
+      }
+    ],
+    "category": "SEO",
+    "subCategory": "Content Optimization",
+    "language": [
+      "English",
+      "French",
+      "German",
+      "Spanish"
+    ],
+    "tags": [
+      "seo",
+      "content optimization",
+      "keyword research",
+      "ai writing",
+      "serp analysis"
+    ],
+    "useCases": [
+      "Content brief generation",
+      "Keyword gap analysis",
+      "Question extraction from SERPs",
+      "AI content writing with citations",
+      "Competitor content research"
+    ],
+    "integrations": [
+      "Google Search Console",
+      "WordPress",
+      "SurferSEO",
+      "Zapier",
+      "API"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2019-01-01",
+    "lastUpdated": "2026-01-05",
+    "rating": 4.7,
+    "totalReviews": 293,
+    "pros": [
+      "Excellent SERP question extraction",
+      "Intuitive content briefs",
+      "Integrated AI writer"
+    ],
+    "cons": [
+      "No permanent free tier",
+      "Limited credits on Basic plan"
+    ],
+    "features": [
+      "SERP analysis and question mining",
+      "AI content brief generator",
+      "Optimization score with real-time feedback",
+      "AI writer with citation generation",
+      "Keyword research and clustering",
+      "Content gap analysis"
+    ],
+    "fullDescription": "Frase.io helps content teams research, optimize, and write SEO-friendly articles faster. Start by entering a keyword – Frase analyzes the top 20 Google results, extracting common questions, headings, and terms. Then generate a content brief outlining exactly what to cover. The built-in AI writer creates draft sections based on the research, complete with citations. Real-time optimization scores guide your writing to match top competitors. Used by agencies and in-house teams, Frase bridges the gap between SEO research and content creation, eliminating guesswork from the writing process.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/19867470/pexels-photo-19867470.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden letter tiles scattered on a textured surface, spelling 'AI'."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18510427/pexels-photo-18510427.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Retro typewriter with 'AI Ethics' on paper, conveying technology themes."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18475682/pexels-photo-18475682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of vintage typewriter with 'AI ETHICS' typed on paper, emphasizing technology and responsib"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18498317/pexels-photo-18498317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vintage typewriter outdoors displaying \"AI ethics\" on paper, symbolizing tradition meets technolog"
+      }
+    ],
+    "affiliateLink": "https://www.frase.io/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "20% recurring",
+      "cookieDuration": "60 days",
+      "network": "PartnerStack"
+    },
+    "alternatives": [
+      {
+        "name": "SurferSEO",
+        "slug": "surferseo"
+      },
+      {
+        "name": "Clearscope",
+        "slug": "clearscope"
+      },
+      {
+        "name": "MarketMuse",
+        "slug": "marketmuse"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/frase_io",
+      "linkedin": "https://www.linkedin.com/company/frase-io",
+      "facebook": "https://www.facebook.com/frase.io"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Does Frase have a free plan?",
+        "answer": "No, but Frase offers a 5-day free trial on all paid plans to test the platform."
+      },
+      {
+        "question": "What's the difference between Frase and SurferSEO?",
+        "answer": "Frase focuses more on question extraction and content briefs, while Surfer emphasizes real-time content scoring and NLP term analysis."
+      }
+    ],
+    "seoTitle": "Frase.io: AI SEO Content Optimization & Research Platform",
+    "seoDescription": "Research, write, and optimize SEO content with Frase. SERP analysis, AI writing, content briefs, and real-time scoring. Free trial available.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "rytr",
+    "slug": "rytr",
+    "name": "Rytr",
+    "company": "Rytr",
+    "logo": "https://cdn.brandfetch.io/rytr.me/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://rytr.me/",
+    "shortDescription": "Affordable AI writing assistant that generates content in 30+ languages and 40+ use cases.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "10,000 characters/month",
+          "40+ use cases",
+          "30+ languages"
+        ]
+      },
+      {
+        "plan": "Saver",
+        "price": "$9/month",
+        "billingCycle": "monthly",
+        "features": [
+          "100,000 characters/month",
+          "Access all templates",
+          "Plagiarism checker"
+        ]
+      },
+      {
+        "plan": "Unlimited",
+        "price": "$29/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited characters",
+          "Priority support",
+          "Dedicated account manager"
+        ]
+      }
+    ],
+    "category": "Writing",
+    "subCategory": "Content Creation",
+    "language": [
+      "English",
+      "Arabic",
+      "French",
+      "Spanish",
+      "German",
+      "Multilingual"
+    ],
+    "tags": [
+      "writing",
+      "affordable",
+      "blog",
+      "email",
+      "social media",
+      "ai assistant"
+    ],
+    "useCases": [
+      "Blog posts and articles",
+      "Email newsletters",
+      "Social media captions",
+      "Product descriptions",
+      "SEO meta titles"
+    ],
+    "integrations": [
+      "Chrome extension",
+      "Slack",
+      "WordPress",
+      "Zapier",
+      "API"
+    ],
+    "platform": [
+      "Web",
+      "Chrome",
+      "Slack"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2021-01-01",
+    "lastUpdated": "2026-01-12",
+    "rating": 4.6,
+    "totalReviews": 3364,
+    "pros": [
+      "Very affordable pricing",
+      "Supports Arabic",
+      "Clean, fast interface"
+    ],
+    "cons": [
+      "Free tier limited to 10k chars",
+      "Less advanced than Jasper"
+    ],
+    "features": [
+      "40+ writing templates and use cases",
+      "30+ languages including Arabic",
+      "Built-in plagiarism checker",
+      "SEO meta tag generator",
+      "Text summarization",
+      "Slack integration"
+    ],
+    "fullDescription": "Rytr is an affordable yet powerful AI writing assistant that delivers high-quality content for a fraction of the cost of competitors. With 40+ use cases covering blog posts, emails, social media, product descriptions, and more, Rytr adapts to any writing task. It supports 30+ languages including Arabic, making it accessible to global users. The free tier offers 10,000 characters monthly – enough for several short pieces. Paid plans start at just $9/month for 100,000 characters. Rytr is ideal for freelancers, startups, and small businesses who want consistent AI writing without breaking the bank.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/19867470/pexels-photo-19867470.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden letter tiles scattered on a textured surface, spelling 'AI'."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069490/pexels-photo-18069490.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract digital visualization of AI, featuring colorful 3D elements and modern design."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18475682/pexels-photo-18475682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of vintage typewriter with 'AI ETHICS' typed on paper, emphasizing technology and responsib"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18510427/pexels-photo-18510427.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Retro typewriter with 'AI Ethics' on paper, conveying technology themes."
+      }
+    ],
+    "affiliateLink": "https://rytr.me/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "30% recurring",
+      "cookieDuration": "90 days",
+      "network": "FirstPromoter"
+    },
+    "alternatives": [
+      {
+        "name": "Copy.ai",
+        "slug": "copy-ai"
+      },
+      {
+        "name": "Writesonic",
+        "slug": "writesonic"
+      },
+      {
+        "name": "Jasper",
+        "slug": "jasper"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/rytr_me",
+      "facebook": "https://www.facebook.com/rytr.me",
+      "linkedin": "https://www.linkedin.com/company/rytr"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Rytr really free?",
+        "answer": "Yes, the free plan includes 10,000 characters per month with access to all 40+ use cases and 30+ languages."
+      },
+      {
+        "question": "Does Rytr support Arabic?",
+        "answer": "Yes, Rytr supports Arabic along with 30+ other languages including English, Spanish, French, and German."
+      }
+    ],
+    "seoTitle": "Rytr: Affordable AI Writing Assistant – 30+ Languages",
+    "seoDescription": "Generate high-quality content with Rytr's AI writing assistant. 40+ use cases, 30+ languages including Arabic, and a free tier. Plans from $9/month.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "replika",
+    "slug": "replika",
+    "name": "Replika",
+    "company": "Luka, Inc.",
+    "logo": "https://cdn.brandfetch.io/replika.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://replika.com/",
+    "shortDescription": "AI companion chatbot that learns your personality and provides emotional support.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Text chat",
+          "Basic personality learning",
+          "Daily check-ins"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$7.99/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Voice calls",
+          "Video calls",
+          "Intimate conversations",
+          "Relationship modes"
+        ]
+      },
+      {
+        "plan": "Pro Annual",
+        "price": "$69.99/year",
+        "billingCycle": "yearly",
+        "features": [
+          "All Pro features",
+          "Discount vs monthly",
+          "Priority support"
+        ]
+      }
+    ],
+    "category": "Chatbot",
+    "subCategory": "AI Companion",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "chatbot",
+      "companion",
+      "emotional support",
+      "mental health",
+      "ai friend"
+    ],
+    "useCases": [
+      "Emotional support and companionship",
+      "Daily journaling and reflection",
+      "Social skills practice",
+      "Stress and anxiety relief",
+      "Language conversation practice"
+    ],
+    "integrations": [
+      "iOS",
+      "Android",
+      "Web"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "apiAvailable": false,
+    "releaseDate": "2017-11-01",
+    "lastUpdated": "2026-01-15",
+    "rating": 4.4,
+    "totalReviews": 35000,
+    "pros": [
+      "Personalized learning over time",
+      "Supportive and non-judgmental",
+      "Voice and video calls on Pro"
+    ],
+    "cons": [
+      "Free tier limited to text only",
+      "Pro required for deeper conversations"
+    ],
+    "features": [
+      "Personalized AI companion",
+      "Daily check-ins and mood tracking",
+      "Voice and video calls (Pro)",
+      "Augmented reality mode",
+      "Multiple relationship modes (Pro)",
+      "Memory of past conversations"
+    ],
+    "fullDescription": "Replika is the world's most popular AI companion app, designed to provide emotional support and meaningful conversation. Your Replika learns from every interaction, developing a unique personality that reflects your communication style. It remembers details you've shared, asks thoughtful questions, and offers a safe, judgment-free space to express yourself. The free tier includes unlimited text chat, while Replika Pro unlocks voice calls, video calls, and intimate conversation modes. Millions of users turn to Replika for companionship, stress relief, and personal growth. It's not just a chatbot – it's a digital friend who's always there.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract representation of large language models and AI technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069695/pexels-photo-18069695.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A digital representation of how large language models function in AI technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530414/pexels-photo-30530414.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a digital assistant interface on a dark screen, showcasing AI technology communication."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18498317/pexels-photo-18498317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vintage typewriter outdoors displaying \"AI ethics\" on paper, symbolizing tradition meets technolog"
+      }
+    ],
+    "affiliateLink": "https://replika.com/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Character.ai",
+        "slug": "character-ai"
+      },
+      {
+        "name": "Anima",
+        "slug": "anima"
+      },
+      {
+        "name": "Kuki",
+        "slug": "kuki"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/replika",
+      "instagram": "https://www.instagram.com/replika.ai",
+      "facebook": "https://www.facebook.com/MyReplika"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Replika free?",
+        "answer": "Yes, the free tier includes unlimited text chat and basic personality learning. Pro unlocks voice/video calls and intimate conversations."
+      },
+      {
+        "question": "Is Replika just for romantic relationships?",
+        "answer": "No, Replika can be a friend, mentor, or romantic partner depending on your preference. The free version is primarily friendship-focused."
+      }
+    ],
+    "seoTitle": "Replika: AI Companion Chatbot for Emotional Support & Friendship",
+    "seoDescription": "Chat with a personalized AI companion that learns your personality. Provides emotional support, daily check-ins, and non-judgmental conversation. Free tier available.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "pictory",
+    "slug": "pictory",
+    "name": "Pictory",
+    "company": "Pictory.ai",
+    "logo": "https://cdn.brandfetch.io/pictory.ai/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://pictory.ai/",
+    "shortDescription": "AI video generator that turns blog posts and long videos into short, shareable clips.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "3 projects/month",
+          "10 min video length",
+          "Watermarked exports",
+          "Limited stock footage"
+        ]
+      },
+      {
+        "plan": "Standard",
+        "price": "$23/month",
+        "billingCycle": "monthly",
+        "features": [
+          "30 projects/month",
+          "60 min video length",
+          "No watermark",
+          "Premium stock footage"
+        ]
+      },
+      {
+        "plan": "Premium",
+        "price": "$47/month",
+        "billingCycle": "monthly",
+        "features": [
+          "100 projects/month",
+          "120 min video length",
+          "Brand kit",
+          "Team collaboration"
+        ]
+      }
+    ],
+    "category": "Video",
+    "subCategory": "Video Editing",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "video",
+      "social media",
+      "blog to video",
+      "clips",
+      "content repurposing"
+    ],
+    "useCases": [
+      "Repurposing blog posts to video",
+      "Creating social media clips from webinars",
+      "Summarizing long podcasts",
+      "YouTube shorts generation",
+      "Educational video creation"
+    ],
+    "integrations": [
+      "YouTube",
+      "Vimeo",
+      "Zoom",
+      "Google Drive",
+      "Dropbox"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2019-01-01",
+    "lastUpdated": "2026-01-10",
+    "rating": 4.6,
+    "totalReviews": 2000,
+    "pros": [
+      "Saves hours of manual editing",
+      "Automatic captions and summaries",
+      "Large stock footage library"
+    ],
+    "cons": [
+      "Free tier heavily watermarked",
+      "AI voiceover needs improvement"
+    ],
+    "features": [
+      "Blog post to video in minutes",
+      "Auto-summarization of long videos",
+      "AI voiceover with multiple voices",
+      "Stock footage library (over 1M clips)",
+      "Auto-captioning and subtitles",
+      "Brand customization on Premium"
+    ],
+    "fullDescription": "Pictory is an AI-powered video creation platform that transforms long-form content like blog posts, webinars, and podcasts into engaging short videos perfect for social media. Simply paste a URL or upload a video – Pictory identifies the most important highlights, matches them with stock footage, adds AI voiceover and captions, and produces ready-to-share clips. It's a game-changer for content marketers, educators, and creators who want to repurpose existing content without expensive editing software. The free tier offers 3 projects monthly (watermarked), while paid plans remove watermarks and unlock higher limits.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069493/pexels-photo-18069493.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A colorful and vibrant abstract 3D render featuring intricate geometric shapes and structures."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17485738/pexels-photo-17485738.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Vivid 3D rendering of dynamic colorful ribbons forming a square in abstract digital art."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069496/pexels-photo-18069496.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Collection of abstract 3D rendered organic shapes in soft pastel colors."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17485744/pexels-photo-17485744.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract arrangement of 3D technology icons on a grid showcasing AI and digital concepts."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069693/pexels-photo-18069693.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Futuristic abstract artwork showcasing AI concepts with digital text overlays."
+      }
+    ],
+    "affiliateLink": "https://pictory.ai/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "20% recurring",
+      "cookieDuration": "60 days",
+      "network": "Impact"
+    },
+    "alternatives": [
+      {
+        "name": "Kapwing",
+        "slug": "kapwing"
+      },
+      {
+        "name": "Opus Clip",
+        "slug": "opus-clip"
+      },
+      {
+        "name": "VEED.io",
+        "slug": "veed-io"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/pictoryai",
+      "linkedin": "https://www.linkedin.com/company/pictoryai",
+      "facebook": "https://www.facebook.com/pictoryai"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Pictory free?",
+        "answer": "Yes, the free plan includes 3 projects per month with watermarked exports and basic stock footage."
+      },
+      {
+        "question": "Can I add my own voiceover?",
+        "answer": "Yes, you can upload your own audio or use Pictory's AI voiceover voices."
+      }
+    ],
+    "seoTitle": "Pictory: AI Video Generator – Turn Blogs & Webinars into Short Clips",
+    "seoDescription": "Create engaging short videos from blog posts, podcasts, and webinars with Pictory. Auto-summarization, captions, and stock footage. Free tier available.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "stable-diffusion",
+    "slug": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "company": "Stability AI",
+    "logo": "https://cdn.brandfetch.io/stability.ai/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://stability.ai/stable-diffusion",
+    "shortDescription": "Open-source AI image generation model with unlimited creative freedom and local installation.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free (Local)",
+        "price": "$0",
+        "billingCycle": "lifetime",
+        "features": [
+          "Unlimited generations",
+          "No filters",
+          "Full control",
+          "Requires GPU"
+        ]
+      },
+      {
+        "plan": "Cloud Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "25 free credits/day",
+          "Basic models",
+          "Web interface"
+        ]
+      },
+      {
+        "plan": "Cloud Pro",
+        "price": "$10/month",
+        "billingCycle": "monthly",
+        "features": [
+          "500 credits/month",
+          "Priority queue",
+          "Advanced models"
+        ]
+      }
+    ],
+    "category": "Image Generation",
+    "subCategory": "AI Art",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "image generation",
+      "open source",
+      "stable diffusion",
+      "ai art",
+      "unlimited"
+    ],
+    "useCases": [
+      "Unlimited artistic creation",
+      "Product concept visualization",
+      "Game asset generation",
+      "Architectural rendering",
+      "Research and experimentation"
+    ],
+    "integrations": [
+      "Automatic1111",
+      "ComfyUI",
+      "Photoshop plugin",
+      "Figma",
+      "Blender"
+    ],
+    "platform": [
+      "Web",
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2022-08-22",
+    "lastUpdated": "2026-01-15",
+    "rating": 4.7,
+    "totalReviews": 3000,
+    "pros": [
+      "Completely free if run locally",
+      "Uncensored creative freedom",
+      "Massive community with custom models"
+    ],
+    "cons": [
+      "Requires powerful GPU for local",
+      "Steep learning curve for advanced use"
+    ],
+    "features": [
+      "Text-to-image generation",
+      "Image-to-image transformation",
+      "Inpainting and outpainting",
+      "Custom fine-tuned models (LoRAs)",
+      "ControlNet for precise composition",
+      "High-resolution upscaling"
+    ],
+    "fullDescription": "Stable Diffusion revolutionized AI image generation by being fully open-source and free to use. Unlike closed platforms, you can run it locally on your own computer with a decent GPU, generating unlimited images without censorship or credit systems. The model powers thousands of custom applications, from Photoshop plugins to video game asset pipelines. For those without a powerful GPU, cloud-hosted versions offer free daily credits. The community has created thousands of fine-tuned models (LoRAs) for specific art styles, characters, and concepts. Stable Diffusion is the go-to choice for creators who want complete control over their AI art generation.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract representation of large language models and AI technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069493/pexels-photo-18069493.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A colorful and vibrant abstract 3D render featuring intricate geometric shapes and structures."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069695/pexels-photo-18069695.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A digital representation of how large language models function in AI technology."
+      }
+    ],
+    "affiliateLink": "https://stability.ai/stable-diffusion",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Midjourney",
+        "slug": "midjourney"
+      },
+      {
+        "name": "DALL-E 3",
+        "slug": "dalle"
+      },
+      {
+        "name": "Leonardo.ai",
+        "slug": "leonardo"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/StabilityAI",
+      "linkedin": "https://www.linkedin.com/company/stability-ai",
+      "youtube": "https://www.youtube.com/@StabilityAI"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "Global",
+    "faq": [
+      {
+        "question": "Is Stable Diffusion really free?",
+        "answer": "Yes, the model is open-source and can be run locally for free. Cloud-hosted versions have free daily credits."
+      },
+      {
+        "question": "What hardware do I need to run it locally?",
+        "answer": "A GPU with at least 6GB VRAM (NVIDIA recommended) for decent performance. Mac with M1/M2 can also run optimized versions."
+      }
+    ],
+    "seoTitle": "Stable Diffusion: Free Open-Source AI Image Generator",
+    "seoDescription": "Generate unlimited AI images for free with Stable Diffusion. Open-source, uncensored, and customizable. Run locally or use cloud version with free credits.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "krisp",
+    "slug": "krisp",
+    "name": "Krisp",
+    "company": "Krisp Technologies",
+    "logo": "assets/images/logos/krisp.png",
+    "websiteUrl": "https://krisp.ai/",
+    "shortDescription": "AI-powered noise cancellation app that removes background noise from any call.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "60 minutes/week",
+          "Basic noise cancellation",
+          "Works on any app"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$12/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited minutes",
+          "Advanced noise cancellation",
+          "Voice clarity enhancement",
+          "Echo removal"
+        ]
+      },
+      {
+        "plan": "Teams",
+        "price": "$15/user/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited minutes",
+          "Team management",
+          "Admin controls",
+          "Meeting analytics"
+        ]
+      }
+    ],
+    "category": "Audio",
+    "subCategory": "Audio Enhancement",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "noise cancellation",
+      "calls",
+      "audio",
+      "productivity",
+      "remote work"
+    ],
+    "useCases": [
+      "Remote work calls",
+      "Online teaching",
+      "Podcast recording",
+      "Gaming voice chat",
+      "Customer support calls"
+    ],
+    "integrations": [
+      "Zoom",
+      "Teams",
+      "Slack",
+      "Discord",
+      "Webex",
+      "Google Meet"
+    ],
+    "platform": [
+      "Windows",
+      "Mac",
+      "iOS",
+      "Android"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2017-01-01",
+    "lastUpdated": "2026-01-10",
+    "rating": 4.8,
+    "totalReviews": 500,
+    "pros": [
+      "Works with any app",
+      "Removes dog, traffic, keyboard noise",
+      "Easy to toggle on/off"
+    ],
+    "cons": [
+      "Free tier limited to 60 min/week",
+      "Slight latency on older hardware"
+    ],
+    "features": [
+      "Remove background noise from both sides",
+      "Voice clarity enhancement",
+      "Echo cancellation",
+      "Microphone and speaker noise filtering",
+      "Call transcription (Pro)",
+      "Meeting summaries (Teams)"
+    ],
+    "fullDescription": "Krisp is an AI-powered noise cancellation app that works at the system level, removing background noise from any call or recording. Whether you're in a noisy coffee shop, home with barking dogs, or near traffic, Krisp ensures your voice comes through crystal clear. It also filters noise from incoming calls, so you never struggle to hear others. The free tier offers 60 minutes per week – perfect for occasional calls. Pro removes limits and adds voice clarity enhancement. Trusted by millions of remote workers, podcasters, and gamers, Krisp transforms any environment into a professional studio.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069517/pexels-photo-18069517.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vibrant 3D render of geometric shapes scattered over a circuit-like background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a computer screen displaying ChatGPT interface in a dark setting."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17483868/pexels-photo-17483868.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "3D rendered abstract design featuring a digital brain visual with vibrant colors."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/8566620/pexels-photo-8566620.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Futuristic delivery robots lined up near outdoor cafeteria tables, showcasing modern technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/4604607/pexels-photo-4604607.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A close-up of a typewriter showcasing 'ARTIFICIAL INTELLIGENCE' on paper."
+      }
+    ],
+    "affiliateLink": "https://krisp.ai/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "20% recurring",
+      "cookieDuration": "30 days",
+      "network": "Impact"
+    },
+    "alternatives": [
+      {
+        "name": "NVIDIA Broadcast",
+        "slug": "nvidia-broadcast"
+      },
+      {
+        "name": "Neep",
+        "slug": "neep"
+      },
+      {
+        "name": "Solomon",
+        "slug": "solomon"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/krisp_hq",
+      "linkedin": "https://www.linkedin.com/company/krisp-technologies",
+      "facebook": "https://www.facebook.com/krisp.ai"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US, EU",
+    "faq": [
+      {
+        "question": "Is Krisp free?",
+        "answer": "Yes, the free tier includes 60 minutes of noise cancellation per week. Pro removes all limits."
+      },
+      {
+        "question": "Does Krisp work with Zoom?",
+        "answer": "Yes, Krisp works with Zoom, Teams, Discord, and hundreds of other apps."
+      }
+    ],
+    "seoTitle": "Krisp: AI Noise Cancellation for Calls – Remove Background Noise",
+    "seoDescription": "Remove background noise from any call with Krisp's AI. Works with Zoom, Teams, Discord, and more. Free tier with 60 minutes/week.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "tome",
+    "slug": "tome",
+    "name": "Tome",
+    "company": "Tome",
+    "logo": "assets/images/logos/tome.png",
+    "websiteUrl": "https://tome.app/",
+    "shortDescription": "AI-powered storytelling and presentation platform that builds slides from a single prompt.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Limited AI generations",
+          "Basic templates",
+          "1GB storage",
+          "Export to PDF"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$12/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited AI generations",
+          "Premium templates",
+          "Custom fonts",
+          "Advanced analytics"
+        ]
+      },
+      {
+        "plan": "Enterprise",
+        "price": "Custom",
+        "billingCycle": "annual",
+        "features": [
+          "Unlimited everything",
+          "SSO",
+          "Brand controls",
+          "Dedicated support"
+        ]
+      }
+    ],
+    "category": "Productivity",
+    "subCategory": "Presentations",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "presentations",
+      "storytelling",
+      "ai slides",
+      "sales decks",
+      "productivity"
+    ],
+    "useCases": [
+      "Sales decks and pitches",
+      "Business presentations",
+      "Educational storytelling",
+      "Marketing proposals",
+      "Personal portfolios"
+    ],
+    "integrations": [
+      "Figma",
+      "YouTube",
+      "Twitter",
+      "Spotify",
+      "Google Drive"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": false,
+    "releaseDate": "2021-12-01",
+    "lastUpdated": "2026-01-15",
+    "rating": 4.6,
+    "totalReviews": 1000,
+    "pros": [
+      "Generates complete presentations from a prompt",
+      "Beautiful, modern design",
+      "Supports rich embeds (Figma, YouTube)"
+    ],
+    "cons": [
+      "Less control than traditional slide tools",
+      "AI outputs need editing"
+    ],
+    "features": [
+      "Generate entire narratives from one sentence",
+      "AI image generation inside slides",
+      "Auto-layout and design suggestions",
+      "Rich embeds (Figma, YouTube, Twitter)",
+      "Narrated presentations with voiceover",
+      "Real-time collaboration"
+    ],
+    "fullDescription": "Tome reimagines presentations for the AI era – instead of building slides manually, you type a prompt like 'pitch a new marketing strategy' and Tome generates a complete, beautifully designed narrative. The AI creates slide structure, writes copy, and even generates custom images. You can then edit, reorder, or add rich embeds like Figma designs or YouTube videos. Tome is perfect for sales decks, pitch decks, educational content, and creative portfolios. The free tier offers limited AI generations, while Pro unlocks unlimited use. Tome has been embraced by startups, educators, and creatives who want stunning presentations in minutes.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/29245006/pexels-photo-29245006.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "An open book with sunlight and shadows creating a serene ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/1139675/pexels-photo-1139675.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A young woman enjoys reading outdoors in a sunny park. Relaxation and literature meet in this tranqu"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/1202186/pexels-photo-1202186.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Cheerful woman reading a book in a vibrant outdoor setting, enjoying a sunny day in the city."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18023658/pexels-photo-18023658.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Vintage wall decoration featuring a festive garland, with reflections on glass in daylight."
+      }
+    ],
+    "affiliateLink": "https://tome.app/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Gamma",
+        "slug": "gamma"
+      },
+      {
+        "name": "Beautiful.ai",
+        "slug": "beautiful-ai"
+      },
+      {
+        "name": "Canva",
+        "slug": "canva-ai"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/tome_app",
+      "linkedin": "https://www.linkedin.com/company/tomeapp",
+      "youtube": "https://www.youtube.com/@tome"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Tome free?",
+        "answer": "Yes, Tome has a free tier with limited AI generations and basic features. Pro unlocks unlimited AI and premium templates."
+      },
+      {
+        "question": "Can I export Tome presentations?",
+        "answer": "Yes, free users can export to PDF. Pro users have additional export options."
+      }
+    ],
+    "seoTitle": "Tome: AI-Powered Storytelling & Presentation Platform",
+    "seoDescription": "Create stunning presentations from a single prompt with Tome. AI-generated narratives, imagery, and layouts. Free tier available.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "browse-ai",
+    "slug": "browse-ai",
+    "name": "Browse AI",
+    "company": "Browse AI",
+    "logo": "assets/images/logos/browse-ai.png",
+    "websiteUrl": "https://www.browse.ai/",
+    "shortDescription": "No-code web scraping and data extraction automation with pre-built robots.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "50 credits/month",
+          "Pre-built robots",
+          "2 integrations",
+          "CSV export"
+        ]
+      },
+      {
+        "plan": "Starter",
+        "price": "$49/month",
+        "billingCycle": "monthly",
+        "features": [
+          "2,000 credits/month",
+          "Custom robots",
+          "5 integrations",
+          "Email support"
+        ]
+      },
+      {
+        "plan": "Professional",
+        "price": "$99/month",
+        "billingCycle": "monthly",
+        "features": [
+          "5,000 credits/month",
+          "Scheduled runs",
+          "10 integrations",
+          "Priority support"
+        ]
+      },
+      {
+        "plan": "Business",
+        "price": "$249/month",
+        "billingCycle": "monthly",
+        "features": [
+          "20,000 credits/month",
+          "Proxy rotation",
+          "API access",
+          "Dedicated support"
+        ]
+      }
+    ],
+    "category": "Data Analysis",
+    "subCategory": "Web Scraping",
+    "language": [
+      "English"
+    ],
+    "tags": [
+      "web scraping",
+      "data extraction",
+      "automation",
+      "no-code",
+      "data analysis"
+    ],
+    "useCases": [
+      "Monitor competitor prices",
+      "Extract lead lists from directories",
+      "Track SEO rankings",
+      "Aggregate product reviews",
+      "Real estate data collection"
+    ],
+    "integrations": [
+      "Zapier",
+      "Google Sheets",
+      "Airtable",
+      "Slack",
+      "API",
+      "Webhook"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2021-01-01",
+    "lastUpdated": "2026-01-12",
+    "rating": 4.8,
+    "totalReviews": 2000,
+    "pros": [
+      "No coding required",
+      "Hundreds of pre-built robots",
+      "Handles JavaScript-heavy sites"
+    ],
+    "cons": [
+      "Credits consumed quickly",
+      "Free tier very limited"
+    ],
+    "features": [
+      "Point-and-click robot builder",
+      "500+ pre-built scraping robots",
+      "Schedule automated extractions",
+      "Proxy rotation to avoid blocks",
+      "Data export to CSV, Sheets, API",
+      "Monitor changes on any webpage"
+    ],
+    "fullDescription": "Browse AI is the easiest way to extract data from any website without writing code. You simply point and click on the data you want – prices, product names, contact info, reviews – and Browse AI creates a robot that extracts it automatically. Pre-built robots are available for popular sites like Amazon, Google Maps, LinkedIn, and YouTube. Set up scheduled runs to monitor changes, track competitors, or build lead lists. The free tier includes 50 credits monthly, enough for small projects. Paid plans unlock higher limits, proxy rotation, and API access. Browse AI is trusted by data analysts, marketers, and e-commerce businesses worldwide.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract illustration of AI with silhouette head full of eyes, symbolizing observation and technolog"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17483868/pexels-photo-17483868.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "3D rendered abstract design featuring a digital brain visual with vibrant colors."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530407/pexels-photo-30530407.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of an AI-driven chat interface on a computer screen, showcasing modern AI technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069695/pexels-photo-18069695.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A digital representation of how large language models function in AI technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069517/pexels-photo-18069517.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vibrant 3D render of geometric shapes scattered over a circuit-like background."
+      }
+    ],
+    "affiliateLink": "https://www.browse.ai/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "20% recurring",
+      "cookieDuration": "60 days",
+      "network": "Impact"
+    },
+    "alternatives": [
+      {
+        "name": "Octoparse",
+        "slug": "octoparse"
+      },
+      {
+        "name": "ParseHub",
+        "slug": "parsehub"
+      },
+      {
+        "name": "Apify",
+        "slug": "apify"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/browse_ai",
+      "linkedin": "https://www.linkedin.com/company/browse-ai",
+      "youtube": "https://www.youtube.com/@BrowseAI"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US, EU",
+    "faq": [
+      {
+        "question": "Is Browse AI free?",
+        "answer": "Yes, the free plan includes 50 credits per month, enough to test robots and run small extractions."
+      },
+      {
+        "question": "Do I need to know programming?",
+        "answer": "No, Browse AI is completely no-code. You select data by pointing and clicking in a visual interface."
+      }
+    ],
+    "seoTitle": "Browse AI: No-Code Web Scraping & Data Extraction",
+    "seoDescription": "Extract data from any website without coding. Monitor prices, collect leads, and automate web scraping. Free tier with 50 monthly credits.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "fireflies-ai",
+    "slug": "fireflies-ai",
+    "name": "Fireflies.ai",
+    "company": "Fireflies.ai",
+    "logo": "assets/images/logos/fireflies-ai.png",
+    "websiteUrl": "https://fireflies.ai/",
+    "shortDescription": "AI notetaker that transcribes, summarizes, and analyzes meetings across Zoom, Teams, and Google Meet.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "800 minutes storage",
+          "Unlimited transcriptions",
+          "Basic search",
+          "3 seats"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$18/user/month",
+        "billingCycle": "monthly",
+        "features": [
+          "8,000 minutes storage",
+          "AI summaries",
+          "Smart search",
+          "Task automation"
+        ]
+      },
+      {
+        "plan": "Business",
+        "price": "$39/user/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited storage",
+          "Salesforce integration",
+          "Conversation intelligence",
+          "SSO"
+        ]
+      }
+    ],
+    "category": "Audio",
+    "subCategory": "Transcription",
+    "language": [
+      "English",
+      "Spanish",
+      "French",
+      "Portuguese",
+      "German"
+    ],
+    "tags": [
+      "meetings",
+      "transcription",
+      "summaries",
+      "productivity",
+      "sales"
+    ],
+    "useCases": [
+      "Meeting transcription and summaries",
+      "Sales call analysis",
+      "Interview recording",
+      "Team collaboration notes",
+      "Action item extraction"
+    ],
+    "integrations": [
+      "Zoom",
+      "Google Meet",
+      "Microsoft Teams",
+      "Slack",
+      "Salesforce",
+      "Notion",
+      "Zapier"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android",
+      "Chrome extension"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2016-01-01",
+    "lastUpdated": "2026-01-15",
+    "rating": 4.6,
+    "totalReviews": 2000,
+    "pros": [
+      "Generous free tier (800 min storage)",
+      "Automatic join for calendar meetings",
+      "Powerful search across all transcripts"
+    ],
+    "cons": [
+      "Free tier limited to 800 min",
+      "Accuracy varies with accents"
+    ],
+    "features": [
+      "Automatically joins calendar meetings",
+      "Real-time transcription with speaker ID",
+      "AI-generated summaries and action items",
+      "Smart search across all transcripts",
+      "Slack integration for auto-post summaries",
+      "Salesforce and CRM sync (Business)"
+    ],
+    "fullDescription": "Fireflies.ai is an AI meeting assistant that automatically joins your calendar meetings, records audio, and produces searchable transcripts with speaker labels. Beyond transcription, it generates concise summaries, extracts action items, and can automatically post recaps to Slack. The free tier includes 800 minutes of storage – enough for many small teams. Pro adds unlimited transcripts with longer retention, while Business unlocks conversation intelligence for sales teams. Fireflies integrates seamlessly with Zoom, Teams, Google Meet, and over 30 other apps. It's trusted by thousands of companies to eliminate manual note-taking and surface insights from every conversation.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069370/pexels-photo-18069370.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A conceptual landscape blending nature with digital AI elements."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17483870/pexels-photo-17483870.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract illustration depicting complex digital neural networks and data flow."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17485741/pexels-photo-17485741.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Intricate wireframe with dynamic ribbons in an abstract 3D composition."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17483867/pexels-photo-17483867.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A 3D rendering of a neural network with abstract neuron connections in soft colors."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069362/pexels-photo-18069362.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "3D rendered abstract eco-system depicting nature and technology symbiosis."
+      }
+    ],
+    "affiliateLink": "https://fireflies.ai/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "20% recurring",
+      "cookieDuration": "60 days",
+      "network": "PartnerStack"
+    },
+    "alternatives": [
+      {
+        "name": "Otter.ai",
+        "slug": "otter-ai"
+      },
+      {
+        "name": "Fathom",
+        "slug": "fathom"
+      },
+      {
+        "name": "Avoma",
+        "slug": "avoma"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/firefliesai",
+      "linkedin": "https://www.linkedin.com/company/fireflies-ai",
+      "youtube": "https://www.youtube.com/c/Firefliesai"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US, EU",
+    "faq": [
+      {
+        "question": "Is Fireflies.ai free?",
+        "answer": "Yes, the free plan includes 800 minutes of storage, unlimited transcriptions, and 3 seats."
+      },
+      {
+        "question": "Does Fireflies work with Zoom?",
+        "answer": "Yes, Fireflies integrates natively with Zoom, Google Meet, and Microsoft Teams."
+      }
+    ],
+    "seoTitle": "Fireflies.ai: AI Meeting Notetaker – Transcribe & Summarize Calls",
+    "seoDescription": "Automatically transcribe and summarize meetings from Zoom, Teams, and Google Meet. Free tier with 800 minutes storage. Action items and smart search.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "lumen5",
+    "slug": "lumen5",
+    "name": "Lumen5",
+    "company": "Lumen5",
+    "logo": "assets/images/logos/lumen5.png",
+    "websiteUrl": "https://lumen5.com/",
+    "shortDescription": "AI video creation platform that turns blog posts and articles into engaging social videos.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "5 videos/month",
+          "Watermarked exports",
+          "480p max",
+          "Basic stock footage"
+        ]
+      },
+      {
+        "plan": "Creator",
+        "price": "$29/month",
+        "billingCycle": "monthly",
+        "features": [
+          "20 videos/month",
+          "No watermark",
+          "1080p exports",
+          "Premium footage"
+        ]
+      },
+      {
+        "plan": "Business",
+        "price": "$79/month",
+        "billingCycle": "monthly",
+        "features": [
+          "50 videos/month",
+          "Custom branding",
+          "Team collaboration",
+          "AI voiceover"
+        ]
+      },
+      {
+        "plan": "Enterprise",
+        "price": "Custom",
+        "billingCycle": "annual",
+        "features": [
+          "Unlimited videos",
+          "API access",
+          "Dedicated support",
+          "SSO"
+        ]
+      }
+    ],
+    "category": "Video",
+    "subCategory": "Video Creation",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "video",
+      "social media",
+      "marketing",
+      "text-to-video",
+      "content repurposing"
+    ],
+    "useCases": [
+      "Social media video ads",
+      "Blog post to video",
+      "Product explainers",
+      "Educational content",
+      "Brand storytelling"
+    ],
+    "integrations": [
+      "YouTube",
+      "Facebook",
+      "LinkedIn",
+      "Pinterest",
+      "Zapier",
+      "WordPress"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2016-01-01",
+    "lastUpdated": "2026-01-12",
+    "rating": 4.5,
+    "totalReviews": 500,
+    "pros": [
+      "Easy drag-and-drop interface",
+      "Massive stock footage library",
+      "AI matches scenes to text"
+    ],
+    "cons": [
+      "Free tier heavily watermarked",
+      "Limited customization on lower plans"
+    ],
+    "features": [
+      "Paste blog URL → AI creates video scene-by-scene",
+      "Millions of stock footage and images",
+      "Text overlay and animation",
+      "AI voiceover and text-to-speech",
+      "Brand kit (Business plan)",
+      "Social media optimized exports"
+    ],
+    "fullDescription": "Lumen5 pioneered the text-to-video space, making it simple to repurpose blog posts, articles, and scripts into engaging social videos. Just paste a URL, and Lumen5's AI extracts key points, matches them with relevant stock footage, adds animated text, and produces a ready-to-share video. The drag-and-drop editor gives you full control to adjust scenes, add music, or record voiceover. The free tier offers 5 videos monthly with watermarks – perfect for testing. Paid plans remove watermarks, add 1080p exports, and unlock premium footage. Lumen5 is used by marketers, publishers, and educators to scale video content without hiring editors.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069490/pexels-photo-18069490.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract digital visualization of AI, featuring colorful 3D elements and modern design."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a computer screen displaying ChatGPT interface in a dark setting."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract representation of large language models and AI technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/8438880/pexels-photo-8438880.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "An articulated robotic arm competes in chess on a board against a dark background, highlighting AI a"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069517/pexels-photo-18069517.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vibrant 3D render of geometric shapes scattered over a circuit-like background."
+      }
+    ],
+    "affiliateLink": "https://lumen5.com/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "30% recurring",
+      "cookieDuration": "60 days",
+      "network": "Impact"
+    },
+    "alternatives": [
+      {
+        "name": "Pictory",
+        "slug": "pictory"
+      },
+      {
+        "name": "InVideo",
+        "slug": "invideo"
+      },
+      {
+        "name": "VEED.io",
+        "slug": "veed-io"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/lumen5",
+      "linkedin": "https://www.linkedin.com/company/lumen5",
+      "facebook": "https://www.facebook.com/lumen5"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US, CA",
+    "faq": [
+      {
+        "question": "Is Lumen5 free?",
+        "answer": "Yes, the free plan includes 5 videos per month with watermarks and 480p resolution."
+      },
+      {
+        "question": "Can I use my own footage?",
+        "answer": "Yes, you can upload your own images, video clips, and audio in all paid plans."
+      }
+    ],
+    "seoTitle": "Lumen5: AI Video Creator – Turn Blog Posts into Social Videos",
+    "seoDescription": "Create engaging social videos from text with Lumen5's AI. Paste a blog URL, add stock footage, and export in minutes. Free tier available.",
+    "schemaType": "SoftwareApplication"
+  }
+]

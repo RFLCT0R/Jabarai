@@ -1,0 +1,3281 @@
+[
+  {
+    "id": "chatgpt",
+    "slug": "chatgpt",
+    "name": "ChatGPT",
+    "company": "OpenAI",
+    "logo": "https://cdn.brandfetch.io/openai.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://chat.openai.com/",
+    "shortDescription": "Advanced AI chatbot for conversation, writing, coding, and creative tasks.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "GPT-3.5 access",
+          "Limited messages",
+          "Web access",
+          "Mobile apps"
+        ]
+      },
+      {
+        "plan": "Plus",
+        "price": "$20/month",
+        "billingCycle": "monthly",
+        "features": [
+          "GPT-4 access",
+          "Priority access",
+          "Advanced data analysis",
+          "DALL-E integration"
+        ]
+      }
+    ],
+    "category": "Chatbot",
+    "subCategory": "Conversational AI",
+    "language": [
+      "English",
+      "Arabic",
+      "French",
+      "Spanish",
+      "Multilingual"
+    ],
+    "tags": [
+      "chatbot",
+      "writing",
+      "coding",
+      "productivity",
+      "assistant"
+    ],
+    "useCases": [
+      "Content writing and editing",
+      "Code generation and debugging",
+      "Research and learning",
+      "Brainstorming ideas",
+      "Customer support automation"
+    ],
+    "integrations": [
+      "Slack",
+      "Microsoft Teams",
+      "Zapier",
+      "API"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android",
+      "Mac",
+      "Windows"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2022-11-30",
+    "lastUpdated": "2025-01-15",
+    "rating": 4.8,
+    "totalReviews": 127000,
+    "pros": [
+      "Free tier available",
+      "Supports Arabic",
+      "Massive knowledge base"
+    ],
+    "cons": [
+      "Limited free messages for GPT-4",
+      "May produce occasional inaccuracies"
+    ],
+    "features": [
+      "Natural language conversations",
+      "Code generation and debugging",
+      "Essay and email writing",
+      "Custom GPTs for specialized tasks",
+      "Voice and image input (GPT-4)"
+    ],
+    "fullDescription": "ChatGPT is an advanced AI language model developed by OpenAI that has revolutionized how people interact with artificial intelligence. It excels at understanding context and generating human-like responses across countless domains. Whether you need help drafting professional emails, writing creative stories, debugging complex code, or simply having an engaging conversation, ChatGPT delivers. The free version provides access to GPT-3.5 with impressive capabilities, while ChatGPT Plus unlocks GPT-4 with enhanced reasoning, longer context windows, and multimodal features like image understanding. Ideal for students, professionals, writers, developers, and curious minds worldwide.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/16461434/pexels-photo-16461434.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a smartphone displaying ChatGPT app held over AI textbook."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/20870794/pexels-photo-20870794.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A smartphone shows a ChatGPT interface placed on an Apple laptop in a leafy environment."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/15863103/pexels-photo-15863103.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a monitor displaying ChatGPT Plus introduction on a green background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/16689016/pexels-photo-16689016.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Mobile phone displaying the ChatGPT introduction screen with OpenAI branding on a yellow background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a computer screen displaying ChatGPT interface in a dark setting."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://chat.openai.com/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Claude",
+        "slug": "claude"
+      },
+      {
+        "name": "Google Gemini",
+        "slug": "google-gemini"
+      },
+      {
+        "name": "DeepSeek",
+        "slug": "deepseek"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/OpenAI",
+      "facebook": "https://www.facebook.com/openai",
+      "instagram": "https://www.instagram.com/openai",
+      "linkedin": "https://www.linkedin.com/company/openai"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is ChatGPT free to use?",
+        "answer": "Yes, ChatGPT has a free tier with GPT-3.5 access. ChatGPT Plus subscription unlocks GPT-4 and additional features."
+      },
+      {
+        "question": "Can ChatGPT write code?",
+        "answer": "Yes, ChatGPT can generate, debug, and explain code in dozens of programming languages."
+      }
+    ],
+    "seoTitle": "ChatGPT: Advanced AI Chatbot for Writing, Coding & Conversation",
+    "seoDescription": "ChatGPT by OpenAI helps you write, code, brainstorm, and solve problems. Free tier available with GPT-3.5. Try the AI assistant millions use daily.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "midjourney",
+    "slug": "midjourney",
+    "name": "Midjourney",
+    "company": "Midjourney Inc.",
+    "logo": "https://cdn.brandfetch.io/midjourney.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://www.midjourney.com/",
+    "shortDescription": "Stunning AI image generation from simple text descriptions.",
+    "pricing": "Paid",
+    "pricingModel": "Subscription",
+    "hasFreeTier": false,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Basic",
+        "price": "$10/month",
+        "billingCycle": "monthly",
+        "features": [
+          "3.3 hours GPU time",
+          "~200 images",
+          "General commercial terms"
+        ]
+      },
+      {
+        "plan": "Standard",
+        "price": "$30/month",
+        "billingCycle": "monthly",
+        "features": [
+          "15 hours GPU time",
+          "~1000 images",
+          "Relaxed mode unlimited"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$60/month",
+        "billingCycle": "monthly",
+        "features": [
+          "30 hours GPU time",
+          "Stealth mode",
+          "~2000 images"
+        ]
+      }
+    ],
+    "category": "Image Generation",
+    "subCategory": "AI Art",
+    "language": [
+      "English"
+    ],
+    "tags": [
+      "image generation",
+      "art",
+      "design",
+      "creative",
+      "ai art"
+    ],
+    "useCases": [
+      "Concept art and illustration",
+      "Marketing visuals",
+      "Social media content",
+      "Product photography mockups",
+      "Book and album covers"
+    ],
+    "integrations": [
+      "Discord",
+      "API (limited)"
+    ],
+    "platform": [
+      "Web",
+      "Discord"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2022-07-12",
+    "lastUpdated": "2025-01-10",
+    "rating": 4.9,
+    "totalReviews": 10000,
+    "pros": [
+      "Exceptional image quality",
+      "Active community",
+      "Fast iterations"
+    ],
+    "cons": [
+      "Discord-only interface",
+      "Learning curve for prompts"
+    ],
+    "features": [
+      "Photorealistic and artistic image generation",
+      "Customizable aspect ratios and styles",
+      "Image variations and upscaling",
+      "Active Discord community",
+      "Fast generation speeds"
+    ],
+    "fullDescription": "Midjourney stands at the forefront of AI image generation, transforming simple text prompts into extraordinary visual art. Operating primarily through Discord, this powerful tool has captivated artists, designers, marketers, and hobbyists alike with its distinctive aesthetic range—from hyperrealistic photography to dreamlike illustrations. Each subscription plan provides a set amount of GPU time, allowing you to generate hundreds of images per month. With features like image variations, upscaling, and style tuning, Midjourney gives you remarkable creative control. Whether you're prototyping concepts, creating social media content, or exploring artistic expression, Midjourney opens new frontiers in visual creativity.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract representation of large language models and AI technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069693/pexels-photo-18069693.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Futuristic abstract artwork showcasing AI concepts with digital text overlays."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069493/pexels-photo-18069493.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A colorful and vibrant abstract 3D render featuring intricate geometric shapes and structures."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a computer screen displaying ChatGPT interface in a dark setting."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://www.midjourney.com/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "DALL-E 3",
+        "slug": "dalle"
+      },
+      {
+        "name": "Leonardo.ai",
+        "slug": "leonardo"
+      },
+      {
+        "name": "Stable Diffusion",
+        "slug": "stable-diffusion"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/midjourney",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/midjourney",
+      "linkedin": null
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Midjourney free?",
+        "answer": "No, Midjourney requires a paid subscription starting at $10/month. There is no free tier."
+      },
+      {
+        "question": "How do I use Midjourney?",
+        "answer": "Midjourney operates through Discord. Join the Midjourney Discord server and use the /imagine command."
+      }
+    ],
+    "seoTitle": "Midjourney: Create Stunning AI Art and Images from Text",
+    "seoDescription": "Turn words into breathtaking images with Midjourney AI. Perfect for artists, designers, and creators. Subscription plans start at $10/month.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "claude",
+    "slug": "claude",
+    "name": "Claude",
+    "company": "Anthropic",
+    "logo": "https://cdn.brandfetch.io/anthropic.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://claude.ai/",
+    "shortDescription": "Constitutional AI assistant with massive context window.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Limited messages",
+          "Claude 3.5 Sonnet access",
+          "Web access"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$20/month",
+        "billingCycle": "monthly",
+        "features": [
+          "5x more usage",
+          "Claude 3 Opus access",
+          "Priority access",
+          "Early feature access"
+        ]
+      },
+      {
+        "plan": "Team",
+        "price": "$25/user/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Shared workspaces",
+          "Centralized billing",
+          "Collaboration features"
+        ]
+      }
+    ],
+    "category": "Chatbot",
+    "subCategory": "AI Assistant",
+    "language": [
+      "English",
+      "Spanish",
+      "French",
+      "German",
+      "Multilingual"
+    ],
+    "tags": [
+      "chatbot",
+      "analysis",
+      "research",
+      "writing",
+      "assistant"
+    ],
+    "useCases": [
+      "Long document analysis",
+      "Research synthesis",
+      "Code review and debugging",
+      "Creative writing",
+      "Policy and legal document review"
+    ],
+    "integrations": [
+      "Slack",
+      "API",
+      "Google Drive",
+      "Notion"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2023-03-14",
+    "lastUpdated": "2025-01-12",
+    "rating": 4.8,
+    "totalReviews": 500,
+    "pros": [
+      "Huge context window",
+      "Nuanced, thoughtful responses",
+      "Strong document analysis"
+    ],
+    "cons": [
+      "No native Arabic support yet",
+      "Limited multimodal capabilities"
+    ],
+    "features": [
+      "200K token context window",
+      "Document and code analysis",
+      "Constitutional AI for safer responses",
+      "PDF and file upload support",
+      "Multiple language support"
+    ],
+    "fullDescription": "Claude, developed by Anthropic, represents a thoughtful approach to AI assistance with an emphasis on safety, helpfulness, and honesty. Its standout feature is an expansive 200,000-token context window—enough to process entire books or codebases in a single session. Claude excels at deep document analysis, research synthesis, and complex problem-solving while maintaining a remarkably nuanced and careful tone. The free tier offers generous usage limits suitable for most personal tasks, while Claude Pro provides priority access and higher message caps. Whether you're a researcher analyzing papers, a writer working with lengthy drafts, or a developer reviewing code, Claude's combination of intelligence and thoughtfulness makes it an invaluable partner.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a computer screen displaying ChatGPT interface in a dark setting."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17483868/pexels-photo-17483868.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "3D rendered abstract design featuring a digital brain visual with vibrant colors."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069517/pexels-photo-18069517.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vibrant 3D render of geometric shapes scattered over a circuit-like background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17483874/pexels-photo-17483874.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Visual abstraction of neural networks in AI technology, featuring data flow and algorithms."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://claude.ai/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "ChatGPT",
+        "slug": "chatgpt"
+      },
+      {
+        "name": "DeepSeek",
+        "slug": "deepseek"
+      },
+      {
+        "name": "Google Gemini",
+        "slug": "google-gemini"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/AnthropicAI",
+      "facebook": null,
+      "instagram": null,
+      "linkedin": "https://www.linkedin.com/company/anthropic"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Claude free?",
+        "answer": "Yes, Claude offers a generous free tier. Claude Pro subscription provides additional features and higher usage limits."
+      },
+      {
+        "question": "What makes Claude different?",
+        "answer": "Claude has an industry-leading 200K token context window and is built with Constitutional AI principles for safer, more helpful responses."
+      }
+    ],
+    "seoTitle": "Claude by Anthropic: Helpful AI with 200K Context Window",
+    "seoDescription": "Claude is Anthropic's safe and helpful AI assistant. Analyze long documents, summarize research, and get thoughtful responses. Free tier available.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "notion-ai",
+    "slug": "notion-ai",
+    "name": "Notion AI",
+    "company": "Notion Labs",
+    "logo": "https://cdn.brandfetch.io/notion.so/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://www.notion.so/product/ai",
+    "shortDescription": "AI writing and productivity assistant inside Notion.",
+    "pricing": "Paid",
+    "pricingModel": "Add-on",
+    "hasFreeTier": false,
+    "hasFreeTrial": true,
+    "pricingDetails": [
+      {
+        "plan": "AI Add-on",
+        "price": "$10/member/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited AI responses",
+          "All AI features",
+          "Integrated in workspace"
+        ]
+      }
+    ],
+    "category": "Productivity",
+    "subCategory": "Writing Assistant",
+    "language": [
+      "English",
+      "Japanese",
+      "Korean",
+      "French",
+      "Spanish"
+    ],
+    "tags": [
+      "productivity",
+      "writing",
+      "notes",
+      "workspace",
+      "ai assistant"
+    ],
+    "useCases": [
+      "Meeting notes summarization",
+      "Content drafting and editing",
+      "Brainstorming and ideation",
+      "Action item extraction",
+      "Document translation"
+    ],
+    "integrations": [
+      "Notion",
+      "Slack",
+      "Google Drive"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android",
+      "Mac",
+      "Windows"
+    ],
+    "apiAvailable": false,
+    "releaseDate": "2023-02-22",
+    "lastUpdated": "2025-01-08",
+    "rating": 4.7,
+    "totalReviews": 2000,
+    "pros": [
+      "Deep Notion integration",
+      "Intuitive to use",
+      "Saves time on routine writing"
+    ],
+    "cons": [
+      "Additional cost on top of Notion",
+      "Limited language support"
+    ],
+    "features": [
+      "Draft and refine content inline",
+      "Summarize meeting notes instantly",
+      "Translate across languages",
+      "Generate action items from text",
+      "Seamless Notion integration"
+    ],
+    "fullDescription": "Notion AI brings powerful artificial intelligence directly into your existing Notion workflow, eliminating the need to switch between tools. Whether you're writing documentation, planning projects, or taking meeting notes, AI assistance is just a slash command away. It can help brainstorm ideas, improve writing clarity, summarize lengthy discussions, extract action items, and even translate content. For teams and individuals already invested in the Notion ecosystem, this add-on transforms the platform into an even more potent productivity hub. The seamless integration means you can leverage AI capabilities exactly where you need them, without disrupting your established workflows.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18475682/pexels-photo-18475682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of vintage typewriter with 'AI ETHICS' typed on paper, emphasizing technology and responsib"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18510427/pexels-photo-18510427.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Retro typewriter with 'AI Ethics' on paper, conveying technology themes."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a computer screen displaying ChatGPT interface in a dark setting."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/20870805/pexels-photo-20870805.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a hand holding a smartphone with AI applications on screen."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://www.notion.so/product/ai",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "ChatGPT",
+        "slug": "chatgpt"
+      },
+      {
+        "name": "Grammarly",
+        "slug": "grammarly"
+      },
+      {
+        "name": "Jasper",
+        "slug": "jasper"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/NotionHQ",
+      "facebook": "https://www.facebook.com/NotionHQ",
+      "instagram": "https://www.instagram.com/notion",
+      "linkedin": "https://www.linkedin.com/company/notion"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US, EU",
+    "faq": [
+      {
+        "question": "Do I need a Notion subscription to use Notion AI?",
+        "answer": "Yes, Notion AI is an add-on that requires an active Notion workspace. It costs $10/member/month in addition to your Notion plan."
+      },
+      {
+        "question": "Can I try Notion AI for free?",
+        "answer": "Yes, new users can try Notion AI features for free with a limited number of responses before purchasing the add-on."
+      }
+    ],
+    "seoTitle": "Notion AI: Smart Writing and Productivity in Your Workspace",
+    "seoDescription": "Supercharge your Notion workspace with AI. Draft, summarize, translate, and brainstorm without leaving your notes. Available as an add-on.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "copilot",
+    "slug": "copilot",
+    "name": "GitHub Copilot",
+    "company": "GitHub & OpenAI",
+    "logo": "https://cdn.brandfetch.io/github.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://github.com/features/copilot",
+    "shortDescription": "AI pair programmer that suggests code in real-time.",
+    "pricing": "Paid",
+    "pricingModel": "Subscription",
+    "hasFreeTier": false,
+    "hasFreeTrial": true,
+    "pricingDetails": [
+      {
+        "plan": "Individual",
+        "price": "$10/month",
+        "billingCycle": "monthly",
+        "features": [
+          "All IDE integrations",
+          "Unlimited suggestions",
+          "Copilot Chat"
+        ]
+      },
+      {
+        "plan": "Business",
+        "price": "$19/user/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Organization management",
+          "Team policies",
+          "Audit logs"
+        ]
+      },
+      {
+        "plan": "Enterprise",
+        "price": "$39/user/month",
+        "billingCycle": "monthly",
+        "features": [
+          "SSO authentication",
+          "IP allowlisting",
+          "Enterprise security"
+        ]
+      }
+    ],
+    "category": "Developer Tools",
+    "subCategory": "Code Assistant",
+    "language": [
+      "English",
+      "Code"
+    ],
+    "tags": [
+      "coding",
+      "developer",
+      "programming",
+      "ai assistant",
+      "ide"
+    ],
+    "useCases": [
+      "Rapid code development",
+      "Learning new programming languages",
+      "Documentation generation",
+      "Code review assistance",
+      "Test writing"
+    ],
+    "integrations": [
+      "VS Code",
+      "Visual Studio",
+      "JetBrains",
+      "Neovim",
+      "Xcode"
+    ],
+    "platform": [
+      "Windows",
+      "Mac",
+      "Linux"
+    ],
+    "apiAvailable": false,
+    "releaseDate": "2021-06-29",
+    "lastUpdated": "2025-01-15",
+    "rating": 4.9,
+    "totalReviews": 500,
+    "pros": [
+      "Dramatically speeds up coding",
+      "Excellent IDE integration",
+      "Supports many languages"
+    ],
+    "cons": [
+      "Monthly subscription required",
+      "Occasional irrelevant suggestions"
+    ],
+    "features": [
+      "Real-time code completions",
+      "Generates entire functions from comments",
+      "Supports all major IDEs",
+      "Dozens of programming languages",
+      "Copilot Chat for code explanations"
+    ],
+    "fullDescription": "GitHub Copilot fundamentally changes the coding experience by acting as an AI pair programmer that understands context and intent. As you type, Copilot suggests whole lines or entire blocks of code, dramatically accelerating development and reducing boilerplate. Powered by OpenAI Codex and trained on public repositories, it offers intelligent completions across dozens of languages and frameworks. The Copilot Chat feature lets you ask questions about your codebase, request explanations, or even generate tests—all without leaving your editor. For professional developers, students learning to code, and anyone building software, Copilot has become an indispensable tool that boosts productivity and helps overcome coding obstacles.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/11035544/pexels-photo-11035544.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a hand holding a 'Fork me on GitHub' sticker, blurred background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a computer screen displaying ChatGPT interface in a dark setting."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530406/pexels-photo-30530406.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of DeepSeek AI chat interface on a laptop screen in low light."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530415/pexels-photo-30530415.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A laptop on a wooden table shows an AI chat interface, featuring the DeepSeek chatbot in action."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530416/pexels-photo-30530416.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A MacBook displaying the DeepSeek AI interface, showcasing digital innovation."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://github.com/features/copilot",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "Referral bonuses",
+      "cookieDuration": "30 days",
+      "network": "GitHub"
+    },
+    "alternatives": [
+      {
+        "name": "Cursor",
+        "slug": "cursor"
+      },
+      {
+        "name": "Amazon CodeWhisperer",
+        "slug": "amazon-codewhisperer"
+      },
+      {
+        "name": "TabNine",
+        "slug": "tabnine"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/github",
+      "facebook": null,
+      "instagram": null,
+      "linkedin": "https://www.linkedin.com/company/github"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US, EU",
+    "faq": [
+      {
+        "question": "Is GitHub Copilot free?",
+        "answer": "GitHub Copilot is free for verified students and educators. Individual developers pay $10/month, with Business and Enterprise plans available."
+      },
+      {
+        "question": "Which IDEs support GitHub Copilot?",
+        "answer": "Copilot works with VS Code, Visual Studio, JetBrains IDEs, Neovim, and Xcode."
+      }
+    ],
+    "seoTitle": "GitHub Copilot: AI Pair Programmer for Faster Coding",
+    "seoDescription": "Write code faster with AI suggestions from GitHub Copilot. Supports all major IDEs and dozens of programming languages. Free trial available.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "perplexity",
+    "slug": "perplexity",
+    "name": "Perplexity",
+    "company": "Perplexity AI",
+    "logo": "https://cdn.brandfetch.io/perplexity.ai/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://www.perplexity.ai/",
+    "shortDescription": "AI-powered search engine with verified sources and citations.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited searches",
+          "Standard AI model",
+          "Source citations"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$20/month",
+        "billingCycle": "monthly",
+        "features": [
+          "GPT-4 and Claude",
+          "300+ Pro searches",
+          "File upload",
+          "API access"
+        ]
+      }
+    ],
+    "category": "Search",
+    "subCategory": "AI Search",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "search",
+      "research",
+      "fact-checking",
+      "ai assistant",
+      "information"
+    ],
+    "useCases": [
+      "Academic research",
+      "Fact-checking",
+      "News and current events",
+      "Product research",
+      "Learning new topics"
+    ],
+    "integrations": [
+      "Chrome extension",
+      "iOS app",
+      "API",
+      "Zapier"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2022-08-01",
+    "lastUpdated": "2025-01-14",
+    "rating": 4.7,
+    "totalReviews": 775,
+    "pros": [
+      "Credible, cited answers",
+      "Clean interface",
+      "Excellent research tool"
+    ],
+    "cons": [
+      "Limited free Pro searches",
+      "Multilingual support still developing"
+    ],
+    "features": [
+      "Direct answers with source citations",
+      "Pro Search for deeper analysis",
+      "File and image upload support",
+      "Focus search on specific domains",
+      "Conversational follow-up questions"
+    ],
+    "fullDescription": "Perplexity AI reimagines search for the AI era by providing direct, synthesized answers rather than just links. Each response includes numbered citations linking back to original sources, ensuring transparency and credibility. The free version delivers impressive results for most queries, while Perplexity Pro unlocks advanced models (GPT-4, Claude) and features like file uploads and focused searches within academic papers, Reddit, or YouTube. It's an invaluable tool for researchers, students, journalists, and anyone seeking reliable information quickly. The conversational interface allows natural follow-up questions, making exploration intuitive and efficient.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/12920835/pexels-photo-12920835.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract image of glowing question marks against a dark background, creating a mysterious atmosphere"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17497303/pexels-photo-17497303.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Colorful 3D ribbons swirl in a dynamic, abstract digital art composition."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17483868/pexels-photo-17483868.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "3D rendered abstract design featuring a digital brain visual with vibrant colors."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069517/pexels-photo-18069517.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vibrant 3D render of geometric shapes scattered over a circuit-like background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17485741/pexels-photo-17485741.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Intricate wireframe with dynamic ribbons in an abstract 3D composition."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://www.perplexity.ai/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "ChatGPT",
+        "slug": "chatgpt"
+      },
+      {
+        "name": "Google Bard",
+        "slug": "google-bard"
+      },
+      {
+        "name": "You.com",
+        "slug": "you-com"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/perplexity_ai",
+      "facebook": null,
+      "instagram": null,
+      "linkedin": "https://www.linkedin.com/company/perplexity-ai"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Perplexity free?",
+        "answer": "Yes, Perplexity offers a robust free tier with unlimited searches. Perplexity Pro adds advanced models and features for $20/month."
+      },
+      {
+        "question": "How is Perplexity different from ChatGPT?",
+        "answer": "Perplexity focuses on search with real-time web access and always provides source citations for its answers."
+      }
+    ],
+    "seoTitle": "Perplexity AI: Smart Search with Cited Answers and Sources",
+    "seoDescription": "Get direct, cited answers to complex questions with Perplexity AI. Free to use with Pro features for deeper research and file uploads.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "dalle",
+    "slug": "dalle",
+    "name": "DALL·E 3",
+    "company": "OpenAI",
+    "logo": "https://cdn.brandfetch.io/openai.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://openai.com/dall-e-3",
+    "shortDescription": "Create realistic images and art from natural language descriptions.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Limited generations",
+          "Standard quality",
+          "ChatGPT access"
+        ]
+      },
+      {
+        "plan": "ChatGPT Plus",
+        "price": "$20/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Enhanced generations",
+          "Higher quality",
+          "Faster processing"
+        ]
+      }
+    ],
+    "category": "Image Generation",
+    "subCategory": "AI Art",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "image generation",
+      "art",
+      "design",
+      "creative",
+      "ai"
+    ],
+    "useCases": [
+      "Marketing visuals",
+      "Social media content",
+      "Book illustrations",
+      "Concept art",
+      "Product mockups"
+    ],
+    "integrations": [
+      "ChatGPT",
+      "Microsoft Designer",
+      "API"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2023-08-10",
+    "lastUpdated": "2025-01-10",
+    "rating": 4.8,
+    "totalReviews": 2000,
+    "pros": [
+      "Exceptional prompt understanding",
+      "High-quality outputs",
+      "ChatGPT integration"
+    ],
+    "cons": [
+      "Limited free generations",
+      "Requires ChatGPT Plus for best access"
+    ],
+    "features": [
+      "Photorealistic image generation",
+      "Understands complex prompts",
+      "Integrated with ChatGPT",
+      "Safety mitigations built-in",
+      "Various artistic styles"
+    ],
+    "fullDescription": "DALL·E 3 represents OpenAI's latest breakthrough in text-to-image generation, producing remarkably accurate and visually stunning images from natural language descriptions. Unlike previous versions, DALL·E 3 excels at understanding nuanced prompts with multiple details, attributes, and spatial relationships. It is deeply integrated into ChatGPT, allowing conversational refinement of images. The free tier provides a limited number of monthly generations, while ChatGPT Plus subscribers enjoy enhanced capabilities. For creators, marketers, and anyone needing custom visuals quickly, DALL·E 3 offers unprecedented creative freedom.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17485741/pexels-photo-17485741.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Intricate wireframe with dynamic ribbons in an abstract 3D composition."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/25626449/pexels-photo-25626449.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract representation of a multimodal model with vectorized patterns and symbols in monochrome."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/34302309/pexels-photo-34302309.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a red garage door with a large number three sign above it."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://openai.com/dall-e-3",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Midjourney",
+        "slug": "midjourney"
+      },
+      {
+        "name": "Leonardo.ai",
+        "slug": "leonardo"
+      },
+      {
+        "name": "Stable Diffusion",
+        "slug": "stable-diffusion"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/OpenAI",
+      "facebook": "https://www.facebook.com/openai",
+      "instagram": "https://www.instagram.com/openai",
+      "linkedin": "https://www.linkedin.com/company/openai"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is DALL·E 3 free?",
+        "answer": "DALL·E 3 is available with limited free generations. ChatGPT Plus subscribers get enhanced access included in their subscription."
+      },
+      {
+        "question": "How is DALL·E 3 different from Midjourney?",
+        "answer": "DALL·E 3 is integrated with ChatGPT, excels at understanding complex prompts, and has built-in safety features. Midjourney offers more artistic control."
+      }
+    ],
+    "seoTitle": "DALL·E 3: AI Image Generation from OpenAI",
+    "seoDescription": "Generate high-quality images from text with DALL·E 3 by OpenAI. Integrated with ChatGPT for seamless creation. Free tier available.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "jasper",
+    "slug": "jasper",
+    "name": "Jasper",
+    "company": "Jasper AI",
+    "logo": "https://cdn.brandfetch.io/jasper.ai/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://www.jasper.ai/",
+    "shortDescription": "AI content creation platform for marketing teams and businesses.",
+    "pricing": "Paid",
+    "pricingModel": "Subscription",
+    "hasFreeTier": false,
+    "hasFreeTrial": true,
+    "pricingDetails": [
+      {
+        "plan": "Creator",
+        "price": "$49/month",
+        "billingCycle": "monthly",
+        "features": [
+          "1 user seat",
+          "Brand voice",
+          "50+ templates",
+          "SEO mode"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$69/month",
+        "billingCycle": "monthly",
+        "features": [
+          "5 user seats",
+          "Collaboration",
+          "Campaigns",
+          "API access"
+        ]
+      },
+      {
+        "plan": "Business",
+        "price": "Custom",
+        "billingCycle": "annual",
+        "features": [
+          "Unlimited seats",
+          "SSO",
+          "Dedicated support",
+          "Custom integrations"
+        ]
+      }
+    ],
+    "category": "Writing",
+    "subCategory": "Content Creation",
+    "language": [
+      "English",
+      "Spanish",
+      "French",
+      "German",
+      "Portuguese"
+    ],
+    "tags": [
+      "writing",
+      "marketing",
+      "content",
+      "seo",
+      "copywriting"
+    ],
+    "useCases": [
+      "Blog post creation",
+      "Social media content",
+      "Email marketing copy",
+      "Website copy",
+      "Ad copy"
+    ],
+    "integrations": [
+      "SurferSEO",
+      "Grammarly",
+      "Copyscape",
+      "WordPress",
+      "Zapier"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2021-01-01",
+    "lastUpdated": "2025-01-05",
+    "rating": 4.6,
+    "totalReviews": 4000,
+    "pros": [
+      "Excellent for teams",
+      "Strong SEO features",
+      "Brand voice consistency"
+    ],
+    "cons": [
+      "Higher price point",
+      "Learning curve for advanced features"
+    ],
+    "features": [
+      "Brand voice customization",
+      "SEO mode with SurferSEO integration",
+      "Team collaboration features",
+      "50+ templates",
+      "Plagiarism checker"
+    ],
+    "fullDescription": "Jasper is an enterprise-grade AI content platform designed specifically for marketing teams and businesses that need to produce high-quality, on-brand content at scale. Beyond basic text generation, Jasper learns your brand voice, integrates with SEO tools like SurferSEO, and offers collaborative workflows for teams. It includes templates for blog posts, social media captions, email newsletters, product descriptions, and more. With built-in plagiarism checking and support for multiple languages, Jasper helps maintain consistency and originality across all marketing channels. It's a comprehensive solution for organizations serious about leveraging AI in their content operations.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069517/pexels-photo-18069517.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vibrant 3D render of geometric shapes scattered over a circuit-like background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530426/pexels-photo-30530426.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a smartphone with AI assistant interface on screen over a laptop."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/35076211/pexels-photo-35076211.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Detailed view of sensors atop an autonomous car, showcasing advanced technology in an urban setting."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/32461216/pexels-photo-32461216.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A self-driving car navigates through a bustling city street in San Francisco, capturing urban mobili"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/29393022/pexels-photo-29393022.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A robotic dog navigates an indoor setting amidst red chairs, showcasing technology in modern environ"
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://www.jasper.ai/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "30% recurring",
+      "cookieDuration": "60 days",
+      "network": "FirstPromoter"
+    },
+    "alternatives": [
+      {
+        "name": "Copy.ai",
+        "slug": "copy-ai"
+      },
+      {
+        "name": "Writesonic",
+        "slug": "writesonic"
+      },
+      {
+        "name": "ChatGPT",
+        "slug": "chatgpt"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/jasper",
+      "facebook": "https://www.facebook.com/jasper",
+      "instagram": null,
+      "linkedin": "https://www.linkedin.com/company/jasper"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Does Jasper offer a free trial?",
+        "answer": "Yes, Jasper offers a 7-day free trial with full access to all features. No credit card required."
+      },
+      {
+        "question": "Can multiple team members use Jasper?",
+        "answer": "Yes, Pro plans support up to 5 users, and Business plans offer unlimited seats with advanced collaboration features."
+      }
+    ],
+    "seoTitle": "Jasper: AI Content Platform for Marketing Teams",
+    "seoDescription": "Create blog posts, social media content, and marketing copy with Jasper AI. Trusted by over 100,000 teams. Start your free trial.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "grammarly",
+    "slug": "grammarly",
+    "name": "Grammarly",
+    "company": "Grammarly Inc.",
+    "logo": "https://cdn.brandfetch.io/grammarly.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://www.grammarly.com/",
+    "shortDescription": "AI-powered writing assistant for grammar, clarity, and tone.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": true,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Grammar checking",
+          "Spelling corrections",
+          "Basic suggestions",
+          "Browser extension"
+        ]
+      },
+      {
+        "plan": "Premium",
+        "price": "$12/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Advanced suggestions",
+          "Tone detection",
+          "Plagiarism detection",
+          "Vocabulary enhancement"
+        ]
+      },
+      {
+        "plan": "Business",
+        "price": "$15/member/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Team management",
+          "Style guide",
+          "Brand tones",
+          "Analytics"
+        ]
+      }
+    ],
+    "category": "Writing",
+    "subCategory": "Grammar Checker",
+    "language": [
+      "English"
+    ],
+    "tags": [
+      "writing",
+      "grammar",
+      "editing",
+      "proofreading",
+      "productivity"
+    ],
+    "useCases": [
+      "Email writing",
+      "Academic papers",
+      "Business documents",
+      "Social media posts",
+      "Creative writing"
+    ],
+    "integrations": [
+      "Chrome",
+      "Safari",
+      "Firefox",
+      "Microsoft Word",
+      "Google Docs",
+      "Slack",
+      "iOS",
+      "Android"
+    ],
+    "platform": [
+      "Web",
+      "Windows",
+      "Mac",
+      "iOS",
+      "Android"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2009-01-01",
+    "lastUpdated": "2025-01-12",
+    "rating": 4.9,
+    "totalReviews": 10000000,
+    "pros": [
+      "Excellent free tier",
+      "Seamless integrations",
+      "Accurate suggestions"
+    ],
+    "cons": [
+      "English only",
+      "Premium features require subscription"
+    ],
+    "features": [
+      "Grammar and spelling corrections",
+      "Tone detection and adjustment",
+      "Clarity and conciseness suggestions",
+      "Plagiarism detection (Premium)",
+      "Browser extension and desktop app"
+    ],
+    "fullDescription": "Grammarly is the world's leading AI-powered writing assistant, helping over 30 million people communicate more effectively every day. It goes far beyond simple spell-checking by analyzing sentence structure, tone, clarity, and engagement. The free version provides essential grammar and spelling corrections, while Grammarly Premium unlocks advanced features like vocabulary enhancement, genre-specific writing style checks, and plagiarism detection. Seamlessly integrated via browser extensions, desktop apps, and mobile keyboards, Grammarly ensures your writing is polished and professional across all platforms—from emails to social media to long-form documents.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/19867470/pexels-photo-19867470.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden letter tiles scattered on a textured surface, spelling 'AI'."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18475682/pexels-photo-18475682.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of vintage typewriter with 'AI ETHICS' typed on paper, emphasizing technology and responsib"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18510427/pexels-photo-18510427.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Retro typewriter with 'AI Ethics' on paper, conveying technology themes."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069695/pexels-photo-18069695.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A digital representation of how large language models function in AI technology."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://www.grammarly.com/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "$0.20 per registration",
+      "cookieDuration": "90 days",
+      "network": "CJ Affiliate"
+    },
+    "alternatives": [
+      {
+        "name": "ProWritingAid",
+        "slug": "prowritingaid"
+      },
+      {
+        "name": "Hemingway Editor",
+        "slug": "hemingway-editor"
+      },
+      {
+        "name": "LanguageTool",
+        "slug": "languagetool"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/Grammarly",
+      "facebook": "https://www.facebook.com/grammarly",
+      "instagram": "https://www.instagram.com/grammarly",
+      "linkedin": "https://www.linkedin.com/company/grammarly"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US, EU",
+    "faq": [
+      {
+        "question": "Is Grammarly free?",
+        "answer": "Yes, Grammarly offers a comprehensive free tier with grammar and spelling checks. Premium unlocks advanced features."
+      },
+      {
+        "question": "Does Grammarly work on mobile?",
+        "answer": "Yes, Grammarly offers keyboard apps for both iOS and Android devices."
+      }
+    ],
+    "seoTitle": "Grammarly: Free AI Writing Assistant for Grammar and Clarity",
+    "seoDescription": "Improve your writing with Grammarly's AI-powered grammar checker, tone detector, and clarity suggestions. Free browser extension available.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "runway",
+    "slug": "runway",
+    "name": "Runway",
+    "company": "Runway AI",
+    "logo": "https://cdn.brandfetch.io/runwayml.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://runwayml.com/",
+    "shortDescription": "AI-powered video editing and generation platform.",
+    "pricing": "Freemium",
+    "pricingModel": "Credit-based",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "3 projects",
+          "720p exports",
+          "Basic AI tools",
+          "5GB assets"
+        ]
+      },
+      {
+        "plan": "Standard",
+        "price": "$15/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited projects",
+          "1080p exports",
+          "Gen-2 access",
+          "100GB assets"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$35/month",
+        "billingCycle": "monthly",
+        "features": [
+          "4K exports",
+          "Unlimited generations",
+          "500GB assets",
+          "Advanced export"
+        ]
+      },
+      {
+        "plan": "Unlimited",
+        "price": "$95/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited generations",
+          "All features",
+          "Unlimited assets",
+          "Priority support"
+        ]
+      }
+    ],
+    "category": "Video",
+    "subCategory": "Video Editing",
+    "language": [
+      "English"
+    ],
+    "tags": [
+      "video",
+      "editing",
+      "generation",
+      "creative",
+      "ai tools"
+    ],
+    "useCases": [
+      "AI video generation",
+      "Background removal",
+      "Motion graphics",
+      "Visual effects",
+      "Content creation"
+    ],
+    "integrations": [
+      "Adobe",
+      "Final Cut Pro",
+      "DaVinci Resolve",
+      "API"
+    ],
+    "platform": [
+      "Web",
+      "Mac",
+      "Windows"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2018-01-01",
+    "lastUpdated": "2025-01-10",
+    "rating": 4.6,
+    "totalReviews": 2000,
+    "pros": [
+      "Innovative video generation",
+      "Powerful editing suite",
+      "Free tier available"
+    ],
+    "cons": [
+      "Generation credits limited",
+      "Steep learning curve for advanced tools"
+    ],
+    "features": [
+      "Text-to-video generation (Gen-2)",
+      "Background removal without green screen",
+      "Motion tracking",
+      "Frame interpolation for slow motion",
+      "Collaborative editing"
+    ],
+    "fullDescription": "Runway is revolutionizing video creation by making advanced AI tools accessible to creators of all skill levels. Its suite includes Gen-2 for generating video clips from text prompts, background removal that works without a green screen, and sophisticated motion tracking. Professional editors use Runway for tasks like rotoscoping and frame interpolation, while beginners appreciate the intuitive interface for quick, impressive results. The free plan offers a generous introduction, with paid tiers unlocking higher resolution and longer generations. Runway has become essential for YouTubers, filmmakers, and digital artists pushing creative boundaries.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/33108192/pexels-photo-33108192.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "AI-powered fighter jet on runway in England, showcasing advanced aviation technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/9873573/pexels-photo-9873573.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Long view of an empty airport runway on a hazy day, perfect for aviation industry visuals."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/230976/pexels-photo-230976.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Aerial shot of a runway at Kjevik Airport, Norway under a dramatic sky"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/7508565/pexels-photo-7508565.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "An empty airport runway at sunrise, showcasing a clear sky and distant airport buildings."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/14400662/pexels-photo-14400662.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up view of a private aircraft wing and runway, preparing for takeoff."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://runwayml.com/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Pictory",
+        "slug": "pictory"
+      },
+      {
+        "name": "Synthesia",
+        "slug": "synthesia"
+      },
+      {
+        "name": "Descript",
+        "slug": "descript"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/runwayml",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/runwayml",
+      "linkedin": "https://www.linkedin.com/company/runwayml"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Runway free?",
+        "answer": "Yes, Runway offers a free tier with 3 projects and basic AI tools. Paid plans unlock more features and higher quality exports."
+      },
+      {
+        "question": "Can I use Runway for commercial projects?",
+        "answer": "Yes, all paid plans include commercial usage rights for generated content."
+      }
+    ],
+    "seoTitle": "Runway: AI Video Editing and Generation for Creators",
+    "seoDescription": "Edit and generate videos with AI. Remove backgrounds, create slow-mo, generate clips from text. Free plan available for beginners.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "leonardo",
+    "slug": "leonardo",
+    "name": "Leonardo.ai",
+    "company": "Leonardo Interactive",
+    "logo": "https://cdn.brandfetch.io/leonardo.ai/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://leonardo.ai/",
+    "shortDescription": "Professional AI image generator with advanced control features for game assets and marketing.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "daily",
+        "features": [
+          "150 tokens/day",
+          "~30-40 images",
+          "Basic models",
+          "Community access"
+        ]
+      },
+      {
+        "plan": "Apprentice",
+        "price": "$12/month",
+        "billingCycle": "monthly",
+        "features": [
+          "8,500 tokens/month",
+          "Private generations",
+          "Priority queue"
+        ]
+      },
+      {
+        "plan": "Artisan",
+        "price": "$30/month",
+        "billingCycle": "monthly",
+        "features": [
+          "25,000 tokens/month",
+          "All models",
+          "Commercial license"
+        ]
+      },
+      {
+        "plan": "Maestro",
+        "price": "$60/month",
+        "billingCycle": "monthly",
+        "features": [
+          "60,000 tokens/month",
+          "API access",
+          "Enterprise support"
+        ]
+      }
+    ],
+    "category": "Image Generation",
+    "subCategory": "AI Art",
+    "language": [
+      "English"
+    ],
+    "tags": [
+      "image generation",
+      "game assets",
+      "marketing",
+      "creative",
+      "ai art"
+    ],
+    "useCases": [
+      "Game asset creation",
+      "Product photography",
+      "Marketing visuals",
+      "Character design",
+      "Architectural visualization"
+    ],
+    "integrations": [
+      "Unreal Engine",
+      "Unity",
+      "Blender",
+      "API"
+    ],
+    "platform": [
+      "Web",
+      "iOS"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2022-01-01",
+    "lastUpdated": "2025-01-12",
+    "rating": 4.7,
+    "totalReviews": 3000,
+    "pros": [
+      "Excellent creative control",
+      "Game-ready assets",
+      "Generous free tier"
+    ],
+    "cons": [
+      "Learning curve for advanced features",
+      "English only"
+    ],
+    "features": [
+      "ControlNet for pose consistency",
+      "Canvas editor with inpainting",
+      "Transparent PNG exports",
+      "8K HD upscaling",
+      "Specialized pre-trained models"
+    ],
+    "fullDescription": "Leonardo.ai is a production-ready AI image generator trusted by game developers, product designers, and marketing teams worldwide. It stands out with its advanced creative controls, including ControlNet integration for maintaining character pose consistency across variations, and a powerful canvas editor for precise inpainting and outpainting. Unlike basic text-to-image tools, Leonardo offers specialized models trained for character design, product photography, and architectural visualization. The free tier provides 150 daily tokens—enough for 30-40 image generations daily—making it accessible for creators at any budget. For those ready to scale, Leonardo offers a generous affiliate program with 25% recurring commissions, rewarding creators who share the platform with their community.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract representation of large language models and AI technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17485741/pexels-photo-17485741.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Intricate wireframe with dynamic ribbons in an abstract 3D composition."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/8438880/pexels-photo-8438880.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "An articulated robotic arm competes in chess on a board against a dark background, highlighting AI a"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17483868/pexels-photo-17483868.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "3D rendered abstract design featuring a digital brain visual with vibrant colors."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://leonardo.ai/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "25% recurring",
+      "cookieDuration": "30 days",
+      "network": "FirstPromoter"
+    },
+    "alternatives": [
+      {
+        "name": "Midjourney",
+        "slug": "midjourney"
+      },
+      {
+        "name": "DALL-E 3",
+        "slug": "dalle"
+      },
+      {
+        "name": "Stable Diffusion",
+        "slug": "stable-diffusion"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/LeonardoAi_",
+      "facebook": null,
+      "instagram": "https://www.instagram.com/leonardo.ai",
+      "linkedin": "https://www.linkedin.com/company/leonardo-ai"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Leonardo.ai free?",
+        "answer": "Yes, Leonardo.ai offers a generous free tier with 150 daily tokens (approximately 30-40 image generations)."
+      },
+      {
+        "question": "Can I use Leonardo.ai commercially?",
+        "answer": "Yes, paid plans include full commercial usage rights for all generated content."
+      }
+    ],
+    "seoTitle": "Leonardo.ai: Professional AI Image Generator for Games & Marketing",
+    "seoDescription": "Create production-ready game assets and marketing visuals with Leonardo.ai. Advanced ControlNet, inpainting, and canvas editing. Free tier with 150 daily tokens.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "elevenlabs",
+    "slug": "elevenlabs",
+    "name": "ElevenLabs",
+    "company": "ElevenLabs",
+    "logo": "https://cdn.brandfetch.io/elevenlabs.io/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://elevenlabs.io/",
+    "shortDescription": "Most realistic AI voice generator with voice cloning and multilingual support.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "10,000 characters/month",
+          "~10 min audio",
+          "3 custom voices",
+          "API access"
+        ]
+      },
+      {
+        "plan": "Starter",
+        "price": "$5/month",
+        "billingCycle": "monthly",
+        "features": [
+          "30,000 characters/month",
+          "10 custom voices",
+          "Commercial license"
+        ]
+      },
+      {
+        "plan": "Creator",
+        "price": "$22/month",
+        "billingCycle": "monthly",
+        "features": [
+          "100,000 characters/month",
+          "30 custom voices",
+          "Higher quality"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$99/month",
+        "billingCycle": "monthly",
+        "features": [
+          "500,000 characters/month",
+          "Unlimited voices",
+          "API priority"
+        ]
+      }
+    ],
+    "category": "Audio",
+    "subCategory": "Text-to-Speech",
+    "language": [
+      "English",
+      "Arabic",
+      "French",
+      "Spanish",
+      "Multilingual"
+    ],
+    "tags": [
+      "voice",
+      "text-to-speech",
+      "audio",
+      "voice cloning",
+      "multilingual"
+    ],
+    "useCases": [
+      "Video voiceovers",
+      "Audiobook production",
+      "Podcast narration",
+      "E-learning content",
+      "IVR and announcements"
+    ],
+    "integrations": [
+      "API",
+      "Adobe Premiere",
+      "Final Cut Pro",
+      "Zapier"
+    ],
+    "platform": [
+      "Web",
+      "API"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2022-03-01",
+    "lastUpdated": "2025-01-15",
+    "rating": 4.9,
+    "totalReviews": 500,
+    "pros": [
+      "Unmatched voice quality",
+      "Excellent Arabic support",
+      "Powerful API"
+    ],
+    "cons": [
+      "Free tier limited",
+      "Higher cost for premium voices"
+    ],
+    "features": [
+      "29+ languages supported",
+      "Voice cloning from 60s audio",
+      "Emotion and tone control",
+      "API for developers",
+      "Commercial usage rights"
+    ],
+    "fullDescription": "ElevenLabs is widely recognized as the industry leader in AI voice generation, producing the most natural and emotionally expressive synthetic voices available today. The platform supports over 29 languages, including Arabic, and offers advanced features like voice cloning—create a digital replica of any voice from just 60 seconds of audio. Content creators use ElevenLabs for voiceovers, podcast production, audiobook narration, and video dubbing. The free tier provides 10,000 characters monthly (approximately 10 minutes of audio), making it accessible for experimentation. For professionals, paid plans unlock higher quality, longer generation, and commercial licensing.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069697/pexels-photo-18069697.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract representation of large language models and AI technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/16027824/pexels-photo-16027824.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a computer screen displaying ChatGPT interface in a dark setting."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069490/pexels-photo-18069490.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract digital visualization of AI, featuring colorful 3D elements and modern design."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069814/pexels-photo-18069814.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Modern abstract 3D render showcasing a complex geometric structure in cool hues."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530406/pexels-photo-30530406.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of DeepSeek AI chat interface on a laptop screen in low light."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://elevenlabs.io/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "20% recurring",
+      "cookieDuration": "60 days",
+      "network": "FirstPromoter"
+    },
+    "alternatives": [
+      {
+        "name": "Murf AI",
+        "slug": "murf-ai"
+      },
+      {
+        "name": "Play.ht",
+        "slug": "play-ht"
+      },
+      {
+        "name": "Descript",
+        "slug": "descript"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/elevenlabsio",
+      "facebook": null,
+      "instagram": null,
+      "linkedin": "https://www.linkedin.com/company/elevenlabs"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "EU, US",
+    "faq": [
+      {
+        "question": "Is ElevenLabs free?",
+        "answer": "Yes, ElevenLabs offers a free tier with 10,000 characters monthly (approximately 10 minutes of audio)."
+      },
+      {
+        "question": "Can I clone any voice?",
+        "answer": "You can clone voices you have rights to use with just 60 seconds of audio. ElevenLabs has safeguards against unauthorized cloning."
+      }
+    ],
+    "seoTitle": "ElevenLabs: Most Realistic AI Voice Generator & Voice Cloning",
+    "seoDescription": "Generate lifelike AI voices in 29+ languages. Voice cloning from just 60 seconds of audio. Free tier with 10,000 characters monthly.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "synthesia",
+    "slug": "synthesia",
+    "name": "Synthesia",
+    "company": "Synthesia",
+    "logo": "https://cdn.brandfetch.io/synthesia.io/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://www.synthesia.io/",
+    "shortDescription": "Enterprise AI video platform with realistic avatars speaking 140+ languages.",
+    "pricing": "Paid",
+    "pricingModel": "Subscription",
+    "hasFreeTier": false,
+    "hasFreeTrial": true,
+    "pricingDetails": [
+      {
+        "plan": "Starter",
+        "price": "$29/month",
+        "billingCycle": "monthly",
+        "features": [
+          "10 minutes video/month",
+          "90+ avatars",
+          "120+ languages"
+        ]
+      },
+      {
+        "plan": "Creator",
+        "price": "$89/month",
+        "billingCycle": "monthly",
+        "features": [
+          "30 minutes video/month",
+          "140+ avatars",
+          "140+ languages",
+          "Custom avatars"
+        ]
+      },
+      {
+        "plan": "Enterprise",
+        "price": "Custom",
+        "billingCycle": "annual",
+        "features": [
+          "Unlimited video",
+          "Custom avatars",
+          "SSO",
+          "Dedicated support"
+        ]
+      }
+    ],
+    "category": "Video",
+    "subCategory": "AI Avatars",
+    "language": [
+      "English",
+      "Arabic",
+      "French",
+      "Spanish",
+      "Multilingual"
+    ],
+    "tags": [
+      "video",
+      "avatars",
+      "corporate",
+      "training",
+      "multilingual"
+    ],
+    "useCases": [
+      "Corporate training videos",
+      "Internal communications",
+      "Marketing videos",
+      "E-learning content",
+      "Product demos"
+    ],
+    "integrations": [
+      "LMS platforms",
+      "PowerPoint",
+      "API",
+      "SCORM"
+    ],
+    "platform": [
+      "Web"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2017-01-01",
+    "lastUpdated": "2025-01-10",
+    "rating": 4.8,
+    "totalReviews": 1236,
+    "pros": [
+      "Enterprise-grade quality",
+      "Massive language support",
+      "Custom avatars"
+    ],
+    "cons": [
+      "Higher price point",
+      "Requires subscription"
+    ],
+    "features": [
+      "240+ AI avatars",
+      "140+ languages supported",
+      "Custom avatar creation",
+      "One-click translation",
+      "SCORM exports for LMS"
+    ],
+    "fullDescription": "Synthesia is the enterprise standard for AI video creation, trusted by over half of the Fortune 100 for corporate communications, training, and marketing. The platform offers 240+ realistic AI avatars that can speak in 140+ languages with flawless lip-syncing and natural expressiveness. You simply type a script, and Synthesia generates a professional video complete with voiceover and on-screen text. Custom avatars allow companies to create digital representatives of their own team members. Features like one-click translation and SCORM exports make Synthesia indispensable for global organizations scaling their video content production.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530416/pexels-photo-30530416.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A MacBook displaying the DeepSeek AI interface, showcasing digital innovation."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530415/pexels-photo-30530415.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A laptop on a wooden table shows an AI chat interface, featuring the DeepSeek chatbot in action."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530406/pexels-photo-30530406.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of DeepSeek AI chat interface on a laptop screen in low light."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069517/pexels-photo-18069517.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vibrant 3D render of geometric shapes scattered over a circuit-like background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530426/pexels-photo-30530426.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a smartphone with AI assistant interface on screen over a laptop."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://www.synthesia.io/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "20% recurring",
+      "cookieDuration": "60 days",
+      "network": "PartnerStack"
+    },
+    "alternatives": [
+      {
+        "name": "HeyGen",
+        "slug": "heygen"
+      },
+      {
+        "name": "D-ID",
+        "slug": "d-id"
+      },
+      {
+        "name": "Colossyan",
+        "slug": "colossyan"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/synthesiaIO",
+      "facebook": null,
+      "instagram": null,
+      "linkedin": "https://www.linkedin.com/company/synthesia"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "EU, US",
+    "faq": [
+      {
+        "question": "Can I create a custom avatar?",
+        "answer": "Yes, Creator and Enterprise plans allow you to create custom avatars based on real people with their consent."
+      },
+      {
+        "question": "Is there a free trial?",
+        "answer": "Yes, you can create a free demo video to test the platform before subscribing."
+      }
+    ],
+    "seoTitle": "Synthesia: AI Video Creation with Realistic Avatars in 140+ Languages",
+    "seoDescription": "Create professional videos with AI avatars that speak 140+ languages. Trusted by 60% of Fortune 100. No cameras or actors needed.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "cursor",
+    "slug": "cursor",
+    "name": "Cursor",
+    "company": "Anysphere",
+    "logo": "https://cdn.brandfetch.io/cursor.sh/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://cursor.sh/",
+    "shortDescription": "AI code editor that understands your entire codebase and writes code with you.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": true,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Limited completions",
+          "Basic AI features",
+          "Community support"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$20/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited completions",
+          "500 fast requests",
+          "Priority support"
+        ]
+      },
+      {
+        "plan": "Business",
+        "price": "$40/user/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited team members",
+          "Organization-wide admin",
+          "SSO"
+        ]
+      }
+    ],
+    "category": "Developer Tools",
+    "subCategory": "Code Assistant",
+    "language": [
+      "English",
+      "Code"
+    ],
+    "tags": [
+      "coding",
+      "developer",
+      "programming",
+      "ide",
+      "ai pair programmer"
+    ],
+    "useCases": [
+      "Full-stack development",
+      "Code refactoring",
+      "Feature implementation",
+      "Debugging and error fixing",
+      "Learning new codebases"
+    ],
+    "integrations": [
+      "VS Code extensions",
+      "GitHub",
+      "GitLab",
+      "Terminal"
+    ],
+    "platform": [
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "apiAvailable": false,
+    "releaseDate": "2023-01-01",
+    "lastUpdated": "2025-01-15",
+    "rating": 4.9,
+    "totalReviews": 1000,
+    "pros": [
+      "Deep codebase understanding",
+      "Agentic capabilities",
+      "Familiar VS Code base"
+    ],
+    "cons": [
+      "Pro subscription required for heavy use",
+      "English only"
+    ],
+    "features": [
+      "Multi-line code generation",
+      "Agent mode for autonomous tasks",
+      "@-reference system for context",
+      "Automatic error repair",
+      "Built on VS Code"
+    ],
+    "fullDescription": "Cursor has emerged as the premier AI-native code editor, fundamentally changing how developers write software. Unlike traditional autocomplete tools, Cursor understands your entire codebase, making intelligent suggestions that respect your existing architecture and patterns. Its agent mode can implement features end-to-end, write tests, and even open pull requests—all from natural language instructions. Built on VS Code's familiar interface, Cursor adds powerful AI capabilities without sacrificing the workflows developers already know. The free tier offers generous usage, while Pro unlocks unlimited completions and advanced features.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/14363329/pexels-photo-14363329.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Elegant close-up of a sleek wireless computer mouse on a textured surface."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up view of a mouse cursor over digital security text on display."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530410/pexels-photo-30530410.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of DeepSeek AI interface on a dark screen highlighting chat functionality."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530407/pexels-photo-30530407.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of an AI-driven chat interface on a computer screen, showcasing modern AI technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530418/pexels-photo-30530418.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Image displaying DeepSeek AI interface for messaging and search functionality."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://cursor.sh/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "GitHub Copilot",
+        "slug": "copilot"
+      },
+      {
+        "name": "Codeium",
+        "slug": "codeium"
+      },
+      {
+        "name": "TabNine",
+        "slug": "tabnine"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/cursor",
+      "facebook": null,
+      "instagram": null,
+      "linkedin": null
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Cursor free?",
+        "answer": "Cursor has a free tier with limited completions. Pro subscription unlocks unlimited AI completions and priority support."
+      },
+      {
+        "question": "How is Cursor different from GitHub Copilot?",
+        "answer": "Cursor is a full AI-native code editor with deep codebase understanding and agent mode, while Copilot is a plugin for existing editors."
+      }
+    ],
+    "seoTitle": "Cursor: The AI Code Editor That Understands Your Entire Project",
+    "seoDescription": "Write code faster with Cursor, the AI-powered code editor. Multi-line generation, automatic error repair, and agent mode for end-to-end feature implementation.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "taskade",
+    "slug": "taskade",
+    "name": "Taskade",
+    "company": "Taskade",
+    "logo": "https://cdn.brandfetch.io/taskade.com/type/icon?c=1iddWX9571Me9MacPKk",
+    "websiteUrl": "https://taskade.com/",
+    "shortDescription": "Unified AI workspace blending notes, mind maps, and collaborative task lists.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "3 workspaces",
+          "3 members",
+          "1,000 AI credits",
+          "Basic features"
+        ]
+      },
+      {
+        "plan": "Pro",
+        "price": "$19/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited workspaces",
+          "20 members",
+          "Unlimited AI",
+          "Priority support"
+        ]
+      },
+      {
+        "plan": "Business",
+        "price": "$8/user/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited everything",
+          "100 members",
+          "SSO",
+          "Advanced security"
+        ]
+      }
+    ],
+    "category": "Productivity",
+    "subCategory": "Workspace",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "productivity",
+      "notes",
+      "mind maps",
+      "collaboration",
+      "ai assistant"
+    ],
+    "useCases": [
+      "Project management",
+      "Team collaboration",
+      "Brainstorming sessions",
+      "Task organization",
+      "Documentation"
+    ],
+    "integrations": [
+      "Slack",
+      "Google Calendar",
+      "Notion",
+      "Zapier",
+      "API"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android",
+      "Mac",
+      "Windows",
+      "Linux"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2017-01-01",
+    "lastUpdated": "2025-01-10",
+    "rating": 4.6,
+    "totalReviews": 300,
+    "pros": [
+      "All-in-one workspace",
+      "Intuitive interface",
+      "Great free tier"
+    ],
+    "cons": [
+      "Limited integrations",
+      "AI features still evolving"
+    ],
+    "features": [
+      "AI content generation",
+      "Real-time collaboration",
+      "Mind maps and visual boards",
+      "Built-in video chat",
+      "Cross-platform sync"
+    ],
+    "fullDescription": "Taskade reimagines productivity by unifying notes, mind maps, and collaborative task lists into a single, elegant workspace. Whether you're brainstorming ideas, planning projects, or managing daily tasks, Taskade adapts to your workflow rather than forcing you into a rigid system. The built-in AI assistant helps generate content, summarize notes, and automate repetitive tasks. Real-time collaboration features—including live chat and video calls—make it ideal for remote teams and creators who want to minimize app-switching. The free tier offers generous limits for individuals and small teams.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069514/pexels-photo-18069514.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Vibrant 3D abstract sculptures showcased in a modern and artistic setting."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069490/pexels-photo-18069490.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract digital visualization of AI, featuring colorful 3D elements and modern design."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17485847/pexels-photo-17485847.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Vibrant 3D rendering of colorful geometric shapes arranged in an abstract layout."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/17484975/pexels-photo-17484975.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Vibrant 3D rendering depicting the complexity of neural networks."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530415/pexels-photo-30530415.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A laptop on a wooden table shows an AI chat interface, featuring the DeepSeek chatbot in action."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://taskade.com/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "20% recurring",
+      "cookieDuration": "60 days",
+      "network": "FirstPromoter"
+    },
+    "alternatives": [
+      {
+        "name": "Notion",
+        "slug": "notion"
+      },
+      {
+        "name": "ClickUp",
+        "slug": "clickup"
+      },
+      {
+        "name": "Miro",
+        "slug": "miro"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/taskade",
+      "facebook": "https://www.facebook.com/taskade",
+      "instagram": "https://www.instagram.com/taskade",
+      "linkedin": "https://www.linkedin.com/company/taskade"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Taskade free?",
+        "answer": "Yes, Taskade has a generous free tier with 3 workspaces, 3 team members, and 1,000 AI credits monthly."
+      },
+      {
+        "question": "What makes Taskade different from Notion?",
+        "answer": "Taskade focuses on real-time collaboration with built-in video chat, mind maps, and a more visual approach to project management."
+      }
+    ],
+    "seoTitle": "Taskade: AI-Powered Unified Workspace for Teams & Creators",
+    "seoDescription": "Combine notes, mind maps, and task lists in one AI-powered workspace. Real-time collaboration, smart automations, and flexible templates.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "deepseek",
+    "slug": "deepseek",
+    "name": "DeepSeek",
+    "company": "DeepSeek",
+    "logo": "assets/images/logos/deepseek.png",
+    "websiteUrl": "https://www.deepseek.com/",
+    "shortDescription": "Free AI chatbot with powerful reasoning and 1M token context window.",
+    "pricing": "Free",
+    "pricingModel": "Free",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited messages",
+          "1M token context",
+          "File uploads",
+          "Web search",
+          "API access"
+        ]
+      }
+    ],
+    "category": "Chatbot",
+    "subCategory": "Conversational AI",
+    "language": [
+      "English",
+      "Chinese",
+      "Multilingual"
+    ],
+    "tags": [
+      "chatbot",
+      "reasoning",
+      "free",
+      "research",
+      "assistant"
+    ],
+    "useCases": [
+      "Research and analysis",
+      "Mathematical problem-solving",
+      "Code review",
+      "Document processing",
+      "Academic writing assistance"
+    ],
+    "integrations": [
+      "API",
+      "Browser extension"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2023-11-01",
+    "lastUpdated": "2025-01-15",
+    "rating": 4.8,
+    "totalReviews": 2000,
+    "pros": [
+      "Completely free",
+      "Massive context window",
+      "Excellent reasoning"
+    ],
+    "cons": [
+      "Limited language support",
+      "No multimodal capabilities"
+    ],
+    "features": [
+      "1M token context window",
+      "Advanced reasoning capabilities",
+      "File upload support",
+      "Web search integration",
+      "100% free"
+    ],
+    "fullDescription": "DeepSeek has disrupted the AI chatbot landscape by offering a powerful, reasoning-focused assistant that is completely free to use. Its standout feature is a massive 1M token context window—enough to process entire books or extensive codebases in a single conversation. DeepSeek excels at complex problem-solving, mathematical reasoning, and deep research tasks. With file upload support and optional web search, it rivals premium assistants without any subscription cost. The platform has gained massive popularity, ranking among the top AI tools globally, and represents one of the best free alternatives to ChatGPT and Claude.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530414/pexels-photo-30530414.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a digital assistant interface on a dark screen, showcasing AI technology communication."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530426/pexels-photo-30530426.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a smartphone with AI assistant interface on screen over a laptop."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530404/pexels-photo-30530404.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A detailed view of the DeepSeek AI interface, displaying a welcoming message on a dark background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530410/pexels-photo-30530410.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of DeepSeek AI interface on a dark screen highlighting chat functionality."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530418/pexels-photo-30530418.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Image displaying DeepSeek AI interface for messaging and search functionality."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://www.deepseek.com/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "ChatGPT",
+        "slug": "chatgpt"
+      },
+      {
+        "name": "Claude",
+        "slug": "claude"
+      },
+      {
+        "name": "Perplexity",
+        "slug": "perplexity"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/deepseek_ai",
+      "facebook": null,
+      "instagram": null,
+      "linkedin": null
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "CN",
+    "faq": [
+      {
+        "question": "Is DeepSeek really free?",
+        "answer": "Yes, DeepSeek is completely free with unlimited usage, including the powerful reasoning model and 1M token context window."
+      },
+      {
+        "question": "How does DeepSeek compare to ChatGPT?",
+        "answer": "DeepSeek excels at reasoning tasks and has a larger context window (1M tokens vs 128K). It's completely free, while ChatGPT charges for GPT-4."
+      }
+    ],
+    "seoTitle": "DeepSeek: Free AI Chatbot with Advanced Reasoning & 1M Context",
+    "seoDescription": "DeepSeek is a completely free AI assistant with powerful reasoning capabilities and a massive 1M token context window. No subscription required.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "character-ai",
+    "slug": "character-ai",
+    "name": "Character.ai",
+    "company": "Character.ai",
+    "logo": "assets/images/logos/character-ai.png",
+    "websiteUrl": "https://character.ai/",
+    "shortDescription": "Create and chat with personalized AI characters for entertainment and assistance.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited messaging",
+          "Create characters",
+          "Community access",
+          "Basic features"
+        ]
+      },
+      {
+        "plan": "Character.ai+",
+        "price": "$9.99/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Priority access",
+          "Faster responses",
+          "Early access to features",
+          "Community badge"
+        ]
+      }
+    ],
+    "category": "Chatbot",
+    "subCategory": "Character AI",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "chatbot",
+      "characters",
+      "roleplay",
+      "entertainment",
+      "ai companion"
+    ],
+    "useCases": [
+      "Entertainment and roleplay",
+      "Language practice",
+      "Creative writing assistance",
+      "Emotional support",
+      "Learning through conversation"
+    ],
+    "integrations": [
+      "Mobile apps"
+    ],
+    "platform": [
+      "Web",
+      "iOS",
+      "Android"
+    ],
+    "apiAvailable": false,
+    "releaseDate": "2022-09-01",
+    "lastUpdated": "2025-01-12",
+    "rating": 4.6,
+    "totalReviews": 500000,
+    "pros": [
+      "Highly engaging",
+      "Massive character library",
+      "Free tier available"
+    ],
+    "cons": [
+      "Not suited for factual tasks",
+      "Can be addictive"
+    ],
+    "features": [
+      "Millions of pre-made characters",
+      "Custom character creation",
+      "Voice interaction",
+      "Memory and personality customization",
+      "NSFW controls"
+    ],
+    "fullDescription": "Character.ai has created a unique niche in the AI landscape by focusing on personalized, character-driven conversations. Users can chat with millions of pre-made characters—from historical figures to fictional personalities—or create their own with custom traits, backstories, and voices. The platform emphasizes personalization, adapting AI models to meet diverse user needs for entertainment, learning, or companionship. It consistently ranks among the top AI tools by traffic, demonstrating its massive appeal. The free tier provides generous usage, while a premium subscription unlocks priority access and additional features.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/8849295/pexels-photo-8849295.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract illustration of AI with silhouette head full of eyes, symbolizing observation and technolog"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Abstract glass surfaces reflecting digital text create a mysterious tech ambiance."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18799044/pexels-photo-18799044.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a futuristic humanoid robot with metallic armor and blue LED eyes."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18498317/pexels-photo-18498317.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A vintage typewriter outdoors displaying \"AI ethics\" on paper, symbolizing tradition meets technolog"
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/18069693/pexels-photo-18069693.png?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Futuristic abstract artwork showcasing AI concepts with digital text overlays."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://character.ai/",
+    "isSponsored": false,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Replika",
+        "slug": "replika"
+      },
+      {
+        "name": "AI Dungeon",
+        "slug": "ai-dungeon"
+      },
+      {
+        "name": "ChatGPT",
+        "slug": "chatgpt"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/character_ai",
+      "facebook": null,
+      "instagram": null,
+      "linkedin": null
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Character.ai free?",
+        "answer": "Yes, Character.ai is free to use with unlimited messaging. Character.ai+ subscription provides priority access and faster responses."
+      },
+      {
+        "question": "Can I create my own AI character?",
+        "answer": "Yes, you can create custom characters with unique personalities, backstories, and conversation styles using the character creation tools."
+      }
+    ],
+    "seoTitle": "Character.ai: Create and Chat with Personalized AI Characters",
+    "seoDescription": "Chat with millions of AI characters or create your own. Personalized AI experience for entertainment, learning, and companionship. Free to use.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "deepl",
+    "slug": "deepl",
+    "name": "DeepL",
+    "company": "DeepL SE",
+    "logo": "assets/images/logos/deepl.png",
+    "websiteUrl": "https://www.deepl.com/",
+    "shortDescription": "AI translation service known for exceptional accuracy and natural phrasing.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "monthly",
+        "features": [
+          "3,000 characters per translation",
+          "Unlimited translations",
+          "Web translator",
+          "Mobile apps"
+        ]
+      },
+      {
+        "plan": "Starter",
+        "price": "$10/month",
+        "billingCycle": "monthly",
+        "features": [
+          "5,000 characters per translation",
+          "Unlimited document translations",
+          "Glossary",
+          "API access"
+        ]
+      },
+      {
+        "plan": "Advanced",
+        "price": "$34/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Unlimited characters",
+          "Enhanced security",
+          "Team management",
+          "Single sign-on"
+        ]
+      }
+    ],
+    "category": "Translation",
+    "subCategory": "Language Translation",
+    "language": [
+      "English",
+      "Arabic",
+      "French",
+      "German",
+      "Spanish",
+      "Multilingual"
+    ],
+    "tags": [
+      "translation",
+      "language",
+      "writing",
+      "global",
+      "accuracy"
+    ],
+    "useCases": [
+      "Business communication",
+      "Document translation",
+      "Website localization",
+      "Academic research",
+      "Travel and tourism"
+    ],
+    "integrations": [
+      "API",
+      "CAT tools",
+      "Microsoft Office",
+      "Zapier"
+    ],
+    "platform": [
+      "Web",
+      "Windows",
+      "Mac",
+      "iOS",
+      "Android"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2017-08-01",
+    "lastUpdated": "2025-01-14",
+    "rating": 4.9,
+    "totalReviews": 138,
+    "pros": [
+      "Exceptional accuracy",
+      "Supports Arabic",
+      "Document translation"
+    ],
+    "cons": [
+      "Limited free tier",
+      "Fewer languages than Google Translate"
+    ],
+    "features": [
+      "30+ languages supported",
+      "Document translation (PDF, Word, PPT)",
+      "Glossary customization",
+      "Formal/informal tone options",
+      "API for developers"
+    ],
+    "fullDescription": "DeepL has earned a reputation as the world's most accurate machine translation service, consistently outperforming competitors in blind tests. It supports over 30 languages, including Arabic, and offers nuanced translations that capture context and tone far better than traditional tools. The platform includes document translation for PDFs, Word files, and PowerPoint presentations, preserving original formatting. Users can create custom glossaries to ensure consistent terminology and choose between formal and informal tones. The free tier provides 3,000 characters monthly, while Pro unlocks unlimited usage and advanced features.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530406/pexels-photo-30530406.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of DeepSeek AI chat interface on a laptop screen in low light."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530414/pexels-photo-30530414.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a digital assistant interface on a dark screen, showcasing AI technology communication."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530410/pexels-photo-30530410.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of DeepSeek AI interface on a dark screen highlighting chat functionality."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530415/pexels-photo-30530415.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A laptop on a wooden table shows an AI chat interface, featuring the DeepSeek chatbot in action."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530426/pexels-photo-30530426.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a smartphone with AI assistant interface on screen over a laptop."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://www.deepl.com/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "15% recurring",
+      "cookieDuration": "60 days",
+      "network": "Impact"
+    },
+    "alternatives": [
+      {
+        "name": "Google Translate",
+        "slug": "google-translate"
+      },
+      {
+        "name": "Microsoft Translator",
+        "slug": "microsoft-translator"
+      },
+      {
+        "name": "Amazon Translate",
+        "slug": "amazon-translate"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/DeepLcom",
+      "facebook": "https://www.facebook.com/DeepLcom",
+      "instagram": null,
+      "linkedin": "https://www.linkedin.com/company/deepl"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "EU",
+    "faq": [
+      {
+        "question": "Is DeepL free?",
+        "answer": "Yes, DeepL offers a free tier with 3,000 characters per translation. Pro plans unlock unlimited translations and document support."
+      },
+      {
+        "question": "Is DeepL better than Google Translate?",
+        "answer": "In blind tests, DeepL consistently outperforms competitors in translation accuracy and natural phrasing."
+      }
+    ],
+    "seoTitle": "DeepL: The World's Most Accurate AI Translator",
+    "seoDescription": "Translate text and documents with DeepL's industry-leading accuracy. Supports 30+ languages including Arabic. Free tier with 3,000 characters monthly.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "remove-bg",
+    "slug": "remove-bg",
+    "name": "Remove.bg",
+    "company": "Kaleido AI",
+    "logo": "assets/images/logos/remove-bg.png",
+    "websiteUrl": "https://www.remove.bg/",
+    "shortDescription": "Instantly remove image backgrounds with AI—no editing skills required.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "lifetime",
+        "features": [
+          "Low-resolution downloads (preview quality)",
+          "Unlimited previews",
+          "Web access"
+        ]
+      },
+      {
+        "plan": "Credit Packs",
+        "price": "Pay-as-you-go",
+        "billingCycle": "once",
+        "features": [
+          "High-resolution downloads",
+          "Credits never expire",
+          "API access available"
+        ]
+      },
+      {
+        "plan": "Subscription",
+        "price": "From $40/month",
+        "billingCycle": "monthly",
+        "features": [
+          "Fixed number of high-res credits monthly",
+          "Rollover credits",
+          "Priority support"
+        ]
+      }
+    ],
+    "category": "Image Editing",
+    "subCategory": "Background Removal",
+    "language": [
+      "English",
+      "Multilingual"
+    ],
+    "tags": [
+      "image editing",
+      "background removal",
+      "design",
+      "productivity",
+      "ai",
+      "photo editing",
+      "ecommerce"
+    ],
+    "useCases": [
+      "E-commerce product photography",
+      "Social media graphics",
+      "Presentation visuals",
+      "Marketing materials",
+      "Profile pictures"
+    ],
+    "integrations": [
+      "Adobe Photoshop",
+      "Figma",
+      "WooCommerce",
+      "Zapier",
+      "Shopify",
+      "GIMP"
+    ],
+    "platform": [
+      "Web",
+      "Windows",
+      "Mac",
+      "Linux",
+      "Android",
+      "iOS"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2018-12-01",
+    "lastUpdated": "2025-10-15",
+    "rating": 4.9,
+    "totalReviews": 12500,
+    "pros": [
+      "Incredibly fast",
+      "Excellent accuracy",
+      "Free low-res option",
+      "Wide range of integrations"
+    ],
+    "cons": [
+      "High-res requires payment",
+      "Struggles with complex edges",
+      "Credit system can be confusing"
+    ],
+    "features": [
+      "5-second background removal",
+      "Batch processing",
+      "API and integrations",
+      "High-resolution exports",
+      "Free low-res downloads",
+      "Smart hair and edge detection"
+    ],
+    "fullDescription": "Remove.bg solves one of the most common image editing tasks—background removal—with remarkable speed and accuracy. Simply upload any image, and the AI detects the subject and removes the background in about 5 seconds. The tool is essential for e-commerce product photos, social media content, presentations, and graphic design. It integrates with popular platforms like Photoshop, Figma, and WooCommerce via API and plugins. Low-resolution previews are free, while high-resolution downloads require credits or a subscription. Remove.bg has become an indispensable tool for creators who want professional results without learning complex editing software.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/8438969/pexels-photo-8438969.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A woman receives a red flower from a robotic arm symbolizing harmony of technology and nature."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/8294619/pexels-photo-8294619.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A close-up of a futuristic robot toy on a reflective surface against a gradient background."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/8294616/pexels-photo-8294616.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A modern toy robot standing on a gradient background, showcasing innovation and technology."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/8294615/pexels-photo-8294615.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "A sleek white robot in a studio setting against a gradient background, showcasing modern robotics."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/16689311/pexels-photo-16689311.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Smartphone with ChatGPT screen next to camera and laptop on wooden desk."
+      }
+    ],
+    "videoUrl": null,
+    "affiliateLink": "https://www.remove.bg/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "25% recurring",
+      "cookieDuration": "30 days",
+      "network": "Impact"
+    },
+    "alternatives": [
+      {
+        "name": "Adobe Photoshop",
+        "slug": "adobe-photoshop"
+      },
+      {
+        "name": "Clipping Magic",
+        "slug": "clipping-magic"
+      },
+      {
+        "name": "Erase.bg",
+        "slug": "erase-bg"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/remove_bg",
+      "facebook": "https://www.facebook.com/remove.bg",
+      "instagram": "https://www.instagram.com/remove.bg",
+      "linkedin": "https://www.linkedin.com/company/remove-bg"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "EU, US",
+    "faq": [
+      {
+        "question": "Is Remove.bg free to use?",
+        "answer": "Yes, you can remove backgrounds and download low-resolution previews for free. High-resolution downloads require credits or a subscription."
+      },
+      {
+        "question": "What file formats are supported?",
+        "answer": "Remove.bg supports JPG, PNG, and WebP formats for upload. Exports are in PNG format with transparency."
+      }
+    ],
+    "seoTitle": "Remove.bg: AI Background Remover—Instant, Free, No Skills Needed",
+    "seoDescription": "Remove image backgrounds in 5 seconds with AI. Free for low-resolution images. Perfect for e-commerce, design, and social media.",
+    "schemaType": "SoftwareApplication"
+  },
+  {
+    "id": "descript",
+    "slug": "descript",
+    "name": "Descript",
+    "company": "Descript, Inc.",
+    "logo": "assets/images/logos/descript.png",
+    "websiteUrl": "https://www.descript.com/",
+    "shortDescription": "AI-powered video and podcast editing that's as easy as editing a document.",
+    "pricing": "Freemium",
+    "pricingModel": "Freemium",
+    "hasFreeTier": true,
+    "hasFreeTrial": true,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "features": [
+          "1 hour transcription/month",
+          "720p export with watermark",
+          "Basic AI tools"
+        ]
+      },
+      {
+        "plan": "Hobbyist",
+        "price": "$24/month",
+        "billingCycle": "monthly",
+        "features": [
+          "10 hours transcription",
+          "1080p export",
+          "400 AI credits",
+          "100GB storage"
+        ]
+      },
+      {
+        "plan": "Creator",
+        "price": "$35/month",
+        "billingCycle": "monthly",
+        "features": [
+          "30 hours transcription",
+          "4K export",
+          "800 AI credits",
+          "1TB storage"
+        ]
+      },
+      {
+        "plan": "Business",
+        "price": "$65/month",
+        "billingCycle": "monthly",
+        "features": [
+          "40 hours transcription",
+          "4K export",
+          "1,500 AI credits",
+          "2TB storage",
+          "Team collaboration"
+        ]
+      }
+    ],
+    "category": "Video",
+    "subCategory": "Video Editing",
+    "language": [
+      "English"
+    ],
+    "tags": [
+      "video editing",
+      "podcast",
+      "audio editing",
+      "transcription",
+      "content creation",
+      "AI tools",
+      "productivity"
+    ],
+    "useCases": [
+      "Podcast editing",
+      "Video content creation",
+      "Marketing videos",
+      "Educational content",
+      "Social media clips",
+      "Transcription services"
+    ],
+    "integrations": [
+      "Zapier",
+      "Notion",
+      "HubSpot",
+      "MongoDB",
+      "Okta",
+      "Pipedream"
+    ],
+    "platform": [
+      "Web",
+      "Windows",
+      "Mac"
+    ],
+    "apiAvailable": true,
+    "releaseDate": "2017-01-01",
+    "lastUpdated": "2026-01-01",
+    "rating": 4.7,
+    "totalReviews": 5200,
+    "pros": [
+      "Incredibly intuitive text-based editing",
+      "Powerful AI tools (Studio Sound, Eye Contact)",
+      "Excellent for podcasters and video creators",
+      "Generous free tier"
+    ],
+    "cons": [
+      "AI credits can be consumed quickly",
+      "Higher-tier plans can be expensive",
+      "Limited advanced video effects"
+    ],
+    "features": [
+      "Text-based video and audio editing",
+      "Automatic transcription in 20+ languages",
+      "Studio Sound: AI-powered audio enhancement",
+      "Eye Contact: AI gaze correction",
+      "Remove filler words automatically",
+      "Overdub: AI voice cloning",
+      "Screen recording",
+      "Multi-track editing"
+    ],
+    "fullDescription": "Descript is a revolutionary all-in-one video and podcast editing platform that leverages the power of AI to make the editing process as simple as editing a text document. By automatically transcribing your uploaded media, Descript allows you to cut, copy, paste, and delete sections of your video or audio simply by editing the generated transcript. Its powerful AI tool suite, including Studio Sound for one-click audio enhancement, Eye Contact for gaze correction, and Overdub for voice cloning, empowers creators to produce professional-quality content without the steep learning curve of traditional editing software. Whether you're a podcaster, marketer, educator, or content creator, Descript streamlines your workflow, allowing you to focus on telling your story.",
+    "imageDescriptions": [
+      {
+        "imageUrl": "https://images.pexels.com/photos/19867470/pexels-photo-19867470.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden letter tiles scattered on a textured surface, spelling 'AI'."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530406/pexels-photo-30530406.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of DeepSeek AI chat interface on a laptop screen in low light."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530426/pexels-photo-30530426.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of a smartphone with AI assistant interface on screen over a laptop."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30869149/pexels-photo-30869149.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Wooden Scrabble tiles spelling 'AI' and 'NEWS' for a tech concept image."
+      },
+      {
+        "imageUrl": "https://images.pexels.com/photos/30530407/pexels-photo-30530407.jpeg?auto=compress&cs=tinysrgb&h=650&w=940?auto=compress&cs=tinysrgb&w=800",
+        "caption": "Close-up of an AI-driven chat interface on a computer screen, showcasing modern AI technology."
+      }
+    ],
+    "affiliateLink": "https://www.descript.com/",
+    "isSponsored": false,
+    "affiliateProgram": true,
+    "affiliateDetails": {
+      "commission": "15% recurring for 12 months",
+      "cookieDuration": "30 days",
+      "network": "PartnerStack"
+    },
+    "alternatives": [
+      {
+        "name": "Adobe Premiere Pro",
+        "slug": "adobe-premiere-pro"
+      },
+      {
+        "name": "CapCut",
+        "slug": "capcut"
+      },
+      {
+        "name": "Riverside.fm",
+        "slug": "riverside-fm"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/DescriptApp",
+      "linkedin": "https://www.linkedin.com/company/descript",
+      "youtube": "https://www.youtube.com/c/Descript"
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": true,
+    "dataResidency": "US",
+    "faq": [
+      {
+        "question": "Is Descript free to use?",
+        "answer": "Yes, Descript offers a free plan that includes 1 hour of transcription per month, 720p exports with a watermark, and access to basic AI tools. Paid plans unlock more features and higher limits."
+      },
+      {
+        "question": "Can Descript really clone my voice?",
+        "answer": "Yes, Descript's Overdub feature allows you to create a high-quality AI clone of your voice after training it on a short sample. This lets you correct mistakes or create new audio simply by typing."
+      }
+    ],
+    "seoTitle": "Descript: AI Video and Podcast Editing Made as Easy as a Document",
+    "seoDescription": "Edit video and audio by editing text with Descript's AI-powered platform. Remove filler words, enhance audio, and clone your voice. Start free.",
+    "schemaType": "SoftwareApplication"
+  }
+]

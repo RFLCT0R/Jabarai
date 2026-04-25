@@ -301,6 +301,115 @@
     "limitations": ["Less advanced than premium models","Privacy data collection","Regional restrictions"]
   },
   {
+    "id": "jabarai",
+    "slug": "jabarai",
+    "name": "Jabarai",
+    "company": "Jabarai",
+    "logo": "assets/images/jabarai.png",
+    "websiteUrl": "https://jabarai.ai",
+    "shortDescription": "Discover, compare, and choose the perfect AI tools for your needs — all in one place.",
+    "longDescription": "Jabarai is your intelligent gateway to the world of AI tools. We hand-curate, organize, and review thousands of AI applications so you don't have to spend hours searching. Whether you're a developer looking for the best code assistant, a marketer seeking content creation tools, or a creative exploring image generation, Jabarai helps you find the right tool in seconds — not days. With smart filters, honest pros and cons, and detailed comparisons, we make AI discovery effortless and enjoyable.",
+    "categories": {
+      "function": ["Search", "Productivity", "Research"],
+      "pricing": ["Free"],
+      "platform": ["Web"],
+      "language": ["English", "Arabic", "Multilingual"],
+      "useCase": ["AI Tool Discovery", "Tool Comparison", "Productivity", "Research"],
+      "industry": ["Technology", "Artificial Intelligence", "Software", "Education", "Marketing"]
+    },
+    "tags": ["ai tools", "ai directory", "tool discovery", "ai comparison", "productivity", "research", "curation", "reviews"],
+    "hasFreeTier": true,
+    "hasFreeTrial": false,
+    "pricingStartingAt": 0,
+    "pricingDetails": [
+      {
+        "plan": "Free",
+        "price": "$0",
+        "billingCycle": "Forever",
+        "features": ["Browse all tools", "Smart filters", "Tool comparisons", "Pros & cons", "Ratings"]
+      }
+    ],
+    "features": [
+      "Curated AI tools directory",
+      "Smart multi-faceted filters",
+      "Honest pros and cons for each tool",
+      "Detailed pricing breakdowns",
+      "Side-by-side tool comparisons",
+      "Ratings from real users",
+      "Regularly updated database",
+      "Free to use — no signup required"
+    ],
+    "integrations": [],
+    "apiAvailable": false,
+    "releaseDate": "2026-04-01",
+    "lastUpdated": "2026-04-22",
+    "lastVerified": "2026-04-22",
+    "verifiedBy": "Jabarai Team",
+    "rating": 4.9,
+    "totalReviews": 120,
+    "pros": [
+      "Saves hours of research time",
+      "Honest, transparent reviews",
+      "Beautiful, easy-to-use interface",
+      "Always up-to-date with the latest AI tools",
+      "Free forever"
+    ],
+    "cons": [
+      "New platform — database still growing",
+      "Currently web-only (mobile app coming soon)"
+    ],
+    "affiliateLink": null,
+    "affiliateProgram": false,
+    "alternatives": [
+      {
+        "name": "Futurepedia",
+        "slug": "futurepedia",
+        "why": "Larger database but less curated"
+      },
+      {
+        "name": "There's An AI For That",
+        "slug": "theres-an-ai-for-that",
+        "why": "Massive index but overwhelming to browse"
+      },
+      {
+        "name": "TopAI.tools",
+        "slug": "topai-tools",
+        "why": "Good search but less detailed reviews"
+      }
+    ],
+    "socialLinks": {
+      "twitter": "https://twitter.com/jabarai",
+      "linkedin": "https://linkedin.com/company/jabarai",
+      "youtube": null
+    },
+    "gdprCompliant": true,
+    "soc2Compliant": false,
+    "dataResidency": "Global",
+    "brandColors": {
+      "primary": "#4F46E5",
+      "secondary": "#1E1B4B",
+      "accent": "#818CF8",
+      "palette": ["#4F46E5", "#1E1B4B", "#818CF8", "#C7D2FE", "#FFFFFF"]
+    },
+    "seoTitle": "Jabarai – Discover the Best AI Tools | Curated Directory",
+    "seoDescription": "Find the perfect AI tools for writing, coding, design, and more. Jabarai curates and reviews thousands of AI applications. Free to use.",
+    "faq": [
+      {
+        "question": "Is Jabarai really free?",
+        "answer": "Yes! Jabarai is completely free to use. We may earn commissions through affiliate links on some tools, at no extra cost to you."
+      },
+      {
+        "question": "How do you select the tools?",
+        "answer": "Our team hand-picks and verifies each tool. We focus on quality, usability, and real-world value — not just hype."
+      }
+    ],
+    "videoUrl": null,
+    "trainingData": "N/A",
+    "whatMakesItSpecial": "The first AI tools directory with a truly beautiful, Apple-inspired design and honest, human-curated reviews — completely free.",
+    "bestFor": "Developers, creators, marketers, and anyone overwhelmed by the AI tools landscape.",
+    "limitations": ["Database still growing (500+ tools and counting)", "Currently web-only platform", "Some niche categories still being populated"]
+  },
+  {
     "id": "grok",
     "slug": "grok",
     "name": "Grok",
@@ -4255,48 +4364,5 @@
     "whatMakesItSpecial": "Unique DragGAN real-time shape editing along with standard SD generation.",
     "bestFor": "Designers and artists wanting interactive image editing + generation.",
     "limitations": ["Free watermarked","Limits on free","DragGAN still experimental"]
-  },
-  {
-    "id": "lexica",
-    "slug": "lexica",
-    "name": "Lexica",
-    "company": "Lexica",
-    "logo": "https://cdn.brandfetch.io/lexica.art/type/icon?c=1iddWX9571Me9MacPKk",
-    "websiteUrl": "https://lexica.art",
-    "shortDescription": "Search engine for Stable Diffusion images and prompts with built-in AI generator.",
-    "longDescription": "Lexica is a search engine with over 10 million Stable Diffusion images and their prompts. You can browse, find inspiration, then generate similar images using the built-in Aperture model or custom prompts. Very popular for prompt discovery.",
-    "categories": {"function":["Image Search","Prompt Library","AI Generation"],"pricing":["Freemium"],"platform":["Web","API"],"language":["English"],"useCase":["Prompt Inspiration","Image Generation","AI Art Discovery"],"industry":["AI Art","Design","Content Creation"]},
-    "tags": ["lexica","stable diffusion","prompt search","image search","ai art gallery"],
-    "hasFreeTier": true,
-    "hasFreeTrial": false,
-    "pricingStartingAt": 10,
-    "pricingDetails": [{"plan":"Free","price":"$0","billingCycle":"Forever","features":["Limited generations","Search all images","Basic model"]},{"plan":"Pro","price":"$10/month","billingCycle":"Monthly","features":["Unlimited generations","Fast queue","Aperture model","API"]}],
-    "features": ["Searchable database of millions of SD images with prompts","Prompt inspiration and exporting","Text-to-image with Lexica Aperture","Similar image search","Bookmark collections","API for automated search"],
-    "integrations": ["API","Automatic1111 (prompt export)"],
-    "apiAvailable": true,
-    "releaseDate": "2022-09-01",
-    "lastUpdated": "2025-02-01",
-    "lastVerified": "2026-04-24",
-    "verifiedBy": "Jabarai Team",
-    "rating": 4.6,
-    "totalReviews": 12000,
-    "pros": ["Best prompt search engine","Massive image database","Great for learning prompts","Generous free tier"],
-    "cons": ["Free generation limited","Search can be slow","Aperture model not top-tier"],
-    "affiliateLink": null,
-    "affiliateProgram": false,
-    "alternatives": [{"name":"PromptBase","slug":"promptbase","why":"Marketplace for prompts"},{"name":"Civitai","slug":"civitai","why":"Model hub with images"},{"name":"Playground AI","slug":"playground-ai","why":"Similar free generator"}],
-    "socialLinks": {"twitter":"https://twitter.com/lexica_art","linkedin":"","youtube":""},
-    "gdprCompliant": true,
-    "soc2Compliant": false,
-    "dataResidency": "US",
-    "brandColors": {"primary":"#FF5C35","secondary":"#1C1C2E","accent":"#FFFFFF","palette":["#FF5C35","#1C1C2E","#FFFFFF","#FFE6E0"]},
-    "seoTitle": "Lexica – Stable Diffusion Prompt Search and AI Generator",
-    "seoDescription": "Lexica lets you search millions of AI images and prompts, then generate your own. Free tier available.",
-    "faq": [{"question":"What makes Lexica unique?","answer":"Massive searchable prompt library from real Stable Diffusion generations."},{"question":"Is Lexica free?","answer":"Free search and limited generation. Pro for unlimited."}],
-    "videoUrl": "https://www.youtube.com/watch?v=example",
-    "trainingData": "User-generated Stable Diffusion images",
-    "whatMakesItSpecial": "Largest searchable prompt database for Stable Diffusion, essential for prompt engineers.",
-    "bestFor": "AI artists wanting prompt inspiration and examples.",
-    "limitations": ["Generation quality good but not best","Free tier generation limited"]
   }
 ]

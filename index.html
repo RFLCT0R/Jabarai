@@ -19,15 +19,10 @@
         <nav class="nav-links">
             <a href="index.html">Home</a>
             <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
+            <a href="contact.html">Help</a>
         </nav>
         <div class="nav-actions">
             <button class="btn-signup">Get Started</button>
-            <div class="account-icon">
-                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-                </svg>
-            </div>
         </div>
     </header>
 
@@ -388,13 +383,15 @@
             showSkeletonLoader();
 
             try {
-                const [response1, response2] = await Promise.all([
+                const [response1, response2, response3] = await Promise.all([
                     fetch('assets/data/tools1.json'),
-                    fetch('assets/data/tools2.json')
+                    fetch('assets/data/tools2.json'),
+                    fetch('assets/data/tools3.json')
                 ]);
                 const tools1 = await response1.json();
                 const tools2 = await response2.json();
-                allTools = [...tools1, ...tools2];
+                const tools3 = await response3.json();
+                allTools = [...tools1, ...tools2, ...tools3];
 
                 // Initialize Fuse.js
                 fuse = new Fuse(allTools, fuseOptions);
@@ -974,6 +971,24 @@
 
     </script>
 
+    <!-- White Section (loaded from index2.html) -->
+    <div id="white-section-container"></div>
+
+    <script>
+        // Load white section from index2.html
+        fetch('index2.html')
+            .then(response => response.text())
+            .then(html => {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const whiteSection = doc.querySelector('.white-section');
+                if (whiteSection) {
+                    document.getElementById('white-section-container').appendChild(whiteSection);
+                }
+            })
+            .catch(error => console.error('Error loading white section:', error));
+    </script>
+
     <!-- Footer -->
     <footer class="site-footer">
         <div class="footer-container">
@@ -988,10 +1003,7 @@
                     <h4>Explore</h4>
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="terms-of-use.html">Terms of Use</a></li>
+                        <li><a href="index2.html">Welcome</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">

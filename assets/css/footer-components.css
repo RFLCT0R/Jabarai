@@ -3,6 +3,144 @@
    ============================================ */
 
 /* ============================================
+   White Section (Before Footer)
+   ============================================ */
+
+.white-section {
+    background: #ffffff;
+    padding: 40px 40px 80px;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.orange-rectangle {
+    width: 1200px;
+    height: 540px;
+    background: #fdf2bb;
+    border-radius: 20px;
+    margin: 100px auto 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    position: relative;
+}
+
+.orange-content {
+    width: 50%;
+    padding-right: 40px;
+}
+
+.orange-image {
+    position: absolute;
+    right: 60px;
+    top: 0;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    border-radius: 0 20px 20px 0;
+}
+
+.orange-content .home-title__subtitle {
+    margin: 40px 0 8px 40px;
+    font-size: 36px;
+    text-align: left;
+}
+
+.orange-list {
+    list-style: none;
+    padding: 0;
+    margin: 16px 0 0 60px;
+}
+
+.orange-list li {
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.checkmark {
+    font-weight: 900;
+    color: #1a1a1a;
+    margin-right: 12px;
+}
+
+.orange-button {
+    margin: 62px 0 0 66px;
+    padding: 12px 32px;
+    background: #33333b;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.orange-button:hover {
+    background: #1a1a1a;
+    transform: translateY(-2px);
+}
+
+/* ============================================
+   Trust Section Styles
+   ============================================ */
+
+.trust-section {
+    max-width: 1200px;
+    margin: 60px auto 0;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.trust-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+    max-width: 600px;
+    margin: 40px auto 0;
+}
+
+.trust-stat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.trust-stat-number {
+    line-height: 1.2;
+    font-size: 24px;
+    font-weight: 700;
+    color: #33333b;
+    letter-spacing: -0.01em;
+}
+
+.trust-stat-label {
+    line-height: 1.5;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    letter-spacing: -0.01em;
+}
+
+/* Responsive: 2 columns on mobile */
+@media (max-width: 768px) {
+    .trust-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* ============================================
    Modern Footer Styles
    ============================================ */
 

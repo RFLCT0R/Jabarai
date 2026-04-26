@@ -1,5 +1,23 @@
 import json
+import os
 from datetime import datetime
+
+
+def load_env():
+    try:
+        with open('.env', 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#') and '=' in line:
+                    key, value = line.split('=', 1)
+                    os.environ.setdefault(key.strip(), value.strip())
+    except FileNotFoundError:
+        pass
+
+
+load_env()
+
+BRANDFETCH_API_KEY = os.environ.get('BRANDFETCH_API_KEY', '')
 
 # Tool definitions with categories and descriptions
 tools_definitions = [
@@ -178,7 +196,7 @@ def generate_tool(tool_def, index):
         "slug": slug,
         "name": name,
         "company": company,
-        "logo": f"https://cdn.brandfetch.io/{domain}/type/icon?c=1iddWX9571Me9MacPKk",
+        "logo": f"https://cdn.brandfetch.io/{domain}/type/icon?c={BRANDFETCH_API_KEY}",
         "websiteUrl": f"https://{domain}",
         "shortDescription": desc_short + ".",
         "longDescription": f"{name} is {desc_short.lower()}. It helps users streamline their workflow and achieve better results with artificial intelligence. The platform is designed to be intuitive and accessible while offering powerful capabilities for professionals.",

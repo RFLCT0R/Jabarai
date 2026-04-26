@@ -1,4 +1,22 @@
 import json
+import os
+
+
+def load_env():
+    try:
+        with open('.env', 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#') and '=' in line:
+                    key, value = line.split('=', 1)
+                    os.environ.setdefault(key.strip(), value.strip())
+    except FileNotFoundError:
+        pass
+
+
+load_env()
+
+BRANDFETCH_API_KEY = os.environ.get('BRANDFETCH_API_KEY', '')
 
 # Read existing
 with open('assets/data/tools1.json', 'r') as f:
@@ -43,7 +61,7 @@ for i, (name, company, desc, funcs, pricing, platforms, use_cases, domain, ratin
         "slug": slug,
         "name": name,
         "company": company,
-        "logo": f"https://cdn.brandfetch.io/{domain}/type/icon?c=1iddWX9571Me9MacPKk",
+        "logo": f"https://cdn.brandfetch.io/{domain}/type/icon?c={BRANDFETCH_API_KEY}",
         "websiteUrl": f"https://{domain}",
         "shortDescription": desc + ".",
         "longDescription": f"{name} is {desc.lower()}. It helps users with AI-powered features.",

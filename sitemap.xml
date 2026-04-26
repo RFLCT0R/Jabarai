@@ -3,13 +3,13 @@
     
     <!-- Homepage -->
     <url>
-        <loc>https://allaitools.com/</loc>
+        <loc>https://Jabarai.com/</loc>
         <lastmod>2026-01-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
     <url>
-        <loc>https://allaitools.com/index.html</loc>
+        <loc>https://jabarai.com/index.html</loc>
         <lastmod>2026-01-20</lastmod>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
@@ -17,7 +17,7 @@
     
     <!-- About Page -->
     <url>
-        <loc>https://allaitools.com/about.html</loc>
+        <loc>https://jabarai.com/about.html</loc>
         <lastmod>2026-01-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -25,7 +25,7 @@
     
     <!-- Contact Page -->
     <url>
-        <loc>https://allaitools.com/contact.html</loc>
+        <loc>https://jabarai.com/contact.html</loc>
         <lastmod>2026-01-20</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.6</priority>
@@ -33,13 +33,13 @@
     
     <!-- Legal Pages -->
     <url>
-        <loc>https://allaitools.com/privacy-policy.html</loc>
+        <loc>https://jabarai.com/privacy-policy.html</loc>
         <lastmod>2026-01-20</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.4</priority>
     </url>
     <url>
-        <loc>https://allaitools.com/terms-of-use.html</loc>
+        <loc>https://jabarai.com/terms-of-use.html</loc>
         <lastmod>2026-01-20</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.4</priority>

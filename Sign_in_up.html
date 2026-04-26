@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jabarai | Sign In / Sign Up</title>
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/footer-components.css">
+    <style>
+        .auth-section {
+            background: #ffffff;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 60px 20px;
+        }
+        .auth-container {
+            width: 100%;
+            max-width: 420px;
+        }
+        .auth-tabs {
+            display: flex;
+            margin-bottom: 32px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+        .auth-tab {
+            flex: 1;
+            padding: 16px;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 600;
+            color: #9ca3af;
+            background: none;
+            border: none;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -2px;
+            transition: all 0.2s;
+        }
+        .auth-tab.active {
+            color: #0ea5e9;
+            border-bottom-color: #0ea5e9;
+        }
+        .auth-form {
+            display: none;
+        }
+        .auth-form.active {
+            display: block;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            color: #374151;
+            margin-bottom: 8px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 12px 16px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            font-size: 15px;
+            font-family: inherit;
+            transition: border-color 0.2s;
+        }
+        .form-group input:focus {
+            outline: none;
+            border-color: #0ea5e9;
+        }
+        .auth-button {
+            width: 100%;
+            padding: 14px;
+            background: #0ea5e9;
+            color: #ffffff;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .auth-button:hover {
+            background: #0284c7;
+        }
+        .auth-divider {
+            display: flex;
+            align-items: center;
+            margin: 24px 0;
+            color: #9ca3af;
+            font-size: 14px;
+        }
+        .auth-divider::before,
+        .auth-divider::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: #e5e7eb;
+        }
+        .auth-divider span {
+            padding: 0 16px;
+        }
+        .social-auth {
+            display: flex;
+            gap: 12px;
+        }
+        .social-auth button {
+            flex: 1;
+            padding: 12px;
+            border: 1px solid #d1d5db;
+            border-radius: 8px;
+            background: #ffffff;
+            cursor: pointer;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: background 0.2s;
+        }
+        .social-auth button:hover {
+            background: #f9fafb;
+        }
+        .auth-footer {
+            text-align: center;
+            margin-top: 24px;
+            font-size: 14px;
+            color: #6b7280;
+        }
+        .auth-footer a {
+            color: #0ea5e9;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .auth-footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header class="toolbar">
+        <a href="index.html" class="logo">
+            <span style="color: #1a1a1a;">Jabarai</span><span style="color: #0ea5e9;">.</span>
+        </a>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Help</a>
+        </nav>
+        <div class="nav-actions">
+            <button class="btn-signup">Get Started</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="auth-section">
+            <div class="auth-container">
+                <div class="auth-tabs">
+                    <button class="auth-tab active" onclick="switchTab('signin')">Sign In</button>
+                    <button class="auth-tab" onclick="switchTab('signup')">Sign Up</button>
+                </div>
+
+                <form id="signin-form" class="auth-form active">
+                    <div class="form-group">
+                        <label for="signin-email">Email</label>
+                        <input type="email" id="signin-email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signin-password">Password</label>
+                        <input type="password" id="signin-password" placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit" class="auth-button">Sign In</button>
+                    <div class="auth-footer">
+                        <a href="#">Forgot password?</a>
+                    </div>
+                </form>
+
+                <form id="signup-form" class="auth-form">
+                    <div class="form-group">
+                        <label for="signup-name">Full Name</label>
+                        <input type="text" id="signup-name" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-email">Email</label>
+                        <input type="email" id="signup-email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="signup-password">Password</label>
+                        <input type="password" id="signup-password" placeholder="Create a password" required>
+                    </div>
+                    <button type="submit" class="auth-button">Create Account</button>
+                    <div class="auth-footer">
+                        By signing up, you agree to our <a href="terms-of-use.html">Terms</a> and <a href="privacy-policy.html">Privacy Policy</a>.
+                    </div>
+                </form>
+
+                <div class="auth-divider">
+                    <span>or continue with</span>
+                </div>
+
+                <div class="social-auth">
+                    <button><i class="fab fa-google"></i> Google</button>
+                    <button><i class="fab fa-github"></i> GitHub</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="footer-container">
+                <div class="footer-main">
+                    <div class="footer-brand">
+                        <a href="index.html" class="footer-logo">
+                            <span style="color: #ffffff;">Jabarai</span><span style="color: #0ea5e9;">.</span>
+                        </a>
+                        <p class="footer-tagline">Discover the best AI tools, all in one place.</p>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Explore</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="index2.html">Welcome</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="terms-of-use.html">Terms of Use</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p class="footer-copyright">&copy; 2026 Jabarai. All rights reserved.</p>
+                    <div class="footer-bottom-social">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <script>
+        function switchTab(tab) {
+            document.querySelectorAll('.auth-tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.auth-form').forEach(f => f.classList.remove('active'));
+            
+            if (tab === 'signin') {
+                document.querySelectorAll('.auth-tab')[0].classList.add('active');
+                document.getElementById('signin-form').classList.add('active');
+            } else {
+                document.querySelectorAll('.auth-tab')[1].classList.add('active');
+                document.getElementById('signup-form').classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>

@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover AI tools with detailed reviews, pricing, features, and comparisons. Find the best AI tools for your needs on Jabarai.">
     <title>Tool | Jabarai</title>
     <link rel="icon" type="image/png" href="assets/images/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -10,710 +11,1249 @@
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/footer-components.css">
     <style>
-        * { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+        body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; scroll-behavior: smooth; background: #ffffff !important; background-image: none !important; }
+
+        :root {
+            --brand: #2563eb;
+            --brand-light: rgba(37,99,235,0.08);
+            --brand-gradient: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%);
+            --bg: #ffffff;
+            --card: #ffffff;
+            --text: #111111;
+            --text-muted: #555555;
+            --border: #e5e5e5;
+            --accent: #2563eb;
+            --accent-hover: #1d4ed8;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 12px 24px rgba(0,0,0,0.10);
+            --shadow-glow: 0 0 20px rgba(37,99,235,0.12);
+            --success: #22c55e;
+            --radius-sm: 12px;
+            --radius-md: 16px;
+            --radius-lg: 20px;
+        }
 
         .tool-hero {
-            min-height: calc(100vh - 64px);
-            background-image: url('../images/rm309-adj-01.jpg');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            position: relative;
-            padding: 16px 40px 60px;
-        }
-
-        .tool-hero::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(180deg, rgba(248,250,252,0.55) 0%, rgba(255,255,255,0.45) 100%);
-            z-index: 1;
-        }
-
-        .tool-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            position: relative;
-            z-index: 2;
-            width: 100%;
-            background: transparent;
-            border-radius: 0;
-            box-shadow: none;
-            padding: 24px 48px 40px;
-        }
-
-        /* Header */
-        .tool-header {
-            display: flex;
-            align-items: flex-start;
-            gap: 28px;
-            margin-bottom: 32px;
-            padding-bottom: 32px;
-            border-bottom: 1px solid #f0f0f0;
-        }
-
-        .tool-logo {
-            width: 150px;
-            height: 150px;
-            border-radius: 24px;
-            background: transparent;
-            padding: 0;
-            border: none;
-            box-shadow: none;
-            object-fit: contain;
-            flex-shrink: 0;
-            transition: transform 0.2s;
-        }
-
-        .tool-logo:hover { transform: scale(1.03); }
-
-        .tool-header-info { flex: 1; min-width: 0; }
-
-        .tool-name {
-            font-size: 40px;
-            font-weight: 800;
-            color: #111;
-            letter-spacing: -0.8px;
-            margin-bottom: 6px;
-            line-height: 1.15;
-        }
-
-        .tool-company {
-            font-size: 18px;
-            color: #666;
-            font-weight: 500;
-            margin-bottom: 12px;
-        }
-
-        .tool-header-meta {
-            font-size: 16px;
-            color: #555;
-            line-height: 1.6;
-        }
-
-        .tool-header-meta strong {
-            font-weight: 600;
-            color: #111;
-        }
-
-        .tool-header-meta .star {
-            color: #f59e0b;
-        }
-
-        .tool-actions {
+            min-height: 100vh;
+            padding: 40px;
             display: flex;
             flex-direction: column;
-            gap: 10px;
-            margin-top: 4px;
-        }
-
-        .tool-visit {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            padding: 16px 32px;
-            background: #111;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 14px;
-            font-size: 16px;
-            font-weight: 600;
-            transition: all 0.25s cubic-bezier(0.4,0,0.2,1);
-            flex-shrink: 0;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.12), 0 0 0 0 rgba(14,165,233,0);
-        }
-
-        .tool-visit:hover {
-            background: #0ea5e9;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(14,165,233,0.3), 0 0 0 3px rgba(14,165,233,0.1);
-        }
-
-        .tool-back-btn {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            gap: 10px;
-            padding: 14px 32px;
-            background: #f5f5f5;
-            color: #333;
-            text-decoration: none;
-            border-radius: 14px;
-            font-size: 16px;
-            font-weight: 600;
-            transition: all 0.25s cubic-bezier(0.4,0,0.2,1);
-            flex-shrink: 0;
-            border: 1px solid #e0e0e0;
-        }
-
-        .tool-back-btn:hover {
-            background: #e8e8e8;
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-        }
-
-        /* Platforms section */
-        .tool-platforms {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-
-        .tool-platform {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            padding: 10px 16px;
-            background: #fff;
-            border: 1px solid #e8e8e8;
-            border-radius: 10px;
-            font-size: 14px;
-            font-weight: 500;
-            color: #333;
-            transition: all 0.2s;
-        }
-
-        .tool-platform:hover {
-            border-color: #ccc;
-            transform: translateY(-1px);
-        }
-
-        .tool-platform i {
-            color: #0ea5e9;
-            font-size: 18px;
-            width: 22px;
-            text-align: center;
-        }
-
-        /* Tags */
-        .tool-tags {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            margin-bottom: 20px;
-        }
-
-        .tool-tag {
-            padding: 5px 14px;
-            background: rgba(0,0,0,0.04);
-            border: 1px solid rgba(0,0,0,0.06);
-            border-radius: 100px;
-            font-size: 13px;
-            font-weight: 500;
-            color: #555;
-            transition: all 0.15s;
-        }
-
-        .tool-tag:hover {
-            background: rgba(0,0,0,0.07);
-        }
-
-        /* Section */
-        .tool-section {
-            margin-bottom: 32px;
             opacity: 0;
-            transform: translateY(12px);
-            animation: fadeUp 0.5s ease forwards;
+            animation: fadeIn 0.6s ease-out forwards;
         }
 
-        .tool-section:nth-child(2) { animation-delay: 0.05s; }
-        .tool-section:nth-child(3) { animation-delay: 0.1s; }
-        .tool-section:nth-child(4) { animation-delay: 0.15s; }
-        .tool-section:nth-child(5) { animation-delay: 0.2s; }
-        .tool-section:nth-child(6) { animation-delay: 0.25s; }
-        .tool-section:nth-child(7) { animation-delay: 0.3s; }
-        .tool-section:nth-child(8) { animation-delay: 0.35s; }
-        .tool-section:nth-child(9) { animation-delay: 0.4s; }
-        .tool-section:nth-child(10) { animation-delay: 0.45s; }
-        .tool-section:nth-child(11) { animation-delay: 0.5s; }
-        .tool-section:nth-child(12) { animation-delay: 0.55s; }
-
-        @keyframes fadeUp {
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
-        .tool-section-title {
-            font-size: 15px;
-            font-weight: 700;
-            color: #111;
-            margin-bottom: 14px;
-            font-family: 'Inter', Arial, sans-serif;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            text-transform: uppercase;
-            letter-spacing: 0.4px;
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(15px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
-        .tool-section-title::after {
-            content: '';
+        .tool-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
             flex: 1;
-            height: 1px;
-            background: linear-gradient(90deg, #e8e8e8 0%, transparent 100%);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
         }
 
-        .tool-section p {
-            font-size: 15px;
-            color: #444;
-            line-height: 1.8;
-            margin-bottom: 8px;
+        .tool-container > .cv-section.full-width,
+        .tool-container > .cv-cta.full-width {
+            width: 100%;
+            max-width: 1400px;
+            margin: 20px auto 0;
+            padding: 32px 40px;
         }
 
-        .tool-section ul {
-            list-style: none;
-            padding: 0;
-            display: block;
+        .tool-container > .cv-section.full-width:first-of-type {
+            margin-top: 0;
         }
 
-        .tool-section ul li {
-            font-size: 14px;
-            color: #444;
-            padding: 8px 0;
-            line-height: 1.6;
-            border-bottom: 1px solid #f0f0f0;
-        }
-
-        .tool-section ul li:last-child { border-bottom: none; }
-
-        /* Features + Platforms side by side */
-        .tool-features-platforms {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 40px;
-            margin-bottom: 32px;
-        }
-
-        .tool-features-platforms .tool-section {
+        .tool-container > .cv-cta.full-width {
             margin-bottom: 0;
         }
 
-        .tool-features-platforms .tool-platforms {
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
+        /* CV Header */
+        .cv-header {
+            background: #ffffff;
+            border-radius: var(--radius-lg);
+            padding: 48px;
+            margin-bottom: 32px;
+            flex-shrink: 0;
+            box-shadow: var(--shadow-md);
+            border: 1px solid var(--border);
         }
 
-        .tool-features-platforms .tool-platform {
+        .cv-header-top {
+            display: flex;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .cv-logo-wrapper {
+            flex-shrink: 0;
+        }
+
+        .cv-logo {
+            width: 160px;
+            height: 160px;
+            object-fit: contain;
+            background: white;
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s ease;
+            border: 1px solid var(--border);
+        }
+
+        .cv-logo:hover {
+            transform: scale(1.05);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .cv-header-main {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .cv-header-actions {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            flex-shrink: 0;
+        }
+
+        .cv-name {
+            font-size: 52px;
+            font-weight: 800;
+            color: var(--text);
+            letter-spacing: -1.5px;
+            line-height: 1.05;
+            margin-bottom: 10px;
+        }
+
+        .cv-company {
+            font-size: 20px;
+            color: var(--text-muted);
+            font-weight: 500;
+            margin-bottom: 24px;
+        }
+
+        .cv-meta-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 0;
+            align-items: center;
+        }
+
+        .cv-meta-item {
+            font-size: 13px;
+            color: #555555;
+            background: transparent;
+            padding: 8px 0;
+            font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .cv-meta-item:not(:last-child)::after {
+            content: '';
+            display: inline-block;
+            width: 3px;
+            height: 3px;
+            background: #cccccc;
+            border-radius: 50%;
+            margin-left: 8px;
+        }
+
+        .cv-meta-item strong {
+            color: #111111;
+            font-weight: 700;
+        }
+
+        .cv-meta-rating {
+            font-size: 14px;
+            color: white;
+            background: var(--accent);
+            padding: 8px 16px;
+            font-weight: 600;
+            border-radius: 8px;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .cv-header-actions .cv-btn-primary,
+        .cv-header-actions .cv-btn-secondary {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px 32px;
+            font-size: 15px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border-radius: 12px;
+            cursor: pointer;
+            min-width: 160px;
+        }
+
+        .cv-header-actions .cv-btn-primary {
+            background: var(--brand-gradient);
+            color: white;
+            text-decoration: none;
+            border: none;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .cv-header-actions .cv-btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .cv-header-actions .cv-btn-secondary {
+            background: white;
+            color: var(--text);
+            text-decoration: none;
+            border: 1px solid var(--border);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .cv-header-actions .cv-btn-secondary:hover {
+            border-color: var(--accent);
+            background: #f8f8f8;
+            transform: translateY(-2px);
+        }
+
+        /* CV Grid Layout */
+        .cv-grid {
+            display: grid;
+            grid-template-columns: 340px 1fr;
+            gap: 28px;
+            flex: 1;
+            overflow: hidden;
+            margin-bottom: 16px;
+        }
+
+        /* CV Sidebar */
+        .cv-sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            overflow-y: auto;
+            padding-right: 8px;
+            scrollbar-width: thin;
+            scrollbar-color: #ccc transparent;
+        }
+
+        .cv-sidebar::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .cv-sidebar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .cv-sidebar::-webkit-scrollbar-thumb {
+            background-color: #d2d2d7;
+            border-radius: 3px;
+        }
+
+        .cv-sidebar::-webkit-scrollbar-thumb:hover {
+            background-color: #8e8e93;
+        }
+
+        .cv-sidebar-card {
+            background: white;
+            border-radius: var(--radius-md);
+            padding: 32px;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+            border: 1px solid var(--border);
+            opacity: 0;
+            animation: slideUp 0.5s ease-out forwards;
+        }
+
+        .cv-sidebar-card:nth-child(1) { animation-delay: 0.1s; }
+        .cv-sidebar-card:nth-child(2) { animation-delay: 0.2s; }
+        .cv-sidebar-card:nth-child(3) { animation-delay: 0.3s; }
+        .cv-sidebar-card:nth-child(4) { animation-delay: 0.4s; }
+        .cv-sidebar-card:nth-child(5) { animation-delay: 0.5s; }
+
+        .cv-sidebar-card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
+            border-color: var(--accent);
+        }
+
+        .cv-sidebar-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: #111111;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid var(--brand-light);
             display: flex;
             align-items: center;
             gap: 10px;
-            padding: 10px 12px;
-            background: #fafafa;
-            border-radius: 8px;
-            font-size: 14px;
-            font-weight: 500;
-            color: #333;
-            transition: all 0.15s;
         }
 
-        .tool-features-platforms .tool-platform:hover {
-            background: #f0f0f0;
-        }
-
-        .tool-features-platforms .tool-platform i {
-            width: 20px;
+        /* Rating Card */
+        .cv-rating {
             text-align: center;
-            color: #0ea5e9;
+            padding: 8px 0;
+        }
+
+        .cv-rating-score {
+            font-size: 56px;
+            font-weight: 800;
+            background: var(--brand-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+            margin-bottom: 12px;
+            letter-spacing: -1px;
+        }
+
+        .cv-rating-stars {
+            font-size: 18px;
+            color: var(--accent);
+            margin-bottom: 8px;
+            font-weight: 500;
+            letter-spacing: 2px;
+        }
+
+        .cv-rating-bar {
+            width: 100%;
+            height: 6px;
+            background: var(--border);
+            border-radius: 3px;
+            margin: 12px 0;
+            overflow: hidden;
+        }
+
+        .cv-rating-bar-fill {
+            height: 100%;
+            background: var(--accent);
+            border-radius: 3px;
+            transition: width 1s ease;
+        }
+
+        .cv-rating-reviews {
             font-size: 14px;
+            color: var(--text-muted);
+            font-weight: 500;
         }
 
-        /* Pros / Cons */
-        .tool-procon {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 16px;
-            margin-bottom: 32px;
-        }
-
-        .tool-procon h3 {
-            font-size: 13px;
-            font-weight: 700;
-            text-transform: uppercase;
-            letter-spacing: 0.6px;
-            margin-bottom: 14px;
+        /* Quick Stats */
+        .cv-stat {
             display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 14px 0;
+            border-bottom: 1px solid var(--border);
+            transition: all 0.2s ease;
+        }
+
+        .cv-stat:hover {
+            padding-left: 8px;
+        }
+
+        .cv-stat:last-child { border-bottom: none; }
+
+        .cv-stat-label {
+            font-size: 14px;
+            color: var(--text-muted);
+            font-weight: 400;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .cv-stat-value {
+            font-size: 15px;
+            color: var(--text);
+            font-weight: 700;
+        }
+
+        .cv-stat-value.yes { color: var(--accent); }
+        .cv-stat-value.no { color: #999999; }
+
+        /* Tags in Sidebar */
+        .cv-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .cv-tag {
+            padding: 10px 18px;
+            background: #f8f8f8;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text);
+            transition: all 0.3s ease;
+            cursor: default;
+            border: 1px solid var(--border);
+            display: inline-flex;
             align-items: center;
             gap: 8px;
         }
 
-        .tool-procon .pros h3 { color: #16a34a; }
-        .tool-procon .cons h3 { color: #dc2626; }
-
-        .tool-procon .pros,
-        .tool-procon .cons {
-            padding: 20px;
-            border-radius: 14px;
-            border: 1px solid transparent;
-            transition: border-color 0.2s;
+        .cv-tag:hover {
+            background: var(--brand-gradient);
+            color: white;
+            border-color: transparent;
+            transform: scale(1.05);
+            box-shadow: var(--shadow-sm);
         }
 
-        .tool-procon .pros { background: rgba(22,163,74,0.04); border-color: rgba(22,163,74,0.1); }
-        .tool-procon .cons { background: rgba(220,38,38,0.03); border-color: rgba(220,38,38,0.08); }
-
-        .tool-procon ul { display: block; }
-        .tool-procon ul li::before { display: none; }
-
-        .tool-procon .pros ul,
-        .tool-procon .cons ul {
-            display: block;
+        /* Platforms */
+        .cv-platforms {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
         }
 
-        .tool-procon .pros ul li,
-        .tool-procon .cons ul li {
-            padding: 6px 0;
-            font-size: 14px;
-            color: #444;
+        .cv-platform {
+            padding: 14px 18px;
+            background: #f8f8f8;
+            border-radius: var(--radius-sm);
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text);
+            transition: all 0.3s ease;
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .cv-platform:hover {
+            background: var(--brand-gradient);
+            color: white;
+            border-color: transparent;
+            transform: translateX(4px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* Social Links */
+        .cv-socials {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .cv-social {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 14px 18px;
+            background: #f8f8f8;
+            border-radius: var(--radius-sm);
+            text-decoration: none;
+            color: var(--text);
+            font-size: 15px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 1px solid var(--border);
+        }
+
+        .cv-social:hover {
+            background: var(--brand-gradient);
+            color: white;
+            border-color: transparent;
+            transform: translateX(4px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* CV Main Content */
+        .cv-main {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            padding-right: 8px;
+            scrollbar-width: thin;
+            scrollbar-color: #ccc transparent;
+        }
+
+        .cv-main::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        .cv-main::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        .cv-main::-webkit-scrollbar-thumb {
+            background-color: #d2d2d7;
+            border-radius: 3px;
+        }
+
+        .cv-main::-webkit-scrollbar-thumb:hover {
+            background-color: #8e8e93;
+        }
+
+        .cv-section {
+            background: white;
+            border-radius: var(--radius-md);
+            padding: 40px 48px;
+            box-shadow: var(--shadow-sm);
+            transition: all 0.3s ease;
+            border: 1px solid var(--border);
+            opacity: 0;
+            animation: slideUp 0.5s ease-out forwards;
+        }
+
+        .cv-section:nth-child(1) { animation-delay: 0.15s; }
+        .cv-section:nth-child(2) { animation-delay: 0.25s; }
+        .cv-section:nth-child(3) { animation-delay: 0.35s; }
+        .cv-section:nth-child(4) { animation-delay: 0.45s; }
+        .cv-section:nth-child(5) { animation-delay: 0.55s; }
+
+        .cv-section:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-2px);
+        }
+
+        .cv-section.full-width {
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .cv-section-header {
+            margin-bottom: 20px;
+        }
+
+        .cv-section-title {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--text);
+            letter-spacing: -0.5px;
+        }
+
+        .cv-section-content {
+            font-size: 17px;
+            color: var(--text-muted);
             line-height: 1.6;
         }
 
-        /* Pricing */
-        .tool-pricing {
+        .cv-section-content p {
+            margin-bottom: 20px;
+            color: var(--text-muted);
+        }
+
+        .cv-section-content ul {
+            list-style: none;
+            padding: 0;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 18px;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 10px;
         }
 
-        .tool-price-card {
-            background: #fff;
-            border: 1px solid #e8e8e8;
-            border-radius: 16px;
-            padding: 28px;
-            transition: all 0.3s cubic-bezier(0.4,0,0.2,1);
-            position: relative;
-            box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+        .cv-section-content li {
+            padding: 16px 20px;
+            background: #f8f8f8;
+            border-radius: var(--radius-sm);
+            font-size: 16px;
+            color: var(--text);
+            transition: all 0.3s ease;
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 12px;
         }
 
-        .tool-price-card:hover {
-            border-color: #ccc;
-            box-shadow: 0 12px 32px rgba(0,0,0,0.08);
-            transform: translateY(-4px);
+        .cv-section-content li:hover {
+            background: var(--brand-gradient);
+            color: white;
+            border-color: transparent;
+            transform: translateX(4px);
+            box-shadow: var(--shadow-sm);
         }
 
-        .tool-price-card:first-child {
-            border-color: #0ea5e9;
-            background: linear-gradient(135deg, rgba(14,165,233,0.04) 0%, rgba(14,165,233,0.01) 100%);
-        }
-
-        .tool-price-card:first-child::before {
-            content: 'Popular';
-            position: absolute;
-            top: -12px;
-            right: 20px;
-            padding: 4px 14px;
-            background: #0ea5e9;
-            color: #fff;
-            font-size: 11px;
-            font-weight: 700;
-            border-radius: 100px;
-            text-transform: uppercase;
-            letter-spacing: 0.4px;
-            box-shadow: 0 2px 8px rgba(14,165,233,0.25);
-        }
-
-        .tool-price-card h4 {
-            font-size: 15px;
-            font-weight: 800;
-            color: #111;
-            margin-bottom: 4px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .tool-price-card .features {
+        .cv-section-content li::before {
+            content: '\f00c';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            color: var(--accent);
             font-size: 14px;
-            color: #555;
-            line-height: 1.7;
-            margin-top: 16px;
         }
 
-        .tool-price-card .features::before {
-            content: '';
-            display: block;
-            width: 32px;
-            height: 2px;
-            background: #0ea5e9;
-            border-radius: 2px;
-            margin-bottom: 12px;
+        .cv-section-content li:hover::before {
+            color: white;
         }
 
-        .tool-price-card .pf {
+        /* Special Highlights */
+        .cv-highlight {
+            background: #f8f8f8;
+            border-radius: var(--radius-md);
+            padding: 32px;
+            margin-bottom: 24px;
+            border: 1px solid var(--border);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cv-highlight-title {
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 16px;
+        }
+
+        .cv-highlight-text {
+            font-size: 17px;
+            color: var(--text);
+            line-height: 1.6;
+            font-weight: 500;
+        }
+
+        /* Pros/Cons Grid - Enhanced Design */
+        .cv-procon {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        .cv-procon-card {
+            padding: 0;
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            background: white;
+            border: 1px solid var(--border);
+        }
+
+        .cv-procon-card.pros {
+            border-top: 3px solid var(--accent);
+        }
+
+        .cv-procon-card.cons {
+            border-top: 3px solid #9ca3af;
+        }
+
+        .cv-procon-card:hover {
+            box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.12);
+            transform: translateY(-3px);
+        }
+
+        .cv-procon-header {
+            padding: 18px 22px;
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            border-bottom: 1px solid var(--border);
+            background: linear-gradient(135deg, #fafafa 0%, #f5f5f5 100%);
+        }
+
+        .cv-procon-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+
+        .cv-procon-card.pros .cv-procon-icon {
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+            border: 1px solid #bfdbfe;
+        }
+
+        .cv-procon-card.cons .cv-procon-icon {
+            background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+            border: 1px solid #d1d5db;
+        }
+
+        .cv-procon-card.pros .cv-procon-icon::before {
+            content: '\f00c';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            color: var(--accent);
+        }
+
+        .cv-procon-card.cons .cv-procon-icon::before {
+            content: '\f00d';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            color: #6b7280;
+        }
+
+        .cv-procon-title {
+            font-size: 13px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 0;
+        }
+
+        .cv-procon-card.pros .cv-procon-title { color: #1e40af; }
+        .cv-procon-card.cons .cv-procon-title { color: #4b5563; }
+
+        .cv-procon-content {
+            padding: 22px;
+        }
+
+        .cv-procon-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .cv-procon-list li {
+            padding: 12px 0;
+            font-size: 15px;
+            color: var(--text);
+            line-height: 1.5;
+            border-bottom: 1px solid #f3f4f6;
             display: flex;
             align-items: flex-start;
-            gap: 8px;
-            margin-bottom: 8px;
-            font-size: 13px;
-            color: #444;
-            line-height: 1.5;
+            gap: 12px;
+            transition: all 0.2s ease;
         }
 
-        .tool-price-card .pf i {
-            color: #0ea5e9;
+        .cv-procon-list li:hover {
+            color: #111111;
+            padding-left: 4px;
+        }
+
+        .cv-procon-list li:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .cv-procon-card.pros .cv-procon-list li::before {
+            content: '\f00c';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            color: var(--accent);
             font-size: 12px;
             margin-top: 3px;
             flex-shrink: 0;
         }
 
-        .tool-price-card .price-row {
+        .cv-procon-card.cons .cv-procon-list li::before {
+            content: '\f00d';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            color: #9ca3af;
+            font-size: 12px;
+            margin-top: 3px;
+            flex-shrink: 0;
+        }
+
+        /* Pricing Cards */
+        .cv-pricing {
+            display: grid;
+            gap: 20px;
+        }
+
+        .cv-pricing.cols-2 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .cv-pricing.cols-3 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .cv-pricing.cols-3 .cv-price-card.popular {
+            grid-column: 1 / -1;
+        }
+
+        .cv-pricing.cols-4 {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .cv-price-card {
+            background: white;
+            border-radius: var(--radius-md);
+            padding: 36px;
+            transition: all 0.3s ease;
+            position: relative;
+            box-shadow: var(--shadow-sm);
+            border: 2px solid var(--border);
+            overflow: hidden;
+        }
+
+        .cv-price-card:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-4px);
+            border-color: var(--accent);
+        }
+
+        .cv-price-card.popular {
+            background: var(--brand-gradient);
+            color: white;
+            border-color: transparent;
+        }
+
+        .cv-price-card.popular .cv-price-plan,
+        .cv-price-card.popular .cv-price-amount,
+        .cv-price-card.popular .cv-price-cycle,
+        .cv-price-card.popular .cv-price-features li {
+            color: white;
+        }
+
+        .cv-price-card.popular::before {
+            content: 'Popular';
+            position: absolute;
+            top: 12px;
+            right: 12px;
+            padding: 6px 14px;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-radius: 20px;
+        }
+
+        .cv-price-plan {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-bottom: 18px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .cv-price-row {
             display: flex;
             align-items: baseline;
             gap: 6px;
-            margin: 10px 0 14px;
+            margin-bottom: 24px;
         }
 
-        .tool-price-card .amount {
-            font-size: 28px;
-            font-weight: 800;
-            color: #111;
-            letter-spacing: -0.6px;
+        .cv-price-amount {
+            font-size: 48px;
+            font-weight: 600;
+            color: var(--text);
+            letter-spacing: -1.5px;
             line-height: 1;
         }
 
-        .tool-price-card .cycle {
+        .cv-price-cycle {
             font-size: 13px;
-            color: #888;
+            color: var(--text-muted);
             font-weight: 500;
         }
 
-        /* FAQ */
-        .tool-faq-item {
-            border: 1px solid #eee;
-            border-radius: 12px;
-            margin-bottom: 10px;
-            overflow: hidden;
-            transition: all 0.25s;
+        .cv-price-features {
+            list-style: none;
+            padding: 0;
         }
 
-        .tool-faq-item:hover { border-color: #ddd; box-shadow: 0 2px 8px rgba(0,0,0,0.04); }
-        .tool-faq-item.active { border-color: #0ea5e9; box-shadow: 0 2px 12px rgba(14,165,233,0.1); }
-
-        .tool-faq-q {
-            width: 100%;
+        .cv-price-features li {
+            padding: 10px 0;
+            font-size: 14px;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border);
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            padding: 16px 20px;
-            background: none;
-            border: none;
-            font-size: 14px;
-            font-weight: 600;
-            color: #111;
-            cursor: pointer;
-            text-align: left;
-            transition: background 0.15s;
+            gap: 10px;
         }
 
-        .tool-faq-q:hover { background: rgba(0,0,0,0.015); }
-        .tool-faq-q i { color: #ccc; transition: all 0.3s; font-size: 12px; }
-        .tool-faq-item.active .tool-faq-q i { transform: rotate(180deg); color: #0ea5e9; }
-
-        .tool-faq-a {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.35s cubic-bezier(0.4,0,0.2,1);
+        .cv-price-features li::before {
+            content: '\f00c';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            color: var(--success);
+            font-size: 11px;
         }
 
-        .tool-faq-item.active .tool-faq-a { max-height: 300px; }
-
-        .tool-faq-a p {
-            padding: 0 20px 16px;
-            font-size: 14px;
-            color: #666;
-            line-height: 1.75;
+        .cv-price-card.popular .cv-price-features li::before {
+            color: rgba(255,255,255,0.8);
         }
 
-        /* Video */
-        .tool-video {
+        .cv-price-features li:last-child {
+            border-bottom: none;
+        }
+
+        /* FAQ Cards */
+        .cv-faq-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .cv-faq-card {
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 28px;
+            transition: all 0.3s ease;
             position: relative;
-            padding-bottom: 51%;
-            border-radius: 14px;
             overflow: hidden;
-            background: #111;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
         }
 
-        .tool-video iframe {
+        .cv-faq-card::before {
+            content: 'Q';
             position: absolute;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
-            border: none;
+            top: 16px;
+            right: 16px;
+            font-size: 48px;
+            font-weight: 900;
+            color: var(--brand-light);
+            opacity: 0.5;
+        }
+
+        .cv-faq-card:hover {
+            border-color: var(--accent);
+            box-shadow: var(--shadow-md);
+            transform: translateY(-4px);
+        }
+
+        .cv-faq-card h3 {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text);
+            margin: 0 0 16px 0;
+            line-height: 1.4;
+            position: relative;
+            z-index: 1;
+        }
+
+        .cv-faq-card p {
+            font-size: 15px;
+            color: var(--text-muted);
+            line-height: 1.7;
+            margin: 0;
+            position: relative;
+            z-index: 1;
         }
 
         /* Alternatives */
-        .tool-alts {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
+        .cv-alts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 16px;
         }
 
-        .tool-alt {
+        .cv-alt {
             display: flex;
             align-items: center;
-            gap: 14px;
-            padding: 14px 16px;
-            background: #fafafa;
-            border: 1px solid #eee;
-            border-radius: 12px;
+            gap: 16px;
+            padding: 24px;
+            background: white;
+            border-radius: var(--radius-md);
             text-decoration: none;
             color: inherit;
-            transition: all 0.25s cubic-bezier(0.4,0,0.2,1);
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-sm);
+            border: none;
         }
 
-        .tool-alt:hover { border-color: #0ea5e9; background: rgba(14,165,233,0.03); transform: translateX(6px); }
+        .cv-alt:hover {
+            background: var(--accent);
+            color: white;
+            box-shadow: var(--shadow-md);
+            transform: translateY(-4px);
+        }
 
-        .tool-alt img {
-            width: 40px;
-            height: 40px;
-            border-radius: 10px;
+        .cv-alt:hover .cv-alt-info h4,
+        .cv-alt:hover .cv-alt-info p {
+            color: white;
+        }
+
+        .cv-alt img {
+            width: 48px;
+            height: 48px;
             object-fit: contain;
-            background: #fff;
+            background: white;
             padding: 6px;
-            border: 1px solid #eee;
+            border: 1px solid var(--border);
+            flex-shrink: 0;
         }
 
-        .tool-alt h4 {
-            font-size: 14px;
+        .cv-alt-info h4 {
+            font-size: 15px;
             font-weight: 600;
-            color: #111;
-            margin-bottom: 2px;
+            color: var(--text);
+            margin-bottom: 4px;
         }
 
-        .tool-alt p {
+        .cv-alt-info p {
             font-size: 12px;
-            color: #aaa;
+            color: var(--text-muted);
             margin: 0;
+            line-height: 1.3;
         }
 
-        /* Social */
-        .tool-socials {
+        /* Compliance Badges */
+        .cv-compliance {
             display: flex;
-            gap: 10px;
             flex-wrap: wrap;
+            gap: 6px;
         }
 
-        .tool-social {
-            display: flex;
+        .cv-badge {
+            padding: 10px 18px;
+            background: #f8f8f8;
+            border-radius: 20px;
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--accent);
+            border: 1px solid var(--border);
+            display: inline-flex;
             align-items: center;
             gap: 8px;
-            padding: 10px 18px;
-            background: #fafafa;
-            border: 1px solid #eee;
-            border-radius: 10px;
-            text-decoration: none;
-            color: #555;
-            font-size: 13px;
-            font-weight: 500;
-            transition: all 0.2s;
         }
 
-        .tool-social:hover { border-color: #0ea5e9; color: #0ea5e9; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(14,165,233,0.12); }
+        .cv-badge::before {
+            content: '\f3ed';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            font-size: 12px;
+        }
 
-        /* CTA */
-        .tool-cta {
+        /* CTA Section */
+        .cv-cta.full-width {
             text-align: center;
-            padding: 48px 36px;
-            background: linear-gradient(135deg, #0c0c0c 0%, #1a1a1a 50%, #222 100%);
-            border-radius: 18px;
-            color: #fff;
-            margin-top: 36px;
+            padding: 64px;
+            background: var(--brand-gradient);
+            color: white;
+            margin-top: 16px;
             position: relative;
+            box-shadow: var(--shadow-lg), var(--shadow-glow);
+            border-radius: var(--radius-lg);
             overflow: hidden;
         }
 
-        .tool-cta::before {
+        .cv-cta.full-width::before {
             content: '';
             position: absolute;
-            top: -40%;
+            top: -50%;
             right: -10%;
             width: 300px;
             height: 300px;
-            background: radial-gradient(circle, rgba(14,165,233,0.15) 0%, transparent 70%);
-            border-radius: 50%;
+            background: radial-gradient(circle, rgba(255,255,255,0.15) 0%, transparent 70%);
+            pointer-events: none;
         }
 
-        .tool-cta::after {
-            content: '';
-            position: absolute;
-            bottom: -30%;
-            left: -10%;
-            width: 200px;
-            height: 200px;
-            background: radial-gradient(circle, rgba(14,165,233,0.08) 0%, transparent 70%);
-            border-radius: 50%;
+        .cv-cta h2 {
+            font-size: 40px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            letter-spacing: -1px;
         }
 
-        .tool-cta h2 {
-            font-size: 26px;
-            font-weight: 800;
-            margin-bottom: 10px;
-            letter-spacing: -0.3px;
-            position: relative;
-        }
-
-        .tool-cta p {
-            font-size: 15px;
-            opacity: 0.65;
-            margin-bottom: 28px;
-            max-width: 480px;
+        .cv-cta p {
+            font-size: 19px;
+            opacity: 0.9;
+            margin-bottom: 32px;
+            max-width: 500px;
             margin-left: auto;
             margin-right: auto;
-            line-height: 1.6;
-            position: relative;
+            line-height: 1.5;
         }
 
-        .tool-cta a {
+        .cv-cta a {
             display: inline-flex;
             align-items: center;
-            gap: 10px;
-            padding: 14px 32px;
-            background: #0ea5e9;
-            color: #fff;
+            gap: 12px;
+            padding: 16px 40px;
+            background: white;
+            color: var(--accent);
             text-decoration: none;
-            border-radius: 12px;
-            font-size: 15px;
+            font-size: 17px;
             font-weight: 700;
-            transition: all 0.25s cubic-bezier(0.4,0,0.2,1);
-            box-shadow: 0 4px 16px rgba(14,165,233,0.3);
-            position: relative;
+            transition: all 0.3s ease;
+            letter-spacing: 0.5px;
+            box-shadow: var(--shadow-md);
+            border-radius: 980px;
         }
 
-        .tool-cta a:hover { transform: translateY(-3px); box-shadow: 0 8px 28px rgba(14,165,233,0.4); background: #0b9cd8; }
+        .cv-cta a::after {
+            content: '\f35d';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            font-size: 14px;
+        }
 
-        /* Loading */
-        .tool-loading {
+        .cv-cta a:hover {
+            transform: scale(1.08);
+            box-shadow: var(--shadow-lg);
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: var(--brand-gradient);
+            color: white;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
             display: flex;
             align-items: center;
             justify-content: center;
-            min-height: 300px;
+            font-size: 18px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(20px);
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-md);
+            z-index: 1000;
         }
 
-        .tool-spinner {
-            width: 32px;
-            height: 32px;
-            border: 3px solid #eee;
-            border-top-color: #0ea5e9;
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .cv-alt:hover img {
+            transform: scale(1.1);
+        }
+
+        /* Focus States */
+        :is(.cv-btn-primary, .cv-btn-secondary, .cv-social, .cv-alt, .cv-cta a, .back-to-top):focus {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        /* Print Styles */
+        @media print {
+            .toolbar, .site-footer, .back-to-top, .cv-header-actions { display: none !important; }
+            .tool-hero { padding: 20px; }
+            .cv-section, .cv-sidebar-card, .cv-header {
+                break-inside: avoid;
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+        }
+
+        /* Loading */
+        .cv-loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 60vh;
+            gap: 24px;
+        }
+
+        .cv-spinner {
+            width: 48px;
+            height: 48px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent);
             border-radius: 50%;
             animation: spin 0.8s linear infinite;
+        }
+
+        .cv-loading-text {
+            font-size: 17px;
+            color: var(--text-muted);
+            font-weight: 500;
+            letter-spacing: 0.5px;
         }
 
         @keyframes spin { to { transform: rotate(360deg); } }
 
         /* Responsive */
-        @media (max-width: 767px) {
-            .tool-hero { padding: 16px 16px 60px; }
-            .tool-container { padding: 28px 24px 32px; }
-            .tool-name { font-size: 26px; }
-            .tool-header { flex-direction: column; align-items: center; text-align: center; }
-            .tool-header-meta { font-size: 13px; text-align: center; }
-            .tool-visit { margin-top: 8px; }
-            .tool-tags { justify-content: center; }
-            .tool-platforms { justify-content: center; }
-            .tool-procon { grid-template-columns: 1fr; }
-            .tool-features-platforms { grid-template-columns: 1fr; gap: 24px; }
+        @media (max-width: 1024px) {
+            .cv-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .cv-sidebar {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .cv-sidebar-card {
+                flex: 1;
+                min-width: 280px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .tool-hero {
+                padding: 20px;
+            }
+
+            .cv-header-top {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                gap: 24px;
+            }
+
+            .cv-header-main {
+                width: 100%;
+            }
+
+            .cv-header-actions {
+                flex-direction: row;
+                width: 100%;
+                justify-content: center;
+            }
+
+            .cv-logo {
+                width: 120px;
+                height: 120px;
+            }
+
+            .cv-name {
+                font-size: 36px;
+            }
+
+            .cv-company {
+                font-size: 18px;
+            }
+
+            .cv-meta-row {
+                justify-content: center;
+            }
+
+            .cv-sidebar {
+                flex-direction: column;
+            }
+
+            .cv-procon {
+                grid-template-columns: 1fr;
+            }
+
+            .cv-section-content ul {
+                grid-template-columns: 1fr;
+            }
+
+            .cv-section {
+                padding: 28px 32px;
+            }
+
+            .cv-section-title {
+                font-size: 22px;
+            }
         }
     </style>
 </head>
@@ -734,7 +1274,7 @@
 
     <main class="tool-hero" id="main-content">
         <div class="tool-container">
-            <div class="tool-loading"><div class="tool-spinner"></div></div>
+            <div class="cv-loading"><div class="cv-spinner"></div><div class="cv-loading-text">Loading tool profile...</div></div>
         </div>
     </main>
 
@@ -770,7 +1310,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p class="footer-copyright">© 2026 Jabarai. All rights reserved.</p>
+                <p class="footer-copyright">&copy; 2026 Jabarai. All rights reserved.</p>
                 <div class="footer-bottom-social">
                     <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                     <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
@@ -791,207 +1331,320 @@
         async function loadTool() {
             const id = new URLSearchParams(location.search).get('id');
             if (!id) {
-                document.querySelector('.tool-container').innerHTML = '<p style="text-align:center;color:#888;">No tool selected.</p>';
+                document.querySelector('.tool-container').innerHTML = '<p style="text-align:center;color:#888;padding:40px;">No tool selected.</p>';
                 return;
             }
             try {
-                const [tools1, tools2, tools3] = await Promise.all([
-                    fetch('assets/data/tools1.json').then(r => r.json()),
-                    fetch('assets/data/tools2.json').then(r => r.json()),
-                    fetch('assets/data/tools3.json').then(r => r.json())
-                ]);
-                const tools = [...tools1, ...tools2, ...tools3];
+                const jsonFiles = ['tools1.json','tools2.json','tools3.json','tools4.json','tools5.json','tools6.json','tools7.json','tools8.json','tools9.json','tools10.json'];
+                const toolsData = await Promise.all(
+                    jsonFiles.map(file => fetch(`assets/data/${file}`).then(r => r.json()).catch(() => []))
+                );
+                const tools = toolsData.flat();
                 const tool = tools.find(t => t.id === id || t.slug === id);
                 if (!tool) {
-                    document.querySelector('.tool-container').innerHTML = '<p style="text-align:center;color:#888;">Tool not found.</p>';
+                    document.querySelector('.tool-container').innerHTML = '<p style="text-align:center;color:#888;padding:40px;">Tool not found.</p>';
                     return;
                 }
 
-                const c = tool.categories || {};
-                const pr = tool.pricingDetails || [];
-                const feat = tool.features || [];
-                const alts = tool.alternatives || [];
-                const faq = tool.faq || [];
-                const soc = tool.socialLinks || {};
-                const pros = tool.pros || [];
-                const cons = tool.cons || [];
+                const c = tool.categories || {}, pr = tool.pricingDetails || [], feat = tool.features || [], alts = tool.alternatives || [], faq = tool.faq || [], soc = tool.socialLinks || {}, pros = tool.pros || [], cons = tool.cons || [];
+
+                document.documentElement.style.setProperty('--brand', '#2563eb');
+                document.documentElement.style.setProperty('--accent', '#2563eb');
+
+                const stars = tool.rating ? Array(5).fill(0).map((_,i) => i < Math.round(tool.rating) ? '<i class="fas fa-star"></i>' : '<i class="far fa-star"></i>').join('') : '';
+
+                const platformIcons = {
+                    'web': 'fas fa-globe', 'ios': 'fab fa-apple', 'android': 'fab fa-android', 'windows': 'fab fa-windows',
+                    'macos': 'fab fa-apple', 'linux': 'fab fa-linux', 'api': 'fas fa-code', 'browser extension': 'fas fa-puzzle-piece',
+                    'desktop': 'fas fa-desktop', 'mobile': 'fas fa-mobile-screen', 'chrome': 'fab fa-chrome', 'slack': 'fab fa-slack',
+                    'discord': 'fab fa-discord', 'wordpress': 'fab fa-wordpress', 'shopify': 'fab fa-shopify', 'vscode': 'fas fa-code',
+                    'vs code': 'fas fa-code', 'jetbrains': 'fas fa-code', 'intellij': 'fas fa-code', 'github': 'fab fa-github',
+                    'figma': 'fab fa-figma', 'google docs': 'fas fa-file-word', 'notion': 'fas fa-book', 'telegram': 'fab fa-telegram',
+                    'whatsapp': 'fab fa-whatsapp', 'zoom': 'fas fa-video', 'teams': 'fas fa-users', 'google meet': 'fas fa-video',
+                    'gmail': 'fas fa-envelope', 'outlook': 'fas fa-envelope', 'excel': 'fas fa-file-excel', 'powerpoint': 'fas fa-file-powerpoint',
+                    'safari': 'fas fa-compass', 'firefox': 'fab fa-firefox', 'edge': 'fab fa-edge', 'opera': 'fab fa-opera'
+                };
+                const socialIcons = {
+                    'twitter': 'fa-twitter', 'linkedin': 'fa-linkedin-in', 'youtube': 'fa-youtube',
+                    'instagram': 'fa-instagram', 'github': 'fa-github', 'facebook': 'fa-facebook',
+                    'tiktok': 'fa-tiktok', 'reddit': 'fa-reddit'
+                };
+                const getPlatformIcon = p => platformIcons[p.toLowerCase()] || 'fas fa-layer-group';
+                const getSocialIcon = s => socialIcons[s.toLowerCase()] || 'fa-link';
 
                 document.querySelector('.tool-container').innerHTML = `
-                    <div class="tool-header">
-                        <img src="${tool.logo}" alt="${tool.name}" class="tool-logo" onerror="this.src='assets/images/logo.png'">
-                        <div class="tool-header-info">
-                            <h1 class="tool-name">${tool.name}</h1>
-                            <div class="tool-company">by ${tool.company}</div>
-                            <div class="tool-header-meta">
-                                <span class="star"><i class="fas fa-star"></i> <strong>${tool.rating || '—'}</strong></span> <span style="color:#888;">(${fmt(tool.totalReviews)} reviews)</span> &nbsp;|&nbsp; <span style="color:#888;">Pricing:</span> <strong>${c.pricing?.[0] || '—'}</strong> &nbsp;|&nbsp; <span style="color:#888;">Released:</span> <strong>${tool.releaseDate ? new Date(tool.releaseDate).getFullYear() : '—'}</strong> ${tool.releaseDate ? new Date(tool.releaseDate).toLocaleDateString('en-US',{month:'short', day:'numeric'}) : ''}
+                    <div class="cv-header">
+                        <div class="cv-header-top">
+                            <div class="cv-logo-wrapper">
+                                <img src="${tool.logo}" alt="${tool.name}" class="cv-logo" onerror="this.src='assets/images/logo.png'">
                             </div>
-                            <div class="tool-tags" style="margin-top: 12px; margin-bottom: 0;">
-                                ${c.function?.slice(0,4).map(f => `<span class="tool-tag">${f}</span>`).join('') || ''}
-                                ${tool.hasFreeTier ? '<span class="tool-tag">Free Tier</span>' : ''}
-                                ${!tool.hasFreeTier && tool.hasFreeTrial ? '<span class="tool-tag">Free Trial</span>' : ''}
-                                ${tool.apiAvailable ? '<span class="tool-tag">API</span>' : ''}
+                            <div class="cv-header-main">
+                                <h1 class="cv-name">${tool.name}</h1>
+                                <div class="cv-company">by ${tool.company}</div>
+                                <div class="cv-meta-row">
+                                    <div class="cv-meta-rating"><i class="fas fa-star"></i> <strong>${tool.rating || '—'}</strong> / 5 (${fmt(tool.totalReviews)} reviews)</div>
+                                    <div class="cv-meta-item">${c.pricing?.[0] || '—'}</div>
+                                    <div class="cv-meta-item">${c.function?.[0] || '—'}</div>
+                                    <div class="cv-meta-item">${tool.releaseDate ? new Date(tool.releaseDate).toLocaleDateString('en-US',{year:'numeric',month:'short',day:'numeric'}) : ''}</div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="tool-actions">
-                            <a href="${tool.websiteUrl}" target="_blank" class="tool-visit">
-                                <i class="fas fa-external-link-alt"></i> Visit
-                            </a>
-                            <a href="javascript:history.back()" class="tool-back-btn">
-                                <i class="fas fa-arrow-left"></i> Back
-                            </a>
+                            <div class="cv-header-actions">
+                                <a href="${tool.websiteUrl}" target="_blank" class="cv-btn-primary">Visit Website</a>
+                                <button class="cv-btn-secondary" id="save-tool-btn" title="Save this tool"><i></i>Save tool</button>
+                                <a href="javascript:history.back()" class="cv-btn-secondary">Back</a>
+                            </div>
                         </div>
                     </div>
 
-                    ${tool.whatMakesItSpecial ? `
-                    <div class="tool-section">
-                        <h2 class="tool-section-title">What Makes It Special</h2>
-                        <p>${tool.whatMakesItSpecial}</p>
-                    </div>` : ''}
-
-                    ${tool.bestFor ? `
-                    <div class="tool-section">
-                        <h2 class="tool-section-title">Best For</h2>
-                        <p>${tool.bestFor}</p>
-                    </div>` : ''}
-
-                    <div class="tool-section">
-                        <h2 class="tool-section-title">About</h2>
-                        <p>${tool.longDescription || tool.shortDescription}</p>
-                    </div>
-
-                    ${(feat.length || c.platform?.length) ? `
-                    <div class="tool-features-platforms">
-                        ${feat.length ? `
-                        <div class="tool-section">
-                            <h2 class="tool-section-title">Features</h2>
-                            <ul>${feat.map(f => `<li>${f}</li>`).join('')}</ul>
-                        </div>` : ''}
-                        ${c.platform?.length ? `
-                        <div class="tool-section">
-                            <h2 class="tool-section-title">Platforms</h2>
-                            <div class="tool-platforms">
-                                ${c.platform.map(p => {
-                                    const icons = {'Web':'fa-globe','iOS':'fa-apple','Android':'fa-android','Mac':'fa-apple','Windows':'fa-windows','API':'fa-code','WhatsApp':'fa-whatsapp','Facebook':'fa-facebook','Instagram':'fa-instagram','Messenger':'fa-comment','Ray-Ban Meta Smart Glasses':'fa-glasses','PowerPoint Add-in':'fa-file-powerpoint','WPS':'fa-file-word','Self-hosted':'fa-server','Browser Extension':'fa-puzzle-piece','Excel Add-in':'fa-file-excel','Google Sheets Add-on':'fa-table','Google Slides':'fa-file-powerpoint','Web (Google Slides)':'fa-file-powerpoint','Desktop':'fa-desktop','Mobile':'fa-mobile-screen'};
-                                    const brands = new Set(['fa-apple','fa-android','fa-windows','fa-whatsapp','fa-facebook','fa-instagram']);
-                                    const icon = icons[p] || 'fa-desktop';
-                                    const prefix = brands.has(icon) ? 'fab' : 'fas';
-                                    return `<div class="tool-platform"><i class="${prefix} ${icon}"></i> ${p}</div>`;
-                                }).join('')}
+                    <div class="cv-grid">
+                        <aside class="cv-sidebar">
+                            <div class="cv-sidebar-card">
+                                <div class="cv-sidebar-title"><i class="fas fa-chart-line"></i> Rating</div>
+                                <div class="cv-rating">
+                                    <div class="cv-rating-score">${tool.rating || '—'}</div>
+                                    <div class="cv-rating-stars">${stars}</div>
+                                    <div class="cv-rating-bar"><div class="cv-rating-bar-fill" style="width:${(tool.rating/5)*100}%"></div></div>
+                                    <div class="cv-rating-reviews"><i class="fas fa-users" style="margin-right:6px"></i>${fmt(tool.totalReviews)} reviews</div>
+                                </div>
                             </div>
-                        </div>` : ''}
-                    </div>` : ''}
 
-                    ${tool.limitations?.length ? `
-                    <div class="tool-section">
-                        <h2 class="tool-section-title">Limitations</h2>
-                        <ul>${tool.limitations.map(l => `<li>${l}</li>`).join('')}</ul>
-                    </div>` : ''}
+                            <div class="cv-sidebar-card">
+                                <div class="cv-sidebar-title"><i class="fas fa-bolt"></i> Quick Stats</div>
+                                <div class="cv-stat"><span class="cv-stat-label"><i class="fas fa-dollar-sign"></i> Starting Price</span><span class="cv-stat-value">${tool.pricingStartingAt ? '$' + tool.pricingStartingAt + '/mo' : '—'}</span></div>
+                                <div class="cv-stat"><span class="cv-stat-label"><i class="fas fa-vial"></i> Free Trial</span><span class="cv-stat-value ${tool.hasFreeTrial ? 'yes' : 'no'}">${tool.hasFreeTrial ? '<i class="fas fa-check-circle"></i> Yes' : '<i class="fas fa-times-circle"></i> No'}</span></div>
+                                <div class="cv-stat"><span class="cv-stat-label"><i class="fas fa-gift"></i> Free Tier</span><span class="cv-stat-value ${tool.hasFreeTier ? 'yes' : 'no'}">${tool.hasFreeTier ? '<i class="fas fa-check-circle"></i> Yes' : '<i class="fas fa-times-circle"></i> No'}</span></div>
+                                <div class="cv-stat"><span class="cv-stat-label"><i class="fas fa-code"></i> API Available</span><span class="cv-stat-value ${tool.apiAvailable ? 'yes' : 'no'}">${tool.apiAvailable ? '<i class="fas fa-check-circle"></i> Yes' : '<i class="fas fa-times-circle"></i> No'}</span></div>
+                                ${tool.lastUpdated ? `<div class="cv-stat"><span class="cv-stat-label"><i class="fas fa-sync-alt"></i> Last Updated</span><span class="cv-stat-value">${new Date(tool.lastUpdated).toLocaleDateString()}</span></div>` : ''}
+                            </div>
 
-                    ${(pros.length || cons.length) ? `
-                    <div class="tool-procon">
-                        <div class="pros">
-                            <h3>Pros</h3>
-                            <ul>${pros.map(p => `<li>${p}</li>`).join('')}</ul>
-                        </div>
-                        <div class="cons">
-                            <h3>Cons</h3>
-                            <ul>${cons.map(c => `<li>${c}</li>`).join('')}</ul>
-                        </div>
-                    </div>` : ''}
+                            ${c.platform?.length ? `
+                            <div class="cv-sidebar-card">
+                                <div class="cv-sidebar-title"><i class="fas fa-layer-group"></i> Platforms</div>
+                                <div class="cv-platforms">
+                                    ${c.platform.map(p => `<div class="cv-platform"><i class="${getPlatformIcon(p)}"></i> ${p}</div>`).join('')}
+                                </div>
+                            </div>` : ''}
+
+                            ${c.function?.length ? `
+                            <div class="cv-sidebar-card">
+                                <div class="cv-sidebar-title"><i class="fas fa-cogs"></i> Functions</div>
+                                <div class="cv-tags">
+                                    ${c.function.map(f => `<span class="cv-tag"><i class="fas fa-bolt" style="font-size:10px"></i> ${f}</span>`).join('')}
+                                </div>
+                            </div>` : ''}
+
+                            ${Object.keys(soc).length ? `
+                            <div class="cv-sidebar-card">
+                                <div class="cv-sidebar-title"><i class="fas fa-share-alt"></i> Connect</div>
+                                <div class="cv-socials">
+                                    ${Object.entries(soc).map(([k,url]) => url ? `<a href="${url}" target="_blank" class="cv-social"><i class="fab ${getSocialIcon(k)}"></i> ${k.charAt(0).toUpperCase() + k.slice(1)}</a>` : '').join('')}
+                                </div>
+                            </div>` : ''}
+
+                            ${(tool.gdprCompliant || tool.soc2Compliant) ? `
+                            <div class="cv-sidebar-card">
+                                <div class="cv-sidebar-title"><i class="fas fa-shield-alt"></i> Compliance</div>
+                                <div class="cv-compliance">
+                                    ${tool.gdprCompliant ? '<div class="cv-badge"><i class="fas fa-lock"></i> GDPR</div>' : ''}
+                                    ${tool.soc2Compliant ? '<div class="cv-badge"><i class="fas fa-certificate"></i> SOC 2</div>' : ''}
+                                </div>
+                                <div class="cv-verified" style="margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border); display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--text-muted);">
+                                    <i class="fas fa-check-circle" style="color: var(--accent);"></i>
+                                    <span>Team verified</span>
+                                </div>
+                            </div>` : ''}
+                        </aside>
+
+                        <main class="cv-main">
+                            ${tool.whatMakesItSpecial ? `
+                            <div class="cv-section">
+                                <div class="cv-highlight">
+                                    <div class="cv-highlight-title">What Makes It Special</div>
+                                    <div class="cv-highlight-text">${tool.whatMakesItSpecial}</div>
+                                </div>
+                            </div>` : ''}
+
+                            ${tool.bestFor ? `
+                            <div class="cv-section">
+                                <div class="cv-highlight">
+                                    <div class="cv-highlight-title">Best For</div>
+                                    <div class="cv-highlight-text">${tool.bestFor}</div>
+                                </div>
+                            </div>` : ''}
+
+                            <div class="cv-section">
+                                <div class="cv-section-header">
+                                    <h2 class="cv-section-title">About</h2>
+                                </div>
+                                <div class="cv-section-content">
+                                    <p>${tool.longDescription || tool.shortDescription}</p>
+                                </div>
+                            </div>
+
+                            ${feat.length ? `
+                            <div class="cv-section">
+                                <div class="cv-section-header">
+                                    <h2 class="cv-section-title">Features</h2>
+                                </div>
+                                <div class="cv-section-content">
+                                    <ul>${feat.map(f => `<li>${f}</li>`).join('')}</ul>
+                                </div>
+                            </div>` : ''}
+
+                            ${tool.limitations?.length ? `
+                            <div class="cv-section">
+                                <div class="cv-section-header">
+                                    <h2 class="cv-section-title">Limitations</h2>
+                                </div>
+                                <div class="cv-section-content">
+                                    <ul>${tool.limitations.map(l => `<li>${l}</li>`).join('')}</ul>
+                                </div>
+                            </div>` : ''}
+
+                            ${(pros.length || cons.length) ? `
+                            <div class="cv-section">
+                                <div class="cv-section-header">
+                                    <h2 class="cv-section-title">Pros & Cons</h2>
+                                </div>
+                                <div class="cv-procon">
+                                    ${pros.length ? `
+                                    <div class="cv-procon-card pros">
+                                        <div class="cv-procon-header">
+                                            <div class="cv-procon-icon"></div>
+                                            <div class="cv-procon-title">Pros</div>
+                                        </div>
+                                        <div class="cv-procon-content">
+                                            <ul class="cv-procon-list">${pros.map(p => `<li>${p}</li>`).join('')}</ul>
+                                        </div>
+                                    </div>` : ''}
+                                    ${cons.length ? `
+                                    <div class="cv-procon-card cons">
+                                        <div class="cv-procon-header">
+                                            <div class="cv-procon-icon"></div>
+                                            <div class="cv-procon-title">Cons</div>
+                                        </div>
+                                        <div class="cv-procon-content">
+                                            <ul class="cv-procon-list">${cons.map(c => `<li>${c}</li>`).join('')}</ul>
+                                        </div>
+                                    </div>` : ''}
+                                </div>
+                            </div>` : ''}
+                        </main>
+                    </div>
 
                     ${pr.length ? `
-                    <div class="tool-section">
-                        <h2 class="tool-section-title">Pricing</h2>
-                        <div class="tool-pricing">
-                            ${pr.map(p => `
-                            <div class="tool-price-card">
-                                <h4>${p.plan}</h4>
-                                <div class="price-row">
-                                    <span class="amount">${p.price}</span>
-                                    <span class="cycle">${p.billingCycle}</span>
+                    <div class="cv-section full-width">
+                        <div class="cv-section-header">
+                            <h2 class="cv-section-title">Pricing</h2>
+                        </div>
+                        <div class="cv-pricing cols-${pr.length}">
+                            ${pr.map((p, i) => `
+                            <div class="cv-price-card ${i === 0 ? 'popular' : ''}">
+                                <div class="cv-price-plan"><i class="fas ${i === 0 ? 'fa-crown' : 'fa-gem'}"></i> ${p.plan}</div>
+                                <div class="cv-price-row">
+                                    <span class="cv-price-amount">${p.price}</span>
+                                    <span class="cv-price-cycle">${p.billingCycle}</span>
                                 </div>
-                                <div class="features">${p.features?.slice(0,3).map(f => `<div class="pf"><i class="fas fa-check"></i> ${f}</div>`).join('') || ''}</div>
+                                <ul class="cv-price-features">${p.features?.slice(0,4).map(f => `<li>${f}</li>`).join('') || '<li><i class="fas fa-check"></i> All features included</li>'}</ul>
                             </div>`).join('')}
                         </div>
                     </div>` : ''}
 
                     ${tool.integrations?.length ? `
-                    <div class="tool-section">
-                        <h2 class="tool-section-title">Integrations</h2>
-                        <div class="tool-tags">
-                            ${tool.integrations.map(i => `<span class="tool-tag">${i}</span>`).join('')}
+                    <div class="cv-section full-width">
+                        <div class="cv-section-header">
+                            <h2 class="cv-section-title">Integrations</h2>
+                        </div>
+                        <div class="cv-section-content">
+                            <div class="cv-tags">
+                                ${tool.integrations.map(i => `<span class="cv-tag"><i class="fas fa-puzzle-piece" style="font-size:10px"></i> ${i}</span>`).join('')}
+                            </div>
                         </div>
                     </div>` : ''}
 
                     ${c.useCase?.length ? `
-                    <div class="tool-section">
-                        <h2 class="tool-section-title">Use Cases</h2>
-                        <div class="tool-tags">
-                            ${c.useCase.map(u => `<span class="tool-tag">${u}</span>`).join('')}
+                    <div class="cv-section full-width">
+                        <div class="cv-section-header">
+                            <h2 class="cv-section-title">Use Cases</h2>
                         </div>
-                    </div>` : ''}
-
-                    ${tool.videoUrl ? `
-                    <div class="tool-section">
-                        <h2 class="tool-section-title">Video</h2>
-                        <div class="tool-video">
-                            <iframe src="${tool.videoUrl.replace('watch?v=','embed/')}" allowfullscreen></iframe>
+                        <div class="cv-section-content">
+                            <div class="cv-tags">
+                                ${c.useCase.map(u => `<span class="cv-tag"><i class="fas fa-bolt" style="font-size:10px"></i> ${u}</span>`).join('')}
+                            </div>
                         </div>
                     </div>` : ''}
 
                     ${faq.length ? `
-                    <div class="tool-section">
-                        <h2 class="tool-section-title">FAQ</h2>
-                        ${faq.map((f,i) => `
-                        <div class="tool-faq-item ${i===0?'active':''}">
-                            <button class="tool-faq-q" onclick="this.parentElement.classList.toggle('active')">
-                                ${f.question} <i class="fas fa-chevron-down"></i>
-                            </button>
-                            <div class="tool-faq-a"><p>${f.answer}</p></div>
-                        </div>`).join('')}
-                    </div>` : ''}
-
-                    ${Object.keys(soc).length ? `
-                    <div class="tool-section">
-                        <h2 class="tool-section-title">Connect</h2>
-                        <div class="tool-socials">
-                            ${soc.twitter ? `<a href="${soc.twitter}" target="_blank" class="tool-social"><i class="fab fa-twitter"></i> Twitter</a>` : ''}
-                            ${soc.linkedin ? `<a href="${soc.linkedin}" target="_blank" class="tool-social"><i class="fab fa-linkedin"></i> LinkedIn</a>` : ''}
-                            ${soc.youtube ? `<a href="${soc.youtube}" target="_blank" class="tool-social"><i class="fab fa-youtube"></i> YouTube</a>` : ''}
-                            ${soc.instagram ? `<a href="${soc.instagram}" target="_blank" class="tool-social"><i class="fab fa-instagram"></i> Instagram</a>` : ''}
-                            ${soc.github ? `<a href="${soc.github}" target="_blank" class="tool-social"><i class="fab fa-github"></i> GitHub</a>` : ''}
+                    <div class="cv-section full-width">
+                        <div class="cv-section-header">
+                            <h2 class="cv-section-title">FAQ</h2>
+                        </div>
+                        <div class="cv-faq-grid">
+                            ${faq.map(f => `
+                            <div class="cv-faq-card">
+                                <h3>${f.question}</h3>
+                                <p>${f.answer}</p>
+                            </div>`).join('')}
                         </div>
                     </div>` : ''}
 
                     ${alts.length ? `
-                    <div class="tool-section">
-                        <h2 class="tool-section-title">Alternatives</h2>
-                        <div class="tool-alts">
+                    <div class="cv-section full-width">
+                        <div class="cv-section-header">
+                            <h2 class="cv-section-title">Alternatives</h2>
+                        </div>
+                        <div class="cv-alts">
                             ${alts.map(a => `
-                            <a href="tool.html?id=${a.slug}" class="tool-alt">
+                            <a href="tool.html?id=${a.slug}" class="cv-alt">
                                 <img src="${tools.find(t => t.slug === a.slug)?.logo || 'assets/images/logo.png'}" alt="${a.name}">
-                                <div>
+                                <div class="cv-alt-info">
                                     <h4>${a.name}</h4>
-                                    <p>${a.why || 'Alternative'}</p>
+                                    <p><i class="fas fa-arrow-right-arrow-left" style="margin-right:4px;font-size:10px"></i> ${a.why || 'Alternative'}</p>
                                 </div>
                             </a>`).join('')}
                         </div>
                     </div>` : ''}
 
-                    <div class="tool-cta">
-                        <h2>Try ${tool.name}</h2>
+                    <div class="cv-cta full-width">
+                        <h2><i class="fas fa-rocket" style="margin-right:12px"></i>Try ${tool.name}</h2>
                         <p>${tool.shortDescription || 'Start using this tool today.'}</p>
-                        <a href="${tool.websiteUrl}" target="_blank"><i class="fas fa-rocket"></i> Get Started</a>
+                        <a href="${tool.websiteUrl}" target="_blank"><i class="fas fa-external-link-alt"></i> Get Started</a>
                     </div>
                 `;
                 document.title = `${tool.name} - Jabarai`;
+                document.querySelector('meta[name="description"]')?.setAttribute('content', tool.shortDescription || `${tool.name} by ${tool.company} - AI tool review and details.`);
             } catch(e) {
                 console.error(e);
-                document.querySelector('.tool-container').innerHTML = '<p style="text-align:center;color:#888;">Error loading tool.</p>';
+                document.querySelector('.tool-container').innerHTML = '<p style="text-align:center;color:#888;padding:40px;">Error loading tool.</p>';
             }
         }
 
-        document.addEventListener('DOMContentLoaded', loadTool);
+        // Back to top button
+        function initBackToTop() {
+            const btn = document.createElement('button');
+            btn.className = 'back-to-top';
+            btn.innerHTML = '<i class="fas fa-chevron-up"></i>';
+            btn.setAttribute('aria-label', 'Back to top');
+            document.body.appendChild(btn);
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 500) {
+                    btn.classList.add('visible');
+                } else {
+                    btn.classList.remove('visible');
+                }
+            }, { passive: true });
+
+            btn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            loadTool();
+            initBackToTop();
+        });
     </script>
 </body>
 </html>

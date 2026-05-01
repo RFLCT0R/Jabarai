@@ -112,23 +112,25 @@
 
                 <div class="filter-divider"></div>
 
-                <!-- Rating -->
-                <div class="filter-dropdown" id="filter-rating">
+                <!-- Platform -->
+                <div class="filter-dropdown" id="filter-platform">
                     <button class="filter-dropdown-trigger">
-                        <span>Rating</span>
-                        <span class="filter-count" id="rating-count"></span>
+                        <span>Platform</span>
+                        <span class="filter-count" id="platform-count"></span>
                         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                             <path d="m6 9 6 6 6-6"/>
                         </svg>
                     </button>
                     <div class="filter-dropdown-menu">
                         <div class="filter-dropdown-options">
-                            <label class="filter-option"><input type="radio" name="rating" value="0" checked> <span>Any Rating</span></label>
-                            <label class="filter-option"><input type="radio" name="rating" value="5"> <span>★★★★★ 5 stars</span></label>
-                            <label class="filter-option"><input type="radio" name="rating" value="4"> <span>★★★★☆ 4+ stars</span></label>
-                            <label class="filter-option"><input type="radio" name="rating" value="3"> <span>★★★☆☆ 3+ stars</span></label>
-                            <label class="filter-option"><input type="radio" name="rating" value="2"> <span>★★☆☆☆ 2+ stars</span></label>
-                            <label class="filter-option"><input type="radio" name="rating" value="1"> <span>★☆☆☆☆ 1+ stars</span></label>
+                            <label class="filter-option"><input type="radio" name="platform" value="all" checked> <span>Any Platform</span></label>
+                            <label class="filter-option"><input type="radio" name="platform" value="web"> <span>Web</span></label>
+                            <label class="filter-option"><input type="radio" name="platform" value="ios"> <span>iOS</span></label>
+                            <label class="filter-option"><input type="radio" name="platform" value="android"> <span>Android</span></label>
+                            <label class="filter-option"><input type="radio" name="platform" value="windows"> <span>Windows</span></label>
+                            <label class="filter-option"><input type="radio" name="platform" value="macos"> <span>macOS</span></label>
+                            <label class="filter-option"><input type="radio" name="platform" value="linux"> <span>Linux</span></label>
+                            <label class="filter-option"><input type="radio" name="platform" value="api"> <span>API</span></label>
                         </div>
                     </div>
                 </div>
@@ -220,7 +222,7 @@
             sort: 'relevance',
             pricing: 'all',
             categories: [],
-            minRating: 0,
+            platform: 'all',
             freeOnly: false,
             sponsoredFirst: false
         };
@@ -231,20 +233,39 @@
             itemsPerPage: 28
         };
 
-        // Fuse.js Configuration with Weighted Fields
+        // Fuse.js Configuration with Weighted Fields - Optimized for typo tolerance & relevance
         const fuseOptions = {
             keys: [
-                { name: 'name', weight: 0.4 },
-                { name: 'company', weight: 0.2 },
-                { name: 'shortDescription', weight: 0.2 },
-                { name: 'tags', weight: 0.1 },
-                { name: 'categories.function', weight: 0.05 },
+                // Highest priority: exact name/company matches
+                { name: 'name', weight: 0.35 },
+                { name: 'company', weight: 0.25 },
+                // Secondary: categories and use cases
+                { name: 'categories.function', weight: 0.12 },
+                { name: 'categories.useCase', weight: 0.08 },
+                { name: 'categories.pricing', weight: 0.06 },
+                { name: 'categories.platform', weight: 0.05 },
                 { name: 'categories.industry', weight: 0.03 },
-                { name: 'features', weight: 0.02 }
+                // Supporting fields
+                { name: 'tags', weight: 0.03 },
+                { name: 'features', weight: 0.02 },
+                { name: 'shortDescription', weight: 0.01 }
             ],
-            threshold: 0.3,
+            threshold: 0.4,           // More lenient threshold for typo tolerance
             includeScore: true,
-            shouldSort: true
+            shouldSort: true,
+            // Typo tolerance settings
+            ignoreLocation: true,     // Match anywhere in the text
+            minMatchCharLength: 2,    // Require at least 2 characters to match
+            distance: 1000,           // Allow matches far from start
+            useExtendedSearch: true,  // Enable advanced search patterns
+            getFn: (obj, path) => {
+                const value = Fuse.config.getFn(obj, path);
+                // Handle arrays by joining them for searching
+                if (Array.isArray(value)) {
+                    return value.join(' ');
+                }
+                return value;
+            }
         };
 
         // DOM Elements Cache
@@ -266,7 +287,7 @@
             DOM.searchLoading = document.getElementById('search-loading');
             DOM.categoryInputs = document.querySelectorAll('input[name="category"]');
             DOM.pricingInputs = document.querySelectorAll('input[name="pricing"]');
-            DOM.ratingInputs = document.querySelectorAll('input[name="rating"]');
+            DOM.platformInputs = document.querySelectorAll('input[name="platform"]');
             DOM.sortInputs = document.querySelectorAll('input[name="sort"]');
             DOM.clearAllBtn = document.getElementById('clear-all-filters');
             DOM.toolsContainer = document.getElementById('tools-container');
@@ -291,10 +312,10 @@
                 });
             });
 
-            // Rating radio buttons
-            DOM.ratingInputs.forEach(input => {
+            // Platform radio buttons
+            DOM.platformInputs.forEach(input => {
                 input.addEventListener('change', (e) => {
-                    filters.minRating = parseInt(e.target.value);
+                    filters.platform = e.target.value;
                     applyFilters();
                 });
             });
@@ -543,9 +564,9 @@
                 });
             }
 
-            // 5. Rating filter
-            if (filters.minRating > 0) {
-                results = results.filter(t => (t.rating || 0) >= filters.minRating);
+            // 5. Platform filter
+            if (filters.platform !== 'all') {
+                results = results.filter(t => t.categories?.platform?.some(p => p.toLowerCase() === filters.platform));
             }
 
             // 6. Sort
@@ -760,9 +781,9 @@
             const pricingCount = filters.pricing !== 'all' ? 1 : 0;
             document.getElementById('pricing-count').textContent = pricingCount > 0 ? pricingCount : '';
 
-            // Rating count (0 or 1)
-            const ratingCount = filters.minRating > 0 ? 1 : 0;
-            document.getElementById('rating-count').textContent = ratingCount > 0 ? ratingCount : '';
+            // Platform count (0 or 1)
+            const platformCount = filters.platform !== 'all' ? 1 : 0;
+            document.getElementById('platform-count').textContent = platformCount > 0 ? platformCount : '';
         }
 
         function updateFilterBadge() {
@@ -788,9 +809,9 @@
                     const catInput = document.querySelector(`input[name="category"][value="${value}"]`);
                     if (catInput) catInput.checked = false;
                     break;
-                case 'rating':
-                    filters.minRating = 0;
-                    document.querySelector('input[name="rating"][value="0"]').checked = true;
+                case 'platform':
+                    filters.platform = 'all';
+                    document.querySelector('input[name="platform"][value="all"]').checked = true;
                     break;
                 case 'freeOnly':
                     filters.freeOnly = false;
@@ -832,9 +853,9 @@
 
         function broadenFilters() {
             // Remove the most restrictive filters
-            if (filters.minRating > 0) {
-                filters.minRating = 0;
-                document.querySelector('input[name="rating"][value="0"]').checked = true;
+            if (filters.platform !== 'all') {
+                filters.platform = 'all';
+                document.querySelector('input[name="platform"][value="all"]').checked = true;
             } else if (filters.categories.length > 0) {
                 filters.categories = [];
                 document.querySelectorAll('input[name="category"]:checked').forEach(cb => cb.checked = false);
@@ -871,7 +892,7 @@
             if (filters.search) params.set('search', filters.search);
             if (filters.sort !== 'relevance') params.set('sort', filters.sort);
             if (filters.pricing !== 'all') params.set('pricing', filters.pricing);
-            if (filters.minRating > 0) params.set('rating', filters.minRating);
+            if (filters.platform !== 'all') params.set('platform', filters.platform);
             if (filters.categories.length > 0) params.set('categories', filters.categories.join(','));
             if (filters.freeOnly) params.set('freeOnly', 'true');
             if (filters.sponsoredFirst) params.set('sponsoredFirst', 'true');
@@ -907,10 +928,10 @@
                     if (catInput) catInput.checked = true;
                 });
             }
-            if (params.has('rating')) {
-                filters.minRating = parseFloat(params.get('rating'));
-                const ratingInput = document.querySelector(`input[name="rating"][value="${filters.minRating}"]`);
-                if (ratingInput) ratingInput.checked = true;
+            if (params.has('platform')) {
+                filters.platform = params.get('platform');
+                const platformInput = document.querySelector(`input[name="platform"][value="${filters.platform}"]`);
+                if (platformInput) platformInput.checked = true;
             }
             if (params.has('freeOnly')) {
                 filters.freeOnly = params.get('freeOnly') === 'true';
@@ -949,7 +970,7 @@
                 // Apply saved filters (but not search)
                 filters.pricing = savedFilters.pricing || 'all';
                 filters.categories = savedFilters.categories || [];
-                filters.minRating = savedFilters.minRating || 0;
+                filters.platform = savedFilters.platform || 'all';
                 filters.freeOnly = savedFilters.freeOnly || false;
                 filters.sponsoredFirst = savedFilters.sponsoredFirst || false;
 
@@ -960,8 +981,8 @@
                     const catInput = document.querySelector(`input[name="category"][value="${cat}"]`);
                     if (catInput) catInput.checked = true;
                 });
-                const ratingInput = document.querySelector(`input[name="rating"][value="${filters.minRating}"]`);
-                if (ratingInput) ratingInput.checked = true;
+                const platformInput = document.querySelector(`input[name="platform"][value="${filters.platform}"]`);
+                if (platformInput) platformInput.checked = true;
                 const sortInput = document.querySelector(`input[name="sort"][value="${filters.sort}"]`);
                 if (sortInput) sortInput.checked = true;
                 const freeToggle = document.getElementById('free-only-toggle');

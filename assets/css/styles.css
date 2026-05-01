@@ -3460,6 +3460,11 @@ main {
     max-width: 480px;
 }
 
+#filter-platform .filter-dropdown-menu {
+    max-height: none;
+    overflow-y: visible;
+}
+
 #filter-category .filter-dropdown-options,
 #filter-language .filter-dropdown-options {
     display: grid;

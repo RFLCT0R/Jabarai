@@ -38,7 +38,6 @@ async function signOut() {
     
     await supabase.auth.signOut();
     localStorage.removeItem('supabase_session');
-    window.location.href = 'login.html';
 }
 
 // Track current auth state to prevent unnecessary re-renders
